@@ -1,4 +1,5 @@
 const { String } = require("cucumber/lib/cucumber/util");
+const helpers    = require("puppeteer-cucumber-js/runtime/helpers");
 
 module.exports = function () {
 
@@ -952,9 +953,16 @@ this.Then(/^I click "([^"]*)" type of google sheets template$/, async function (
 
 });
 
+this.Then(/^I select the element with innerText "([^"]*)"$/, async function (innerText) {
+     const element = await helpers.findElement(Object.By.xpath(`//*[text()='${innerText}']`)); 
+     
+     await element.click(); 
+});
+
 this.Then(/^I click on the email confrimation link$/, async function () {
     var selector = "span[class='bog']";
-    await page.click(selector);
+    await page.click("span",'Verify your email for project-218236841715');
+    //#\:66 > 
 
 });
 

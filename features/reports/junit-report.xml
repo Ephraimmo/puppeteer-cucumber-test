@@ -1,1356 +1,374 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="feature:-testing-the-full-functional-product-meun;add-category-for-product---success" tests="12" failures="0" skipped="0">
+    <testsuite name="testing-the-full-functional-branches-meun;add-branches---success" tests="13" failures="0" skipped="0">
         <properties>
-            <property name="@test" value="true">
-            </property>
             <property name="@feat" value="true">
             </property>
-            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_SubAdnim/Product/Product.feature">
+            <property name="@branch" value="true">
+            </property>
+            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_Adnim/Branches/branches.feature">
             </property>
         </properties>
-        <testcase name="Given I am online at &quot;http://127.0.0.1:5500/login.html&quot;" classname="feature:-testing-the-full-functional-product-meun;add-category-for-product---success" time="4.9703101">
+        <testcase name="Given I am online at &quot;file:///C:/Users/karabomo/Desktop/KasiMonateAdnim/index.html&quot;" classname="testing-the-full-functional-branches-meun;add-branches---success" time="5.0034839">
         </testcase>
-        <testcase name="Then I login in on the website with email value &quot;karabo&quot; and password value is &quot;karabo&quot;" classname="feature:-testing-the-full-functional-product-meun;add-category-for-product---success" time="0.8130664">
+        <testcase name="Then I login in on the website with email value &quot;kasimonateappwebadnim@gmail.com&quot; and password value is &quot;Ephraim@217377781&quot;" classname="testing-the-full-functional-branches-meun;add-branches---success" time="2.1706247">
         </testcase>
-        <testcase name="Then I wait for the page to load" classname="feature:-testing-the-full-functional-product-meun;add-category-for-product---success" time="5.2050348">
+        <testcase name="Then I wait for the page to load" classname="testing-the-full-functional-branches-meun;add-branches---success" time="8.9906254">
         </testcase>
-        <testcase name="Then I click side meun item with text &quot;Category&quot;" classname="feature:-testing-the-full-functional-product-meun;add-category-for-product---success" time="0.3445603">
+        <testcase name="Then I click side meun item with text &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---success" time="0.2776187">
         </testcase>
-        <testcase name="Then I click on button with text &quot;Add category&quot; on side meun text this &quot;Category&quot;" classname="feature:-testing-the-full-functional-product-meun;add-category-for-product---success" time="0.2746719">
+        <testcase name="Then I click on button with text &quot;Add Branche&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---success" time="0.4411389">
         </testcase>
-        <testcase name="Then I enter value &quot;AddTestProduct&quot; on field &quot;Name&quot; on side meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-product-meun;add-category-for-product---success" time="1.2743557">
+        <testcase name="Then I enter value &quot;Branches1&quot; on field &quot;Branche Name&quot; on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---success" time="0.8634986">
         </testcase>
-        <testcase name="Then I enter value &quot;AddTestProduct&quot; on field &quot;Slug&quot; on side meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-product-meun;add-category-for-product---success" time="0.8871754">
+        <testcase name="Then I enter value &quot;Address1&quot; on field &quot;Branche Address&quot; on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---success" time="0.5358567">
         </testcase>
-        <testcase name="Then I enter value &quot;Test Add Description for Category&quot; on textarea &quot;Description&quot; on side meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-product-meun;add-category-for-product---success" time="1.9053225">
+        <testcase name="Then I click on button with text &quot;Select Image&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---success" time="0.313848">
         </testcase>
-        <testcase name="Then I click on the checkbox with text &quot;Status&quot; on side meun text this &quot;Category&quot;" classname="feature:-testing-the-full-functional-product-meun;add-category-for-product---success" time="0.1057637">
+        <testcase name="Then I click on button with text &quot;Add&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---success" time="0.228204">
         </testcase>
-        <testcase name="Then I click on button with text &quot;Select Image&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-product-meun;add-category-for-product---success" time="0.3242215">
+        <testcase name="Then I wait for a success alertBox" classname="testing-the-full-functional-branches-meun;add-branches---success" time="4.2509388">
         </testcase>
-        <testcase name="Then I click on button with text &quot;Add&quot; on side meun text this &quot;Category&quot;" classname="feature:-testing-the-full-functional-product-meun;add-category-for-product---success" time="0.2419348">
+        <testcase name="Then I click on button with text &quot;Close&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---success" time="0.5768951">
         </testcase>
-        <testcase name="Then I wait for a successfully alertBox on meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-product-meun;add-category-for-product---success" time="3.6231249">
+        <testcase name="Then I click side meun item with text &quot;Dashboard&quot;" classname="testing-the-full-functional-branches-meun;add-branches---success" time="0.262285">
+        </testcase>
+        <testcase name="Then I confirm value is &quot;1&quot; on card with text &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---success" time="0.0683854">
         </testcase>
     </testsuite>
-    <testsuite name="feature:-testing-the-full-functional-product-meun;add-product---success" tests="20" failures="0" skipped="0">
+    <testsuite name="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" tests="11" failures="0" skipped="0">
         <properties>
-            <property name="@test" value="true">
-            </property>
             <property name="@feat" value="true">
             </property>
-            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_SubAdnim/Product/Product.feature">
+            <property name="@branch" value="true">
+            </property>
+            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_Adnim/Branches/branches.feature">
             </property>
         </properties>
-        <testcase name="Given I am online at &quot;http://127.0.0.1:5500/login.html&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---success" time="4.3021203">
+        <testcase name="Given I am online at &quot;file:///C:/Users/karabomo/Desktop/KasiMonateAdnim/index.html&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="5.0306075">
         </testcase>
-        <testcase name="Then I login in on the website with email value &quot;karabo&quot; and password value is &quot;karabo&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---success" time="0.83323">
+        <testcase name="Then I login in on the website with email value &quot;kasimonateappwebadnim@gmail.com&quot; and password value is &quot;Ephraim@217377781&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="2.3727645">
         </testcase>
-        <testcase name="Then I wait for the page to load" classname="feature:-testing-the-full-functional-product-meun;add-product---success" time="5.9649376">
+        <testcase name="Then I wait for the page to load" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="18.4753833">
         </testcase>
-        <testcase name="Then I click side meun item with text &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---success" time="0.3348533">
+        <testcase name="Then I click side meun item with text &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="0.2716753">
         </testcase>
-        <testcase name="Then I click on button with text &quot;Add Product&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---success" time="0.3514648">
+        <testcase name="Then I click on button with text &quot;Add Branche&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="0.3692327">
         </testcase>
-        <testcase name="Then I wait for 5 seconds" classname="feature:-testing-the-full-functional-product-meun;add-product---success" time="5.0045337">
+        <testcase name="Then I enter value &quot;Branches1&quot; on field &quot;Branche Name&quot; on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="0.9533504">
         </testcase>
-        <testcase name="Then I select this value &quot;AddTestProduct&quot; on dropdown &quot;Select Category&quot; field the menu &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---success" time="0.0286038">
+        <testcase name="Then I enter value &quot;Address1&quot; on field &quot;Branche Address&quot; on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="0.5310586">
         </testcase>
-        <testcase name="Then I enter value &quot;AddProductSuccess&quot; on field &quot;Name&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---success" time="1.0176894">
+        <testcase name="Then I click on button with text &quot;Select Image&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="0.3102512">
         </testcase>
-        <testcase name="Then I enter value &quot;AddProductSuccess&quot; on field &quot;Slug&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---success" time="1.0556387">
+        <testcase name="Then I click on button with text &quot;Add&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="0.2871052">
         </testcase>
-        <testcase name="Then I enter value &quot;Add Short Description&quot; on textarea &quot;Short Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---success" time="1.1904392">
+        <testcase name="Then I wait for a danger alertBox" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="0.0936625">
         </testcase>
-        <testcase name="Then I enter value &quot;Description for Category&quot; on textarea &quot;Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---success" time="1.3025113">
-        </testcase>
-        <testcase name="Then I enter value &quot;20&quot; on field &quot;Original Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---success" time="0.2603357">
-        </testcase>
-        <testcase name="Then I enter value &quot;30&quot; on field &quot;Selling Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---success" time="0.2235335">
-        </testcase>
-        <testcase name="Then I enter value &quot;5&quot; on field &quot;Quantity&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---success" time="0.1681708">
-        </testcase>
-        <testcase name="Then I click on the checkbox with text &quot;Status&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---success" time="0.1073544">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Select Images&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---success" time="0.4477238">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Select Images&quot; and select on image with &quot;C:/Users/karabomo/Downloads/Bontle.jpeg&quot; path on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---success" time="0.3727953">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Select Images&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---success" time="0.695578">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Add&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---success" time="0.3387962">
-        </testcase>
-        <testcase name="Then I wait for a successfully alertBox on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---success" time="4.4133322">
+        <testcase name="Then I click on button with text &quot;Close&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="0.4130524">
         </testcase>
     </testsuite>
-    <testsuite name="feature:-testing-the-full-functional-product-meun;add-product---error---exciting-product-name" tests="20" failures="0" skipped="0">
+    <testsuite name="testing-the-full-functional-branches-meun;add-branches---error---branche-name-empty" tests="10" failures="0" skipped="0">
         <properties>
-            <property name="@test" value="true">
-            </property>
             <property name="@feat" value="true">
             </property>
-            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_SubAdnim/Product/Product.feature">
+            <property name="@branch" value="true">
+            </property>
+            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_Adnim/Branches/branches.feature">
             </property>
         </properties>
-        <testcase name="Given I am online at &quot;http://127.0.0.1:5500/login.html&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---exciting-product-name" time="4.3358067">
+        <testcase name="Given I am online at &quot;file:///C:/Users/karabomo/Desktop/KasiMonateAdnim/index.html&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-name-empty" time="4.8658975">
         </testcase>
-        <testcase name="Then I login in on the website with email value &quot;karabo&quot; and password value is &quot;karabo&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---exciting-product-name" time="0.9261199">
+        <testcase name="Then I login in on the website with email value &quot;kasimonateappwebadnim@gmail.com&quot; and password value is &quot;Ephraim@217377781&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-name-empty" time="2.285336">
         </testcase>
-        <testcase name="Then I wait for the page to load" classname="feature:-testing-the-full-functional-product-meun;add-product---error---exciting-product-name" time="9.3688849">
+        <testcase name="Then I wait for the page to load" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-name-empty" time="7.675284">
         </testcase>
-        <testcase name="Then I click side meun item with text &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---exciting-product-name" time="0.4825341">
+        <testcase name="Then I click side meun item with text &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-name-empty" time="0.6677929">
         </testcase>
-        <testcase name="Then I click on button with text &quot;Add Product&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---exciting-product-name" time="0.4528471">
+        <testcase name="Then I click on button with text &quot;Add Branche&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-name-empty" time="0.6778527">
         </testcase>
-        <testcase name="Then I wait for 5 seconds" classname="feature:-testing-the-full-functional-product-meun;add-product---error---exciting-product-name" time="5.0119078">
+        <testcase name="Then I enter value &quot;&quot; on field &quot;Branche Name&quot; on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-name-empty" time="0.1539397">
         </testcase>
-        <testcase name="Then I select this value &quot;AddTestProduct&quot; on dropdown &quot;Select Category&quot; field the menu &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---exciting-product-name" time="0.0299847">
+        <testcase name="Then I enter value &quot;Error Edit&quot; on field &quot;Branche Address&quot; on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-name-empty" time="0.6183652">
         </testcase>
-        <testcase name="Then I enter value &quot;AddProductSuccess&quot; on field &quot;Name&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---exciting-product-name" time="0.9573909">
+        <testcase name="Then I click on button with text &quot;Select Image&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-name-empty" time="0.3334466">
         </testcase>
-        <testcase name="Then I enter value &quot;AddProductSuccess&quot; on field &quot;Slug&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---exciting-product-name" time="0.9784993">
+        <testcase name="Then I click on button with text &quot;Add&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-name-empty" time="0.3002989">
         </testcase>
-        <testcase name="Then I enter value &quot;Add Short Description&quot; on textarea &quot;Short Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---exciting-product-name" time="1.1896377">
-        </testcase>
-        <testcase name="Then I enter value &quot;Description for Category&quot; on textarea &quot;Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---exciting-product-name" time="1.2813645">
-        </testcase>
-        <testcase name="Then I enter value &quot;20&quot; on field &quot;Original Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---exciting-product-name" time="0.245324">
-        </testcase>
-        <testcase name="Then I enter value &quot;30&quot; on field &quot;Selling Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---exciting-product-name" time="0.2144486">
-        </testcase>
-        <testcase name="Then I enter value &quot;5&quot; on field &quot;Quantity&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---exciting-product-name" time="0.1688581">
-        </testcase>
-        <testcase name="Then I click on the checkbox with text &quot;Status&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---exciting-product-name" time="0.1220747">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Select Images&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---exciting-product-name" time="0.4278489">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Select Images&quot; and select on image with &quot;C:/Users/karabomo/Downloads/Bontle.jpeg&quot; path on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---exciting-product-name" time="0.4141885">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Select Images&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---exciting-product-name" time="0.4753537">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Add&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---exciting-product-name" time="0.3552646">
-        </testcase>
-        <testcase name="Then I wait for a danger alertBox on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---exciting-product-name" time="0.0899626">
+        <testcase name="Then I wait for a danger alertBox" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-name-empty" time="0.0919601">
         </testcase>
     </testsuite>
-    <testsuite name="feature:-testing-the-full-functional-product-meun;add-product---error---product-name-empty" tests="20" failures="1" skipped="17">
+    <testsuite name="testing-the-full-functional-branches-meun;add-branches---error---branche-address-empty" tests="10" failures="0" skipped="0">
         <properties>
-            <property name="@test" value="true">
-            </property>
             <property name="@feat" value="true">
             </property>
-            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_SubAdnim/Product/Product.feature">
+            <property name="@branch" value="true">
+            </property>
+            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_Adnim/Branches/branches.feature">
             </property>
         </properties>
-        <testcase name="Given I am online at &quot;http://127.0.0.1:5500/login.html&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-name-empty" time="12.7293508">
+        <testcase name="Given I am online at &quot;file:///C:/Users/karabomo/Desktop/KasiMonateAdnim/index.html&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-address-empty" time="7.3000802">
         </testcase>
-        <testcase name="Then I login in on the website with email value &quot;karabo&quot; and password value is &quot;karabo&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-name-empty" time="0.8006748">
+        <testcase name="Then I login in on the website with email value &quot;kasimonateappwebadnim@gmail.com&quot; and password value is &quot;Ephraim@217377781&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-address-empty" time="2.2727462">
         </testcase>
-        <testcase name="Then I wait for the page to load" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-name-empty" time="30.0153706">
-            <failure message="TimeoutError: Navigation timeout of 30000 ms exceeded">TimeoutError: Navigation timeout of 30000 ms exceeded
-    at C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\LifecycleWatcher.js:106:111
-    at async FrameManager.waitForFrameNavigation (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:127:23)
-    at async Frame.waitForNavigation (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:440:16)
-    at async Page.waitForNavigation (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:799:16)</failure>
+        <testcase name="Then I wait for the page to load" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-address-empty" time="9.9259269">
         </testcase>
-        <testcase name="Then I click side meun item with text &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-name-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click side meun item with text &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-address-empty" time="0.3728299">
         </testcase>
-        <testcase name="Then I click on button with text &quot;Add Product&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-name-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click on button with text &quot;Add Branche&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-address-empty" time="0.3212244">
         </testcase>
-        <testcase name="Then I wait for 5 seconds" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-name-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I enter value &quot;Error Edit&quot; on field &quot;Branche Name&quot; on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-address-empty" time="0.849429">
         </testcase>
-        <testcase name="Then I select this value &quot;AddProductError&quot; on dropdown &quot;Select Category&quot; field the menu &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-name-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I enter value &quot;&quot; on field &quot;Branche &quot; on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-address-empty" time="0.0228012">
         </testcase>
-        <testcase name="Then I enter value &quot;&quot; on field &quot;Name&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-name-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click on button with text &quot;Select Image&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-address-empty" time="0.3401623">
         </testcase>
-        <testcase name="Then I enter value &quot;AddProductSuccess&quot; on field &quot;Slug&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-name-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click on button with text &quot;Add&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-address-empty" time="0.2541967">
         </testcase>
-        <testcase name="Then I enter value &quot;Add Short Description&quot; on textarea &quot;Short Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-name-empty">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I enter value &quot;Description for Category&quot; on textarea &quot;Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-name-empty">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I enter value &quot;20&quot; on field &quot;Original Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-name-empty">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I enter value &quot;30&quot; on field &quot;Selling Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-name-empty">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I enter value &quot;5&quot; on field &quot;Quantity&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-name-empty">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I click on the checkbox with text &quot;Status&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-name-empty">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Select Images&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-name-empty">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Select Images&quot; and select on image with &quot;C:/Users/karabomo/Downloads/Bontle.jpeg&quot; path on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-name-empty">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Select Images&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-name-empty">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Add&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-name-empty">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I wait for a danger alertBox on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-name-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I wait for a danger alertBox" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-address-empty" time="0.1014613">
         </testcase>
     </testsuite>
-    <testsuite name="feature:-testing-the-full-functional-product-meun;add-product---error---product-slug-empty" tests="20" failures="0" skipped="0">
+    <testsuite name="testing-the-full-functional-branches-meun;add-branches---error---image-empty" tests="9" failures="0" skipped="0">
         <properties>
-            <property name="@test" value="true">
-            </property>
             <property name="@feat" value="true">
             </property>
-            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_SubAdnim/Product/Product.feature">
+            <property name="@branch" value="true">
+            </property>
+            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_Adnim/Branches/branches.feature">
             </property>
         </properties>
-        <testcase name="Given I am online at &quot;http://127.0.0.1:5500/login.html&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-slug-empty" time="8.0495953">
+        <testcase name="Given I am online at &quot;file:///C:/Users/karabomo/Desktop/KasiMonateAdnim/index.html&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---image-empty" time="5.4229322">
         </testcase>
-        <testcase name="Then I login in on the website with email value &quot;karabo&quot; and password value is &quot;karabo&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-slug-empty" time="0.7737737">
+        <testcase name="Then I login in on the website with email value &quot;kasimonateappwebadnim@gmail.com&quot; and password value is &quot;Ephraim@217377781&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---image-empty" time="2.3222617">
         </testcase>
-        <testcase name="Then I wait for the page to load" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-slug-empty" time="7.4236198">
+        <testcase name="Then I wait for the page to load" classname="testing-the-full-functional-branches-meun;add-branches---error---image-empty" time="15.086857">
         </testcase>
-        <testcase name="Then I click side meun item with text &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-slug-empty" time="0.349447">
+        <testcase name="Then I click side meun item with text &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---image-empty" time="0.2487345">
         </testcase>
-        <testcase name="Then I click on button with text &quot;Add Product&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-slug-empty" time="0.359711">
+        <testcase name="Then I click on button with text &quot;Add Branche&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---image-empty" time="0.3336572">
         </testcase>
-        <testcase name="Then I wait for 5 seconds" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-slug-empty" time="5.0059934">
+        <testcase name="Then I enter value &quot;Image Edit Error&quot; on field &quot;Branche Name&quot; on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---image-empty" time="1.1698953">
         </testcase>
-        <testcase name="Then I select this value &quot;AddTestProduct&quot; on dropdown &quot;Select Category&quot; field the menu &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-slug-empty" time="0.0293974">
+        <testcase name="Then I enter value &quot;Image Edit Error Address&quot; on field &quot;Branche &quot; on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---image-empty" time="0.0164299">
         </testcase>
-        <testcase name="Then I enter value &quot;AddProductError&quot; on field &quot;Name&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-slug-empty" time="0.925375">
+        <testcase name="Then I click on button with text &quot;Add&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---image-empty" time="0.2554163">
         </testcase>
-        <testcase name="Then I enter value &quot;&quot; on field &quot;Slug&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-slug-empty" time="0.1210942">
-        </testcase>
-        <testcase name="Then I enter value &quot;Add Short Description&quot; on textarea &quot;Short Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-slug-empty" time="1.2412553">
-        </testcase>
-        <testcase name="Then I enter value &quot;Description for Category&quot; on textarea &quot;Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-slug-empty" time="1.3376753">
-        </testcase>
-        <testcase name="Then I enter value &quot;20&quot; on field &quot;Original Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-slug-empty" time="0.2617153">
-        </testcase>
-        <testcase name="Then I enter value &quot;30&quot; on field &quot;Selling Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-slug-empty" time="0.2298463">
-        </testcase>
-        <testcase name="Then I enter value &quot;5&quot; on field &quot;Quantity&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-slug-empty" time="0.1677308">
-        </testcase>
-        <testcase name="Then I click on the checkbox with text &quot;Status&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-slug-empty" time="0.1206349">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Select Images&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-slug-empty" time="0.3858665">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Select Images&quot; and select on image with &quot;C:/Users/karabomo/Downloads/Bontle.jpeg&quot; path on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-slug-empty" time="0.3845451">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Select Images&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-slug-empty" time="0.4327379">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Add&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-slug-empty" time="0.3223845">
-        </testcase>
-        <testcase name="Then I wait for a danger alertBox on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-slug-empty" time="0.1075603">
+        <testcase name="Then I wait for a danger alertBox" classname="testing-the-full-functional-branches-meun;add-branches---error---image-empty" time="0.1015718">
         </testcase>
     </testsuite>
-    <testsuite name="feature:-testing-the-full-functional-product-meun;add-product---error---product-no-sub-category" tests="20" failures="0" skipped="0">
+    <testsuite name="testing-the-full-functional-branches-meun;edit-branches---success" tests="11" failures="0" skipped="0">
         <properties>
-            <property name="@test" value="true">
-            </property>
             <property name="@feat" value="true">
             </property>
-            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_SubAdnim/Product/Product.feature">
+            <property name="@branch" value="true">
+            </property>
+            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_Adnim/Branches/branches.feature">
             </property>
         </properties>
-        <testcase name="Given I am online at &quot;http://127.0.0.1:5500/login.html&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-no-sub-category" time="7.3076488">
+        <testcase name="Given I am online at &quot;file:///C:/Users/karabomo/Desktop/KasiMonateAdnim/index.html&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---success" time="4.8657182">
         </testcase>
-        <testcase name="Then I login in on the website with email value &quot;karabo&quot; and password value is &quot;karabo&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-no-sub-category" time="0.8436971">
+        <testcase name="Then I login in on the website with email value &quot;kasimonateappwebadnim@gmail.com&quot; and password value is &quot;Ephraim@217377781&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---success" time="2.1450877">
         </testcase>
-        <testcase name="Then I wait for the page to load" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-no-sub-category" time="8.1144587">
+        <testcase name="Then I wait for the page to load" classname="testing-the-full-functional-branches-meun;edit-branches---success" time="9.7602532">
         </testcase>
-        <testcase name="Then I click side meun item with text &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-no-sub-category" time="0.5212284">
+        <testcase name="Then I click side meun item with text &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---success" time="0.2592323">
         </testcase>
-        <testcase name="Then I click on button with text &quot;Add Product&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-no-sub-category" time="0.4122597">
+        <testcase name="Then I click button with Text &quot;Edit&quot; on row &quot;1&quot; on the table on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---success" time="1.5474062">
         </testcase>
-        <testcase name="Then I wait for 5 seconds" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-no-sub-category" time="5.0012282">
+        <testcase name="Then I wait for 5 seconds" classname="testing-the-full-functional-branches-meun;edit-branches---success" time="5.0110034">
         </testcase>
-        <testcase name="Then I select this value &quot;&quot; on dropdown &quot;Select Category&quot; field the menu &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-no-sub-category" time="0.0278383">
+        <testcase name="Then I enter value &quot;EditBrancheSuccess&quot; on field &quot;Branche Name&quot; on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---success" time="1.2491272">
         </testcase>
-        <testcase name="Then I enter value &quot;AddProductError&quot; on field &quot;Name&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-no-sub-category" time="0.9522725">
+        <testcase name="Then I enter value &quot;EditAddressSuccess&quot; on field &quot;Branche Address&quot; on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---success" time="1.0850862">
         </testcase>
-        <testcase name="Then I enter value &quot;AddProductError&quot; on field &quot;Slug&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-no-sub-category" time="0.8985772">
+        <testcase name="Then I click on button with text &quot;Select Image&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---success" time="0.3332981">
         </testcase>
-        <testcase name="Then I enter value &quot;Add Short Description&quot; on textarea &quot;Short Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-no-sub-category" time="1.2391359">
+        <testcase name="Then I click on button with text &quot;Save&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---success" time="0.265799">
         </testcase>
-        <testcase name="Then I enter value &quot;Description for Category&quot; on textarea &quot;Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-no-sub-category" time="1.3789661">
-        </testcase>
-        <testcase name="Then I enter value &quot;20&quot; on field &quot;Original Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-no-sub-category" time="0.2309511">
-        </testcase>
-        <testcase name="Then I enter value &quot;30&quot; on field &quot;Selling Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-no-sub-category" time="0.2619555">
-        </testcase>
-        <testcase name="Then I enter value &quot;5&quot; on field &quot;Quantity&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-no-sub-category" time="0.2008869">
-        </testcase>
-        <testcase name="Then I click on the checkbox with text &quot;Status&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-no-sub-category" time="0.1045164">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Select Images&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-no-sub-category" time="0.4354398">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Select Images&quot; and select on image with &quot;C:/Users/karabomo/Downloads/Bontle.jpeg&quot; path on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-no-sub-category" time="0.400069">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Select Images&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-no-sub-category" time="0.4301509">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Add&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-no-sub-category" time="0.3077116">
-        </testcase>
-        <testcase name="Then I wait for a danger alertBox on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-no-sub-category" time="0.1222991">
+        <testcase name="Then I wait for a success alertBox" classname="testing-the-full-functional-branches-meun;edit-branches---success" time="2.9529027">
         </testcase>
     </testsuite>
-    <testsuite name="feature:-testing-the-full-functional-product-meun;add-product---error---product-short-description-empty" tests="20" failures="0" skipped="0">
+    <testsuite name="testing-the-full-functional-branches-meun;add-branches-for-testing-edit-exciting-branche-name---success" tests="11" failures="0" skipped="0">
         <properties>
-            <property name="@test" value="true">
-            </property>
             <property name="@feat" value="true">
             </property>
-            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_SubAdnim/Product/Product.feature">
+            <property name="@branch" value="true">
+            </property>
+            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_Adnim/Branches/branches.feature">
             </property>
         </properties>
-        <testcase name="Given I am online at &quot;http://127.0.0.1:5500/login.html&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-short-description-empty" time="5.0234941">
+        <testcase name="Given I am online at &quot;file:///C:/Users/karabomo/Desktop/KasiMonateAdnim/index.html&quot;" classname="testing-the-full-functional-branches-meun;add-branches-for-testing-edit-exciting-branche-name---success" time="4.4516834">
         </testcase>
-        <testcase name="Then I login in on the website with email value &quot;karabo&quot; and password value is &quot;karabo&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-short-description-empty" time="0.7724682">
+        <testcase name="Then I login in on the website with email value &quot;kasimonateappwebadnim@gmail.com&quot; and password value is &quot;Ephraim@217377781&quot;" classname="testing-the-full-functional-branches-meun;add-branches-for-testing-edit-exciting-branche-name---success" time="2.2961216">
         </testcase>
-        <testcase name="Then I wait for the page to load" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-short-description-empty" time="10.8428922">
+        <testcase name="Then I wait for the page to load" classname="testing-the-full-functional-branches-meun;add-branches-for-testing-edit-exciting-branche-name---success" time="6.9657868">
         </testcase>
-        <testcase name="Then I click side meun item with text &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-short-description-empty" time="0.4025104">
+        <testcase name="Then I click side meun item with text &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches-for-testing-edit-exciting-branche-name---success" time="0.3109351">
         </testcase>
-        <testcase name="Then I click on button with text &quot;Add Product&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-short-description-empty" time="0.3660902">
+        <testcase name="Then I click on button with text &quot;Add Branche&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches-for-testing-edit-exciting-branche-name---success" time="0.3572104">
         </testcase>
-        <testcase name="Then I wait for 5 seconds" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-short-description-empty" time="5.0131969">
+        <testcase name="Then I enter value &quot;Branches2&quot; on field &quot;Branche Name&quot; on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches-for-testing-edit-exciting-branche-name---success" time="0.9246662">
         </testcase>
-        <testcase name="Then I select this value &quot;AddTestProduct&quot; on dropdown &quot;Select Category&quot; field the menu &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-short-description-empty" time="0.0288718">
+        <testcase name="Then I enter value &quot;Address2&quot; on field &quot;Branche Address&quot; on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches-for-testing-edit-exciting-branche-name---success" time="0.6107695">
         </testcase>
-        <testcase name="Then I enter value &quot;AddProductError&quot; on field &quot;Name&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-short-description-empty" time="0.9466093">
+        <testcase name="Then I click on button with text &quot;Select Image&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches-for-testing-edit-exciting-branche-name---success" time="0.390568">
         </testcase>
-        <testcase name="Then I enter value &quot;AddProductError&quot; on field &quot;Slug&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-short-description-empty" time="0.9227722">
+        <testcase name="Then I click on button with text &quot;Add&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches-for-testing-edit-exciting-branche-name---success" time="0.2623542">
         </testcase>
-        <testcase name="Then I enter value &quot;&quot; on textarea &quot;Short Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-short-description-empty" time="0.12207">
+        <testcase name="Then I wait for a success alertBox" classname="testing-the-full-functional-branches-meun;add-branches-for-testing-edit-exciting-branche-name---success" time="4.0171963">
         </testcase>
-        <testcase name="Then I enter value &quot;Description for Category&quot; on textarea &quot;Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-short-description-empty" time="1.3960846">
-        </testcase>
-        <testcase name="Then I enter value &quot;20&quot; on field &quot;Original Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-short-description-empty" time="0.202625">
-        </testcase>
-        <testcase name="Then I enter value &quot;30&quot; on field &quot;Selling Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-short-description-empty" time="0.2148092">
-        </testcase>
-        <testcase name="Then I enter value &quot;5&quot; on field &quot;Quantity&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-short-description-empty" time="0.1844305">
-        </testcase>
-        <testcase name="Then I click on the checkbox with text &quot;Status&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-short-description-empty" time="0.1207723">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Select Images&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-short-description-empty" time="0.3991534">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Select Images&quot; and select on image with &quot;C:/Users/karabomo/Downloads/Bontle.jpeg&quot; path on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-short-description-empty" time="0.4314204">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Select Images&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-short-description-empty" time="0.4013398">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Add&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-short-description-empty" time="0.3181206">
-        </testcase>
-        <testcase name="Then I wait for a danger alertBox on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-short-description-empty" time="0.0949362">
+        <testcase name="Then I click on button with text &quot;Close&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches-for-testing-edit-exciting-branche-name---success" time="0.4236709">
         </testcase>
     </testsuite>
-    <testsuite name="feature:-testing-the-full-functional-product-meun;add-product---error---product-description-empty" tests="20" failures="0" skipped="0">
+    <testsuite name="testing-the-full-functional-branches-meun;edit-branches---error---exciting-branche-name" tests="11" failures="0" skipped="0">
         <properties>
-            <property name="@test" value="true">
-            </property>
             <property name="@feat" value="true">
             </property>
-            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_SubAdnim/Product/Product.feature">
+            <property name="@branch" value="true">
+            </property>
+            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_Adnim/Branches/branches.feature">
             </property>
         </properties>
-        <testcase name="Given I am online at &quot;http://127.0.0.1:5500/login.html&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-description-empty" time="4.3506947">
+        <testcase name="Given I am online at &quot;file:///C:/Users/karabomo/Desktop/KasiMonateAdnim/index.html&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---exciting-branche-name" time="4.5224113">
         </testcase>
-        <testcase name="Then I login in on the website with email value &quot;karabo&quot; and password value is &quot;karabo&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-description-empty" time="0.8120963">
+        <testcase name="Then I login in on the website with email value &quot;kasimonateappwebadnim@gmail.com&quot; and password value is &quot;Ephraim@217377781&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---exciting-branche-name" time="2.3180131">
         </testcase>
-        <testcase name="Then I wait for the page to load" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-description-empty" time="5.115781">
+        <testcase name="Then I wait for the page to load" classname="testing-the-full-functional-branches-meun;edit-branches---error---exciting-branche-name" time="11.0177724">
         </testcase>
-        <testcase name="Then I click side meun item with text &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-description-empty" time="0.3784935">
+        <testcase name="Then I click side meun item with text &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---exciting-branche-name" time="0.2417568">
         </testcase>
-        <testcase name="Then I click on button with text &quot;Add Product&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-description-empty" time="0.3689695">
+        <testcase name="Then I click button with Text &quot;Edit&quot; on row &quot;1&quot; on the table on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---exciting-branche-name" time="1.6945823">
         </testcase>
-        <testcase name="Then I wait for 5 seconds" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-description-empty" time="5.0143492">
+        <testcase name="Then I wait for 5 seconds" classname="testing-the-full-functional-branches-meun;edit-branches---error---exciting-branche-name" time="5.00215">
         </testcase>
-        <testcase name="Then I select this value &quot;AddTestProduct&quot; on dropdown &quot;Select Category&quot; field the menu &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-description-empty" time="0.0289277">
+        <testcase name="Then I enter value &quot;Branches2&quot; on field &quot;Branche Name&quot; on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---exciting-branche-name" time="0.6012403">
         </testcase>
-        <testcase name="Then I enter value &quot;AddProductError&quot; on field &quot;Name&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-description-empty" time="0.9630357">
+        <testcase name="Then I enter value &quot;Address2&quot; on field &quot;Branche Address&quot; on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---exciting-branche-name" time="0.5374487">
         </testcase>
-        <testcase name="Then I enter value &quot;AddProductError&quot; on field &quot;Slug&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-description-empty" time="0.9041709">
+        <testcase name="Then I click on button with text &quot;Select Image&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---exciting-branche-name" time="0.3432794">
         </testcase>
-        <testcase name="Then I enter value &quot;Add Short Description&quot; on textarea &quot;Short Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-description-empty" time="1.2837452">
+        <testcase name="Then I click on button with text &quot;Save&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---exciting-branche-name" time="0.3114616">
         </testcase>
-        <testcase name="Then I enter value &quot;&quot; on textarea &quot;Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-description-empty" time="0.1075519">
-        </testcase>
-        <testcase name="Then I enter value &quot;20&quot; on field &quot;Original Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-description-empty" time="0.2459828">
-        </testcase>
-        <testcase name="Then I enter value &quot;30&quot; on field &quot;Selling Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-description-empty" time="0.2463006">
-        </testcase>
-        <testcase name="Then I enter value &quot;5&quot; on field &quot;Quantity&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-description-empty" time="0.1855012">
-        </testcase>
-        <testcase name="Then I click on the checkbox with text &quot;Status&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-description-empty" time="0.1067665">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Select Images&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-description-empty" time="0.357621">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Select Images&quot; and select on image with &quot;C:/Users/karabomo/Downloads/Bontle.jpeg&quot; path on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-description-empty" time="0.4007639">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Select Images&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-description-empty" time="0.4654687">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Add&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-description-empty" time="0.3225898">
-        </testcase>
-        <testcase name="Then I wait for a danger alertBox on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-description-empty" time="0.1062695">
+        <testcase name="Then I wait for a danger alertBox" classname="testing-the-full-functional-branches-meun;edit-branches---error---exciting-branche-name" time="0.0850968">
         </testcase>
     </testsuite>
-    <testsuite name="feature:-testing-the-full-functional-product-meun;add-product---error---product-original-price-empty" tests="20" failures="0" skipped="0">
+    <testsuite name="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" tests="11" failures="0" skipped="0">
         <properties>
-            <property name="@test" value="true">
-            </property>
             <property name="@feat" value="true">
             </property>
-            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_SubAdnim/Product/Product.feature">
+            <property name="@branch" value="true">
+            </property>
+            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_Adnim/Branches/branches.feature">
             </property>
         </properties>
-        <testcase name="Given I am online at &quot;http://127.0.0.1:5500/login.html&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-original-price-empty" time="5.1161923">
+        <testcase name="Given I am online at &quot;file:///C:/Users/karabomo/Desktop/KasiMonateAdnim/index.html&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="7.0524401">
         </testcase>
-        <testcase name="Then I login in on the website with email value &quot;karabo&quot; and password value is &quot;karabo&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-original-price-empty" time="0.7998818">
+        <testcase name="Then I login in on the website with email value &quot;kasimonateappwebadnim@gmail.com&quot; and password value is &quot;Ephraim@217377781&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="2.0501856">
         </testcase>
-        <testcase name="Then I wait for the page to load" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-original-price-empty" time="6.5366188">
+        <testcase name="Then I wait for the page to load" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="9.4728762">
         </testcase>
-        <testcase name="Then I click side meun item with text &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-original-price-empty" time="0.3402412">
+        <testcase name="Then I click side meun item with text &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="0.3446128">
         </testcase>
-        <testcase name="Then I click on button with text &quot;Add Product&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-original-price-empty" time="0.3867709">
+        <testcase name="Then I click button with Text &quot;Edit&quot; on row &quot;1&quot; on the table on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="1.1289274">
         </testcase>
-        <testcase name="Then I wait for 5 seconds" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-original-price-empty" time="5.0051377">
+        <testcase name="Then I wait for 5 seconds" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="5.0114452">
         </testcase>
-        <testcase name="Then I select this value &quot;AddTestProduct&quot; on dropdown &quot;Select Category&quot; field the menu &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-original-price-empty" time="0.4148587">
+        <testcase name="Then I enter value &quot;&quot; on field &quot;Branche Name&quot; on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="0.1446514">
         </testcase>
-        <testcase name="Then I enter value &quot;AddProductError&quot; on field &quot;Name&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-original-price-empty" time="2.1157519">
+        <testcase name="Then I enter value &quot;Edit Error&quot; on field &quot;Branche Address&quot; on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="0.6912456">
         </testcase>
-        <testcase name="Then I enter value &quot;AddProductError&quot; on field &quot;Slug&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-original-price-empty" time="1.0177758">
+        <testcase name="Then I click on button with text &quot;Select Image&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="0.3736495">
         </testcase>
-        <testcase name="Then I enter value &quot;Add Short Description&quot; on textarea &quot;Short Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-original-price-empty" time="1.2140552">
+        <testcase name="Then I click on button with text &quot;Save&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="0.2953418">
         </testcase>
-        <testcase name="Then I enter value &quot;Description for Category&quot; on textarea &quot;Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-original-price-empty" time="1.4046697">
-        </testcase>
-        <testcase name="Then I enter value &quot;&quot; on field &quot;Original Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-original-price-empty" time="0.1203565">
-        </testcase>
-        <testcase name="Then I enter value &quot;30&quot; on field &quot;Selling Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-original-price-empty" time="0.2456634">
-        </testcase>
-        <testcase name="Then I enter value &quot;5&quot; on field &quot;Quantity&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-original-price-empty" time="0.1848527">
-        </testcase>
-        <testcase name="Then I click on the checkbox with text &quot;Status&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-original-price-empty" time="0.1078104">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Select Images&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-original-price-empty" time="0.3976058">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Select Images&quot; and select on image with &quot;C:/Users/karabomo/Downloads/Bontle.jpeg&quot; path on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-original-price-empty" time="0.5528408">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Select Images&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-original-price-empty" time="0.5255926">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Add&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-original-price-empty" time="0.3522374">
-        </testcase>
-        <testcase name="Then I wait for a danger alertBox on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-original-price-empty" time="0.0910481">
+        <testcase name="Then I wait for a danger alertBox" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="0.0945417">
         </testcase>
     </testsuite>
-    <testsuite name="feature:-testing-the-full-functional-product-meun;add-product---error---product-original-price-is-zero" tests="20" failures="1" skipped="17">
+    <testsuite name="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" tests="11" failures="0" skipped="0">
         <properties>
-            <property name="@test" value="true">
-            </property>
             <property name="@feat" value="true">
             </property>
-            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_SubAdnim/Product/Product.feature">
+            <property name="@branch" value="true">
+            </property>
+            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_Adnim/Branches/branches.feature">
             </property>
         </properties>
-        <testcase name="Given I am online at &quot;http://127.0.0.1:5500/login.html&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-original-price-is-zero" time="1.6290179">
+        <testcase name="Given I am online at &quot;file:///C:/Users/karabomo/Desktop/KasiMonateAdnim/index.html&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="4.4510661">
         </testcase>
-        <testcase name="Then I login in on the website with email value &quot;karabo&quot; and password value is &quot;karabo&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-original-price-is-zero" time="0.7704642">
+        <testcase name="Then I login in on the website with email value &quot;kasimonateappwebadnim@gmail.com&quot; and password value is &quot;Ephraim@217377781&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="1.9869957">
         </testcase>
-        <testcase name="Then I wait for the page to load" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-original-price-is-zero" time="30.0050898">
-            <failure message="TimeoutError: Navigation timeout of 30000 ms exceeded">TimeoutError: Navigation timeout of 30000 ms exceeded
-    at C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\LifecycleWatcher.js:106:111
-    at async FrameManager.waitForFrameNavigation (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:127:23)
-    at async Frame.waitForNavigation (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:440:16)
-    at async Page.waitForNavigation (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:799:16)</failure>
+        <testcase name="Then I wait for the page to load" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="8.7569869">
         </testcase>
-        <testcase name="Then I click side meun item with text &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-original-price-is-zero">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click side meun item with text &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="0.3488995">
         </testcase>
-        <testcase name="Then I click on button with text &quot;Add Product&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-original-price-is-zero">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click button with Text &quot;Edit&quot; on row &quot;1&quot; on the table on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="1.2753137">
         </testcase>
-        <testcase name="Then I wait for 5 seconds" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-original-price-is-zero">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I wait for 5 seconds" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="5.0080616">
         </testcase>
-        <testcase name="Then I select this value &quot;AddTestProduct&quot; on dropdown &quot;Select Category&quot; field the menu &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-original-price-is-zero">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I enter value &quot;Edit Error&quot; on field &quot;Branche Name&quot; on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="0.719132">
         </testcase>
-        <testcase name="Then I enter value &quot;AddProductError&quot; on field &quot;Name&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-original-price-is-zero">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I enter value &quot;&quot; on field &quot;Branche Address&quot; on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="0.1106098">
         </testcase>
-        <testcase name="Then I enter value &quot;AddProductError&quot; on field &quot;Slug&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-original-price-is-zero">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click on button with text &quot;Select Image&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="0.3650272">
         </testcase>
-        <testcase name="Then I enter value &quot;Add Short Description&quot; on textarea &quot;Short Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-original-price-is-zero">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click on button with text &quot;Save&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="0.3097664">
         </testcase>
-        <testcase name="Then I enter value &quot;Description for Category&quot; on textarea &quot;Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-original-price-is-zero">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I enter value &quot;0&quot; on field &quot;Original Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-original-price-is-zero">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I enter value &quot;30&quot; on field &quot;Selling Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-original-price-is-zero">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I enter value &quot;5&quot; on field &quot;Quantity&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-original-price-is-zero">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I click on the checkbox with text &quot;Status&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-original-price-is-zero">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Select Images&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-original-price-is-zero">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Select Images&quot; and select on image with &quot;C:/Users/karabomo/Downloads/Bontle.jpeg&quot; path on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-original-price-is-zero">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Select Images&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-original-price-is-zero">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Add&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-original-price-is-zero">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I wait for a danger alertBox on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-original-price-is-zero">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I wait for a danger alertBox" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="0.0936414">
         </testcase>
     </testsuite>
-    <testsuite name="feature:-testing-the-full-functional-product-meun;add-product---error---product-selling-price-empty" tests="20" failures="1" skipped="17">
+    <testsuite name="testing-the-full-functional-branches-meun;delete-branches-for-testing-edit-exciting-branche-name---success" tests="7" failures="0" skipped="0">
         <properties>
-            <property name="@test" value="true">
-            </property>
             <property name="@feat" value="true">
             </property>
-            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_SubAdnim/Product/Product.feature">
+            <property name="@branch" value="true">
+            </property>
+            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_Adnim/Branches/branches.feature">
             </property>
         </properties>
-        <testcase name="Given I am online at &quot;http://127.0.0.1:5500/login.html&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-selling-price-empty" time="1.3567196">
+        <testcase name="Given I am online at &quot;file:///C:/Users/karabomo/Desktop/KasiMonateAdnim/index.html&quot;" classname="testing-the-full-functional-branches-meun;delete-branches-for-testing-edit-exciting-branche-name---success" time="4.4731778">
         </testcase>
-        <testcase name="Then I login in on the website with email value &quot;karabo&quot; and password value is &quot;karabo&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-selling-price-empty" time="0.7439216">
+        <testcase name="Then I login in on the website with email value &quot;kasimonateappwebadnim@gmail.com&quot; and password value is &quot;Ephraim@217377781&quot;" classname="testing-the-full-functional-branches-meun;delete-branches-for-testing-edit-exciting-branche-name---success" time="2.2727199">
         </testcase>
-        <testcase name="Then I wait for the page to load" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-selling-price-empty" time="30.0022642">
-            <failure message="TimeoutError: Navigation timeout of 30000 ms exceeded">TimeoutError: Navigation timeout of 30000 ms exceeded
-    at C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\LifecycleWatcher.js:106:111
-    at async FrameManager.waitForFrameNavigation (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:127:23)
-    at async Frame.waitForNavigation (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:440:16)
-    at async Page.waitForNavigation (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:799:16)</failure>
+        <testcase name="Then I wait for the page to load" classname="testing-the-full-functional-branches-meun;delete-branches-for-testing-edit-exciting-branche-name---success" time="8.110412">
         </testcase>
-        <testcase name="Then I click side meun item with text &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-selling-price-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click side meun item with text &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;delete-branches-for-testing-edit-exciting-branche-name---success" time="0.2505635">
         </testcase>
-        <testcase name="Then I click on button with text &quot;Add Product&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-selling-price-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click button with Text &quot;Delete&quot; on row &quot;1&quot; on the table on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;delete-branches-for-testing-edit-exciting-branche-name---success" time="1.0281702">
         </testcase>
-        <testcase name="Then I wait for 5 seconds" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-selling-price-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click on button with text &quot;Accept&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;delete-branches-for-testing-edit-exciting-branche-name---success" time="0.3318941">
         </testcase>
-        <testcase name="Then I select this value &quot;AddTestProduct&quot; on dropdown &quot;Select Category&quot; field the menu &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-selling-price-empty">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I enter value &quot;AddProductError&quot; on field &quot;Name&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-selling-price-empty">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I enter value &quot;AddProductError&quot; on field &quot;Slug&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-selling-price-empty">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I enter value &quot;Add Short Description&quot; on textarea &quot;Short Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-selling-price-empty">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I enter value &quot;Description for Category&quot; on textarea &quot;Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-selling-price-empty">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I enter value &quot;20&quot; on field &quot;Original Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-selling-price-empty">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I enter value &quot;&quot; on field &quot;Selling Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-selling-price-empty">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I enter value &quot;5&quot; on field &quot;Quantity&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-selling-price-empty">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I click on the checkbox with text &quot;Status&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-selling-price-empty">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Select Images&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-selling-price-empty">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Select Images&quot; and select on image with &quot;C:/Users/karabomo/Downloads/Bontle.jpeg&quot; path on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-selling-price-empty">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Select Images&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-selling-price-empty">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Add&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-selling-price-empty">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I wait for a danger alertBox on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-selling-price-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I wait for a success alertBox" classname="testing-the-full-functional-branches-meun;delete-branches-for-testing-edit-exciting-branche-name---success" time="1.1943004">
         </testcase>
     </testsuite>
-    <testsuite name="feature:-testing-the-full-functional-product-meun;add-product---error---product-selling-price-is-zero" tests="20" failures="0" skipped="0">
+    <testsuite name="testing-the-full-functional-branches-meun;delete-branches---success" tests="7" failures="1" skipped="0">
         <properties>
-            <property name="@test" value="true">
-            </property>
             <property name="@feat" value="true">
             </property>
-            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_SubAdnim/Product/Product.feature">
+            <property name="@branch" value="true">
+            </property>
+            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_Adnim/Branches/branches.feature">
             </property>
         </properties>
-        <testcase name="Given I am online at &quot;http://127.0.0.1:5500/login.html&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-selling-price-is-zero" time="4.8831549">
+        <testcase name="Given I am online at &quot;file:///C:/Users/karabomo/Desktop/KasiMonateAdnim/index.html&quot;" classname="testing-the-full-functional-branches-meun;delete-branches---success" time="4.5261457">
         </testcase>
-        <testcase name="Then I login in on the website with email value &quot;karabo&quot; and password value is &quot;karabo&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-selling-price-is-zero" time="0.8301373">
+        <testcase name="Then I login in on the website with email value &quot;kasimonateappwebadnim@gmail.com&quot; and password value is &quot;Ephraim@217377781&quot;" classname="testing-the-full-functional-branches-meun;delete-branches---success" time="2.0549291">
         </testcase>
-        <testcase name="Then I wait for the page to load" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-selling-price-is-zero" time="6.0692612">
+        <testcase name="Then I wait for the page to load" classname="testing-the-full-functional-branches-meun;delete-branches---success" time="6.4030284">
         </testcase>
-        <testcase name="Then I click side meun item with text &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-selling-price-is-zero" time="0.4499314">
+        <testcase name="Then I click side meun item with text &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;delete-branches---success" time="0.3578747">
         </testcase>
-        <testcase name="Then I click on button with text &quot;Add Product&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-selling-price-is-zero" time="0.3892391">
+        <testcase name="Then I click button with Text &quot;Delete&quot; on row &quot;1&quot; on the table on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;delete-branches---success" time="1.0834303">
         </testcase>
-        <testcase name="Then I wait for 5 seconds" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-selling-price-is-zero" time="5.0047133">
+        <testcase name="Then I click on button with text &quot;Accept&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;delete-branches---success" time="0.3334157">
         </testcase>
-        <testcase name="Then I select this value &quot;AddTestProduct&quot; on dropdown &quot;Select Category&quot; field the menu &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-selling-price-is-zero" time="0.0289302">
-        </testcase>
-        <testcase name="Then I enter value &quot;AddProductError&quot; on field &quot;Name&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-selling-price-is-zero" time="0.878642">
-        </testcase>
-        <testcase name="Then I enter value &quot;AddProductError&quot; on field &quot;Slug&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-selling-price-is-zero" time="0.8561307">
-        </testcase>
-        <testcase name="Then I enter value &quot;Add Short Description&quot; on textarea &quot;Short Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-selling-price-is-zero" time="1.1446801">
-        </testcase>
-        <testcase name="Then I enter value &quot;Description for Category&quot; on textarea &quot;Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-selling-price-is-zero" time="1.3038412">
-        </testcase>
-        <testcase name="Then I enter value &quot;20&quot; on field &quot;Original Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-selling-price-is-zero" time="0.2299319">
-        </testcase>
-        <testcase name="Then I enter value &quot;0&quot; on field &quot;Selling Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-selling-price-is-zero" time="0.1832568">
-        </testcase>
-        <testcase name="Then I enter value &quot;5&quot; on field &quot;Quantity&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-selling-price-is-zero" time="0.1677001">
-        </testcase>
-        <testcase name="Then I click on the checkbox with text &quot;Status&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-selling-price-is-zero" time="0.1232983">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Select Images&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-selling-price-is-zero" time="0.4198234">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Select Images&quot; and select on image with &quot;C:/Users/karabomo/Downloads/Bontle.jpeg&quot; path on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-selling-price-is-zero" time="0.4169101">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Select Images&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-selling-price-is-zero" time="0.449071">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Add&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-selling-price-is-zero" time="0.3089236">
-        </testcase>
-        <testcase name="Then I wait for a danger alertBox on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-selling-price-is-zero" time="0.1210946">
-        </testcase>
-    </testsuite>
-    <testsuite name="feature:-testing-the-full-functional-product-meun;add-product---error---product-no-images" tests="17" failures="0" skipped="0">
-        <properties>
-            <property name="@test" value="true">
-            </property>
-            <property name="@feat" value="true">
-            </property>
-            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_SubAdnim/Product/Product.feature">
-            </property>
-        </properties>
-        <testcase name="Given I am online at &quot;http://127.0.0.1:5500/login.html&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-no-images" time="4.2480301">
-        </testcase>
-        <testcase name="Then I login in on the website with email value &quot;karabo&quot; and password value is &quot;karabo&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-no-images" time="0.8822577">
-        </testcase>
-        <testcase name="Then I wait for the page to load" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-no-images" time="6.850431">
-        </testcase>
-        <testcase name="Then I click side meun item with text &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-no-images" time="0.4594786">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Add Product&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-no-images" time="0.4027366">
-        </testcase>
-        <testcase name="Then I wait for 5 seconds" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-no-images" time="5.0130189">
-        </testcase>
-        <testcase name="Then I select this value &quot;AddTestProduct&quot; on dropdown &quot;Select Category&quot; field the menu &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-no-images" time="0.0279283">
-        </testcase>
-        <testcase name="Then I enter value &quot;AddProductError&quot; on field &quot;Name&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-no-images" time="0.8716007">
-        </testcase>
-        <testcase name="Then I enter value &quot;AddProductError&quot; on field &quot;Slug&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-no-images" time="0.8589581">
-        </testcase>
-        <testcase name="Then I enter value &quot;Add Short Description&quot; on textarea &quot;Short Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-no-images" time="1.1424517">
-        </testcase>
-        <testcase name="Then I enter value &quot;Description for Category&quot; on textarea &quot;Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-no-images" time="1.2580259">
-        </testcase>
-        <testcase name="Then I enter value &quot;20&quot; on field &quot;Original Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-no-images" time="0.2446554">
-        </testcase>
-        <testcase name="Then I enter value &quot;30&quot; on field &quot;Selling Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-no-images" time="0.229901">
-        </testcase>
-        <testcase name="Then I enter value &quot;5&quot; on field &quot;Quantity&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-no-images" time="0.1708076">
-        </testcase>
-        <testcase name="Then I click on the checkbox with text &quot;Status&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-no-images" time="0.1215331">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Add&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-no-images" time="0.3389311">
-        </testcase>
-        <testcase name="Then I wait for a danger alertBox on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-no-images" time="0.0879719">
-        </testcase>
-    </testsuite>
-    <testsuite name="feature:-testing-the-full-functional-product-meun;add-product---error---product-less-then-3-images" tests="18" failures="0" skipped="0">
-        <properties>
-            <property name="@test" value="true">
-            </property>
-            <property name="@feat" value="true">
-            </property>
-            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_SubAdnim/Product/Product.feature">
-            </property>
-        </properties>
-        <testcase name="Given I am online at &quot;http://127.0.0.1:5500/login.html&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-less-then-3-images" time="4.2017234">
-        </testcase>
-        <testcase name="Then I login in on the website with email value &quot;karabo&quot; and password value is &quot;karabo&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-less-then-3-images" time="0.7913741">
-        </testcase>
-        <testcase name="Then I wait for the page to load" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-less-then-3-images" time="6.3898166">
-        </testcase>
-        <testcase name="Then I click side meun item with text &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-less-then-3-images" time="0.4702373">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Add Product&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-less-then-3-images" time="0.796741">
-        </testcase>
-        <testcase name="Then I wait for 5 seconds" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-less-then-3-images" time="5.0057079">
-        </testcase>
-        <testcase name="Then I select this value &quot;AddTestProduct&quot; on dropdown &quot;Select Category&quot; field the menu &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-less-then-3-images" time="0.0294532">
-        </testcase>
-        <testcase name="Then I enter value &quot;AddProductError&quot; on field &quot;Name&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-less-then-3-images" time="0.8486014">
-        </testcase>
-        <testcase name="Then I enter value &quot;AddProductError&quot; on field &quot;Slug&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-less-then-3-images" time="0.8358267">
-        </testcase>
-        <testcase name="Then I enter value &quot;Add Short Description&quot; on textarea &quot;Short Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-less-then-3-images" time="1.1591731">
-        </testcase>
-        <testcase name="Then I enter value &quot;Description for Category&quot; on textarea &quot;Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-less-then-3-images" time="1.3043899">
-        </testcase>
-        <testcase name="Then I enter value &quot;20&quot; on field &quot;Original Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-less-then-3-images" time="0.2136192">
-        </testcase>
-        <testcase name="Then I enter value &quot;30&quot; on field &quot;Selling Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-less-then-3-images" time="0.2161183">
-        </testcase>
-        <testcase name="Then I enter value &quot;5&quot; on field &quot;Quantity&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-less-then-3-images" time="0.1543367">
-        </testcase>
-        <testcase name="Then I click on the checkbox with text &quot;Status&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-less-then-3-images" time="0.1207591">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Select Images&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-less-then-3-images" time="0.4027048">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Add&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-less-then-3-images" time="0.3355636">
-        </testcase>
-        <testcase name="Then I wait for a danger alertBox on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;add-product---error---product-less-then-3-images" time="0.1047238">
-        </testcase>
-    </testsuite>
-    <testsuite name="feature:-testing-the-full-functional-product-meun;edit-product---success" tests="17" failures="0" skipped="0">
-        <properties>
-            <property name="@test" value="true">
-            </property>
-            <property name="@feat" value="true">
-            </property>
-            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_SubAdnim/Product/Product.feature">
-            </property>
-        </properties>
-        <testcase name="Given I am online at &quot;http://127.0.0.1:5500/login.html&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---success" time="5.7874703">
-        </testcase>
-        <testcase name="Then I login in on the website with email value &quot;karabo&quot; and password value is &quot;karabo&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---success" time="0.8044902">
-        </testcase>
-        <testcase name="Then I wait for the page to load" classname="feature:-testing-the-full-functional-product-meun;edit-product---success" time="7.2898367">
-        </testcase>
-        <testcase name="Then I click side meun item with text &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---success" time="0.3887889">
-        </testcase>
-        <testcase name="Then I click button with Text &quot;Edit&quot; on row &quot;1&quot; on the table on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---success" time="1.2514561">
-        </testcase>
-        <testcase name="Then I wait for 5 seconds" classname="feature:-testing-the-full-functional-product-meun;edit-product---success" time="5.0124824">
-        </testcase>
-        <testcase name="Then I select this value &quot;AddTestProduct&quot; on dropdown &quot;Select Category&quot; field the menu &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---success" time="0.028899">
-        </testcase>
-        <testcase name="Then I enter value &quot;EditProductSuccess&quot; on field &quot;Name&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---success" time="1.0059597">
-        </testcase>
-        <testcase name="Then I enter value &quot;EditProductSuccess&quot; on field &quot;Slug&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---success" time="0.9775575">
-        </testcase>
-        <testcase name="Then I enter value &quot;Edit Short Description&quot; on textarea &quot;Short Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---success" time="1.207106">
-        </testcase>
-        <testcase name="Then I enter value &quot;Edit Description for Category&quot; on textarea &quot;Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---success" time="1.5216092">
-        </testcase>
-        <testcase name="Then I enter value &quot;20&quot; on field &quot;Original Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---success" time="0.2475892">
-        </testcase>
-        <testcase name="Then I enter value &quot;30&quot; on field &quot;Selling Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---success" time="0.2143594">
-        </testcase>
-        <testcase name="Then I enter value &quot;5&quot; on field &quot;Quantity&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---success" time="0.1839419">
-        </testcase>
-        <testcase name="Then I click on the checkbox with text &quot;Status&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---success" time="0.1070497">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Update&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---success" time="0.4300501">
-        </testcase>
-        <testcase name="Then I wait for a successfully alertBox on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---success" time="1.2591775">
-        </testcase>
-    </testsuite>
-    <testsuite name="feature:-testing-the-full-functional-product-meun;edit-product---error---exciting-product-name" tests="36" failures="0" skipped="0">
-        <properties>
-            <property name="@test" value="true">
-            </property>
-            <property name="@feat" value="true">
-            </property>
-            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_SubAdnim/Product/Product.feature">
-            </property>
-        </properties>
-        <testcase name="Given I am online at &quot;http://127.0.0.1:5500/login.html&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---exciting-product-name" time="4.5235968">
-        </testcase>
-        <testcase name="Then I login in on the website with email value &quot;karabo&quot; and password value is &quot;karabo&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---exciting-product-name" time="0.7940898">
-        </testcase>
-        <testcase name="Then I wait for the page to load" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---exciting-product-name" time="7.2710335">
-        </testcase>
-        <testcase name="Then I click side meun item with text &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---exciting-product-name" time="0.5586776">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Add Product&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---exciting-product-name" time="0.4182398">
-        </testcase>
-        <testcase name="Then I wait for 5 seconds" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---exciting-product-name" time="5.0121328">
-        </testcase>
-        <testcase name="Then I select this value &quot;AddTestProduct&quot; on dropdown &quot;Select Category&quot; field the menu &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---exciting-product-name" time="0.0302017">
-        </testcase>
-        <testcase name="Then I enter value &quot;EditProductError&quot; on field &quot;Name&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---exciting-product-name" time="0.9001873">
-        </testcase>
-        <testcase name="Then I enter value &quot;EditProductError&quot; on field &quot;Slug&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---exciting-product-name" time="0.8556416">
-        </testcase>
-        <testcase name="Then I enter value &quot;Add Short Description&quot; on textarea &quot;Short Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---exciting-product-name" time="1.1794279">
-        </testcase>
-        <testcase name="Then I enter value &quot;Description for Category&quot; on textarea &quot;Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---exciting-product-name" time="1.3939531">
-        </testcase>
-        <testcase name="Then I enter value &quot;20&quot; on field &quot;Original Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---exciting-product-name" time="0.1996001">
-        </testcase>
-        <testcase name="Then I enter value &quot;30&quot; on field &quot;Selling Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---exciting-product-name" time="0.2302949">
-        </testcase>
-        <testcase name="Then I enter value &quot;5&quot; on field &quot;Quantity&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---exciting-product-name" time="0.1691727">
-        </testcase>
-        <testcase name="Then I click on the checkbox with text &quot;Status&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---exciting-product-name" time="0.1069431">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Select Images&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---exciting-product-name" time="0.3999353">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Select Images&quot; and select on image with &quot;C:/Users/karabomo/Downloads/Bontle.jpeg&quot; path on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---exciting-product-name" time="0.4026117">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Select Images&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---exciting-product-name" time="0.402622">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Add&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---exciting-product-name" time="0.3545488">
-        </testcase>
-        <testcase name="Then I wait for a successfully alertBox on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---exciting-product-name" time="4.4229238">
-        </testcase>
-        <testcase name="Then I wait for 5 seconds" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---exciting-product-name" time="5.0158805">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Close&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---exciting-product-name" time="0.3413521">
-        </testcase>
-        <testcase name="Then I wait for 5 seconds" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---exciting-product-name" time="5.0073236">
-        </testcase>
-        <testcase name="Then I click button with Text &quot;Edit&quot; on row &quot;1&quot; on the table on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---exciting-product-name" time="0.4284208">
-        </testcase>
-        <testcase name="Then I wait for 5 seconds" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---exciting-product-name" time="5.0054055">
-        </testcase>
-        <testcase name="Then I select this value &quot;AddTestProduct&quot; on dropdown &quot;Select Category&quot; field the menu &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---exciting-product-name" time="0.0298703">
-        </testcase>
-        <testcase name="Then I enter value &quot;EditProductError&quot; on field &quot;Name&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---exciting-product-name" time="0.8637764">
-        </testcase>
-        <testcase name="Then I enter value &quot;EditProductError&quot; on field &quot;Slug&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---exciting-product-name" time="0.8799811">
-        </testcase>
-        <testcase name="Then I enter value &quot;Edit Short Description&quot; on textarea &quot;Short Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---exciting-product-name" time="1.1336227">
-        </testcase>
-        <testcase name="Then I enter value &quot;Edit Description for Category&quot; on textarea &quot;Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---exciting-product-name" time="1.4937161">
-        </testcase>
-        <testcase name="Then I enter value &quot;20&quot; on field &quot;Original Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---exciting-product-name" time="0.2148916">
-        </testcase>
-        <testcase name="Then I enter value &quot;30&quot; on field &quot;Selling Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---exciting-product-name" time="0.2277983">
-        </testcase>
-        <testcase name="Then I enter value &quot;5&quot; on field &quot;Quantity&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---exciting-product-name" time="0.1528524">
-        </testcase>
-        <testcase name="Then I click on the checkbox with text &quot;Status&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---exciting-product-name" time="0.1074418">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Update&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---exciting-product-name" time="0.4193784">
-        </testcase>
-        <testcase name="Then I wait for a danger alertBox on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---exciting-product-name" time="0.0886299">
-        </testcase>
-    </testsuite>
-    <testsuite name="feature:-testing-the-full-functional-product-meun;edit-product---error---product-name-empty" tests="17" failures="0" skipped="0">
-        <properties>
-            <property name="@test" value="true">
-            </property>
-            <property name="@feat" value="true">
-            </property>
-            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_SubAdnim/Product/Product.feature">
-            </property>
-        </properties>
-        <testcase name="Given I am online at &quot;http://127.0.0.1:5500/login.html&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-name-empty" time="6.2238582">
-        </testcase>
-        <testcase name="Then I login in on the website with email value &quot;karabo&quot; and password value is &quot;karabo&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-name-empty" time="1.0875963">
-        </testcase>
-        <testcase name="Then I wait for the page to load" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-name-empty" time="5.5155528">
-        </testcase>
-        <testcase name="Then I click side meun item with text &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-name-empty" time="0.3137166">
-        </testcase>
-        <testcase name="Then I click button with Text &quot;Edit&quot; on row &quot;1&quot; on the table on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-name-empty" time="1.2395568">
-        </testcase>
-        <testcase name="Then I wait for 5 seconds" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-name-empty" time="5.0036269">
-        </testcase>
-        <testcase name="Then I select this value &quot;AddTestProduct&quot; on dropdown &quot;Select Category&quot; field the menu &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-name-empty" time="0.0288687">
-        </testcase>
-        <testcase name="Then I enter value &quot;&quot; on field &quot;Name&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-name-empty" time="0.1667778">
-        </testcase>
-        <testcase name="Then I enter value &quot;AddProductSuccess&quot; on field &quot;Slug&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-name-empty" time="0.9782904">
-        </testcase>
-        <testcase name="Then I enter value &quot;Add Short Description&quot; on textarea &quot;Short Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-name-empty" time="1.2407867">
-        </testcase>
-        <testcase name="Then I enter value &quot;Description for Category&quot; on textarea &quot;Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-name-empty" time="1.3956965">
-        </testcase>
-        <testcase name="Then I enter value &quot;20&quot; on field &quot;Original Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-name-empty" time="0.230189">
-        </testcase>
-        <testcase name="Then I enter value &quot;30&quot; on field &quot;Selling Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-name-empty" time="0.2309493">
-        </testcase>
-        <testcase name="Then I enter value &quot;5&quot; on field &quot;Quantity&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-name-empty" time="0.1510061">
-        </testcase>
-        <testcase name="Then I click on the checkbox with text &quot;Status&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-name-empty" time="0.1198335">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Update&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-name-empty" time="0.4356277">
-        </testcase>
-        <testcase name="Then I wait for a danger alertBox on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-name-empty" time="0.1214248">
-        </testcase>
-    </testsuite>
-    <testsuite name="feature:-testing-the-full-functional-product-meun;edit-product---error---product-slug-empty" tests="17" failures="0" skipped="0">
-        <properties>
-            <property name="@test" value="true">
-            </property>
-            <property name="@feat" value="true">
-            </property>
-            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_SubAdnim/Product/Product.feature">
-            </property>
-        </properties>
-        <testcase name="Given I am online at &quot;http://127.0.0.1:5500/login.html&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-slug-empty" time="4.3286896">
-        </testcase>
-        <testcase name="Then I login in on the website with email value &quot;karabo&quot; and password value is &quot;karabo&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-slug-empty" time="0.7876288">
-        </testcase>
-        <testcase name="Then I wait for the page to load" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-slug-empty" time="5.5932994">
-        </testcase>
-        <testcase name="Then I click side meun item with text &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-slug-empty" time="0.387689">
-        </testcase>
-        <testcase name="Then I click button with Text &quot;Edit&quot; on row &quot;1&quot; on the table on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-slug-empty" time="1.2844624">
-        </testcase>
-        <testcase name="Then I wait for 5 seconds" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-slug-empty" time="5.0132733">
-        </testcase>
-        <testcase name="Then I select this value &quot;AddTestProduct&quot; on dropdown &quot;Select Category&quot; field the menu &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-slug-empty" time="0.0282232">
-        </testcase>
-        <testcase name="Then I enter value &quot;AddProductError&quot; on field &quot;Name&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-slug-empty" time="0.9898412">
-        </testcase>
-        <testcase name="Then I enter value &quot;&quot; on field &quot;Slug&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-slug-empty" time="0.1645587">
-        </testcase>
-        <testcase name="Then I enter value &quot;Add Short Description&quot; on textarea &quot;Short Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-slug-empty" time="1.194458">
-        </testcase>
-        <testcase name="Then I enter value &quot;Description for Category&quot; on textarea &quot;Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-slug-empty" time="1.3539263">
-        </testcase>
-        <testcase name="Then I enter value &quot;20&quot; on field &quot;Original Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-slug-empty" time="0.2307336">
-        </testcase>
-        <testcase name="Then I enter value &quot;30&quot; on field &quot;Selling Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-slug-empty" time="0.2438897">
-        </testcase>
-        <testcase name="Then I enter value &quot;5&quot; on field &quot;Quantity&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-slug-empty" time="0.1849445">
-        </testcase>
-        <testcase name="Then I click on the checkbox with text &quot;Status&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-slug-empty" time="0.1236719">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Update&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-slug-empty" time="0.4939537">
-        </testcase>
-        <testcase name="Then I wait for a danger alertBox on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-slug-empty" time="0.1524706">
-        </testcase>
-    </testsuite>
-    <testsuite name="feature:-testing-the-full-functional-product-meun;edit-product---error---product-no-sub-category" tests="15" failures="0" skipped="0">
-        <properties>
-            <property name="@test" value="true">
-            </property>
-            <property name="@feat" value="true">
-            </property>
-            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_SubAdnim/Product/Product.feature">
-            </property>
-        </properties>
-        <testcase name="Given I am online at &quot;http://127.0.0.1:5500/login.html&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-no-sub-category" time="4.8756041">
-        </testcase>
-        <testcase name="Then I login in on the website with email value &quot;karabo&quot; and password value is &quot;karabo&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-no-sub-category" time="0.9425121">
-        </testcase>
-        <testcase name="Then I wait for the page to load" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-no-sub-category" time="7.5149909">
-        </testcase>
-        <testcase name="Then I click side meun item with text &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-no-sub-category" time="0.5668701">
-        </testcase>
-        <testcase name="Then I click button with Text &quot;Edit&quot; on row &quot;1&quot; on the table on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-no-sub-category" time="1.2941578">
-        </testcase>
-        <testcase name="Then I wait for 5 seconds" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-no-sub-category" time="5.0061232">
-        </testcase>
-        <testcase name="Then I enter value &quot;AddProductError&quot; on field &quot;Name&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-no-sub-category" time="0.8497219">
-        </testcase>
-        <testcase name="Then I enter value &quot;AddProductError&quot; on field &quot;Slug&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-no-sub-category" time="0.849208">
-        </testcase>
-        <testcase name="Then I enter value &quot;Add Short Description&quot; on textarea &quot;Short Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-no-sub-category" time="1.1773755">
-        </testcase>
-        <testcase name="Then I enter value &quot;Description for Category&quot; on textarea &quot;Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-no-sub-category" time="1.3341964">
-        </testcase>
-        <testcase name="Then I enter value &quot;20&quot; on field &quot;Original Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-no-sub-category" time="0.2293402">
-        </testcase>
-        <testcase name="Then I enter value &quot;30&quot; on field &quot;Selling Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-no-sub-category" time="0.229695">
-        </testcase>
-        <testcase name="Then I enter value &quot;5&quot; on field &quot;Quantity&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-no-sub-category" time="0.1832269">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Update&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-no-sub-category" time="0.4516612">
-        </testcase>
-        <testcase name="Then I wait for a danger alertBox on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-no-sub-category" time="0.0845331">
-        </testcase>
-    </testsuite>
-    <testsuite name="feature:-testing-the-full-functional-product-meun;edit-product---error---product-short-description-empty" tests="17" failures="0" skipped="0">
-        <properties>
-            <property name="@test" value="true">
-            </property>
-            <property name="@feat" value="true">
-            </property>
-            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_SubAdnim/Product/Product.feature">
-            </property>
-        </properties>
-        <testcase name="Given I am online at &quot;http://127.0.0.1:5500/login.html&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-short-description-empty" time="4.2189106">
-        </testcase>
-        <testcase name="Then I login in on the website with email value &quot;karabo&quot; and password value is &quot;karabo&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-short-description-empty" time="0.8784718">
-        </testcase>
-        <testcase name="Then I wait for the page to load" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-short-description-empty" time="6.4071751">
-        </testcase>
-        <testcase name="Then I click side meun item with text &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-short-description-empty" time="0.4643823">
-        </testcase>
-        <testcase name="Then I click button with Text &quot;Edit&quot; on row &quot;1&quot; on the table on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-short-description-empty" time="1.4031169">
-        </testcase>
-        <testcase name="Then I wait for 5 seconds" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-short-description-empty" time="5.0265694">
-        </testcase>
-        <testcase name="Then I select this value &quot;AddTestProduct&quot; on dropdown &quot;Select Category&quot; field the menu &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-short-description-empty" time="0.0287809">
-        </testcase>
-        <testcase name="Then I enter value &quot;AddProductError&quot; on field &quot;Name&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-short-description-empty" time="0.9190262">
-        </testcase>
-        <testcase name="Then I enter value &quot;AddProductError&quot; on field &quot;Slug&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-short-description-empty" time="0.8361065">
-        </testcase>
-        <testcase name="Then I enter value &quot;&quot; on textarea &quot;Short Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-short-description-empty" time="0.1375712">
-        </testcase>
-        <testcase name="Then I enter value &quot;Description for Category&quot; on textarea &quot;Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-short-description-empty" time="1.450036">
-        </testcase>
-        <testcase name="Then I enter value &quot;20&quot; on field &quot;Original Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-short-description-empty" time="0.2465211">
-        </testcase>
-        <testcase name="Then I enter value &quot;30&quot; on field &quot;Selling Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-short-description-empty" time="0.2303992">
-        </testcase>
-        <testcase name="Then I enter value &quot;5&quot; on field &quot;Quantity&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-short-description-empty" time="0.1714766">
-        </testcase>
-        <testcase name="Then I click on the checkbox with text &quot;Status&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-short-description-empty" time="0.1185178">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Update&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-short-description-empty" time="0.4435835">
-        </testcase>
-        <testcase name="Then I wait for a danger alertBox on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-short-description-empty" time="0.080975">
-        </testcase>
-    </testsuite>
-    <testsuite name="feature:-testing-the-full-functional-product-meun;edit-product---error---product-description-empty" tests="17" failures="0" skipped="0">
-        <properties>
-            <property name="@test" value="true">
-            </property>
-            <property name="@feat" value="true">
-            </property>
-            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_SubAdnim/Product/Product.feature">
-            </property>
-        </properties>
-        <testcase name="Given I am online at &quot;http://127.0.0.1:5500/login.html&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-description-empty" time="4.175991">
-        </testcase>
-        <testcase name="Then I login in on the website with email value &quot;karabo&quot; and password value is &quot;karabo&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-description-empty" time="0.963401">
-        </testcase>
-        <testcase name="Then I wait for the page to load" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-description-empty" time="6.6451193">
-        </testcase>
-        <testcase name="Then I click side meun item with text &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-description-empty" time="0.5071827">
-        </testcase>
-        <testcase name="Then I click button with Text &quot;Edit&quot; on row &quot;1&quot; on the table on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-description-empty" time="1.3517725">
-        </testcase>
-        <testcase name="Then I wait for 5 seconds" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-description-empty" time="5.0076297">
-        </testcase>
-        <testcase name="Then I select this value &quot;AddTestProduct&quot; on dropdown &quot;Select Category&quot; field the menu &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-description-empty" time="0.0281367">
-        </testcase>
-        <testcase name="Then I enter value &quot;AddProductError&quot; on field &quot;Name&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-description-empty" time="0.87785">
-        </testcase>
-        <testcase name="Then I enter value &quot;AddProductError&quot; on field &quot;Slug&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-description-empty" time="0.8669026">
-        </testcase>
-        <testcase name="Then I enter value &quot;Add Short Description&quot; on textarea &quot;Short Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-description-empty" time="1.1833595">
-        </testcase>
-        <testcase name="Then I enter value &quot;&quot; on textarea &quot;Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-description-empty" time="0.1060506">
-        </testcase>
-        <testcase name="Then I enter value &quot;20&quot; on field &quot;Original Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-description-empty" time="0.2286519">
-        </testcase>
-        <testcase name="Then I enter value &quot;30&quot; on field &quot;Selling Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-description-empty" time="0.2315756">
-        </testcase>
-        <testcase name="Then I enter value &quot;5&quot; on field &quot;Quantity&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-description-empty" time="0.1864282">
-        </testcase>
-        <testcase name="Then I click on the checkbox with text &quot;Status&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-description-empty" time="0.1074143">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Update&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-description-empty" time="0.4881772">
-        </testcase>
-        <testcase name="Then I wait for a danger alertBox on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-description-empty" time="0.1278173">
-        </testcase>
-    </testsuite>
-    <testsuite name="feature:-testing-the-full-functional-product-meun;edit-product---error---product-original-price-empty" tests="17" failures="0" skipped="0">
-        <properties>
-            <property name="@test" value="true">
-            </property>
-            <property name="@feat" value="true">
-            </property>
-            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_SubAdnim/Product/Product.feature">
-            </property>
-        </properties>
-        <testcase name="Given I am online at &quot;http://127.0.0.1:5500/login.html&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-original-price-empty" time="4.6824484">
-        </testcase>
-        <testcase name="Then I login in on the website with email value &quot;karabo&quot; and password value is &quot;karabo&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-original-price-empty" time="0.7733568">
-        </testcase>
-        <testcase name="Then I wait for the page to load" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-original-price-empty" time="9.2414142">
-        </testcase>
-        <testcase name="Then I click side meun item with text &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-original-price-empty" time="0.3757867">
-        </testcase>
-        <testcase name="Then I click button with Text &quot;Edit&quot; on row &quot;1&quot; on the table on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-original-price-empty" time="1.095343">
-        </testcase>
-        <testcase name="Then I wait for 5 seconds" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-original-price-empty" time="5.0122004">
-        </testcase>
-        <testcase name="Then I select this value &quot;AddTestProduct&quot; on dropdown &quot;Select Category&quot; field the menu &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-original-price-empty" time="0.0297253">
-        </testcase>
-        <testcase name="Then I enter value &quot;AddProductError&quot; on field &quot;Name&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-original-price-empty" time="0.866913">
-        </testcase>
-        <testcase name="Then I enter value &quot;AddProductError&quot; on field &quot;Slug&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-original-price-empty" time="0.8697195">
-        </testcase>
-        <testcase name="Then I enter value &quot;Add Short Description&quot; on textarea &quot;Short Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-original-price-empty" time="1.1602851">
-        </testcase>
-        <testcase name="Then I enter value &quot;Description for Category&quot; on textarea &quot;Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-original-price-empty" time="1.2686268">
-        </testcase>
-        <testcase name="Then I enter value &quot;&quot; on field &quot;Original Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-original-price-empty" time="0.1340851">
-        </testcase>
-        <testcase name="Then I enter value &quot;30&quot; on field &quot;Selling Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-original-price-empty" time="0.2315337">
-        </testcase>
-        <testcase name="Then I enter value &quot;5&quot; on field &quot;Quantity&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-original-price-empty" time="0.1546199">
-        </testcase>
-        <testcase name="Then I click on the checkbox with text &quot;Status&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-original-price-empty" time="0.1210277">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Update&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-original-price-empty" time="0.4763446">
-        </testcase>
-        <testcase name="Then I wait for a danger alertBox on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-original-price-empty" time="0.1202455">
-        </testcase>
-    </testsuite>
-    <testsuite name="feature:-testing-the-full-functional-product-meun;edit-product---error---product-original-price-is-zero" tests="17" failures="0" skipped="0">
-        <properties>
-            <property name="@test" value="true">
-            </property>
-            <property name="@feat" value="true">
-            </property>
-            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_SubAdnim/Product/Product.feature">
-            </property>
-        </properties>
-        <testcase name="Given I am online at &quot;http://127.0.0.1:5500/login.html&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-original-price-is-zero" time="4.807489">
-        </testcase>
-        <testcase name="Then I login in on the website with email value &quot;karabo&quot; and password value is &quot;karabo&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-original-price-is-zero" time="0.8058421">
-        </testcase>
-        <testcase name="Then I wait for the page to load" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-original-price-is-zero" time="7.0510435">
-        </testcase>
-        <testcase name="Then I click side meun item with text &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-original-price-is-zero" time="0.4399193">
-        </testcase>
-        <testcase name="Then I click button with Text &quot;Edit&quot; on row &quot;1&quot; on the table on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-original-price-is-zero" time="1.3642755">
-        </testcase>
-        <testcase name="Then I wait for 5 seconds" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-original-price-is-zero" time="5.0027418">
-        </testcase>
-        <testcase name="Then I select this value &quot;AddTestProduct&quot; on dropdown &quot;Select Category&quot; field the menu &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-original-price-is-zero" time="0.0293021">
-        </testcase>
-        <testcase name="Then I enter value &quot;AddProductError&quot; on field &quot;Name&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-original-price-is-zero" time="0.8756062">
-        </testcase>
-        <testcase name="Then I enter value &quot;AddProductError&quot; on field &quot;Slug&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-original-price-is-zero" time="0.8509943">
-        </testcase>
-        <testcase name="Then I enter value &quot;Add Short Description&quot; on textarea &quot;Short Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-original-price-is-zero" time="1.3059271">
-        </testcase>
-        <testcase name="Then I enter value &quot;Description for Category&quot; on textarea &quot;Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-original-price-is-zero" time="1.3028731">
-        </testcase>
-        <testcase name="Then I enter value &quot;0&quot; on field &quot;Original Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-original-price-is-zero" time="0.1701884">
-        </testcase>
-        <testcase name="Then I enter value &quot;30&quot; on field &quot;Selling Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-original-price-is-zero" time="0.2151454">
-        </testcase>
-        <testcase name="Then I enter value &quot;5&quot; on field &quot;Quantity&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-original-price-is-zero" time="0.1699205">
-        </testcase>
-        <testcase name="Then I click on the checkbox with text &quot;Status&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-original-price-is-zero" time="0.1195746">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Update&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-original-price-is-zero" time="0.4567968">
-        </testcase>
-        <testcase name="Then I wait for a danger alertBox on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-original-price-is-zero" time="0.1008331">
-        </testcase>
-    </testsuite>
-    <testsuite name="feature:-testing-the-full-functional-product-meun;edit-product---error---product-selling-price-empty" tests="16" failures="0" skipped="0">
-        <properties>
-            <property name="@test" value="true">
-            </property>
-            <property name="@feat" value="true">
-            </property>
-            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_SubAdnim/Product/Product.feature">
-            </property>
-        </properties>
-        <testcase name="Given I am online at &quot;http://127.0.0.1:5500/login.html&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-selling-price-empty" time="4.8848759">
-        </testcase>
-        <testcase name="Then I login in on the website with email value &quot;karabo&quot; and password value is &quot;karabo&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-selling-price-empty" time="0.896971">
-        </testcase>
-        <testcase name="Then I wait for the page to load" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-selling-price-empty" time="7.1002037">
-        </testcase>
-        <testcase name="Then I click side meun item with text &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-selling-price-empty" time="0.4415327">
-        </testcase>
-        <testcase name="Then I click button with Text &quot;Edit&quot; on row &quot;1&quot; on the table on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-selling-price-empty" time="1.8392093">
-        </testcase>
-        <testcase name="Then I wait for 5 seconds" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-selling-price-empty" time="5.0106203">
-        </testcase>
-        <testcase name="Then I select this value &quot;AddTestProduct&quot; on dropdown &quot;Select Category&quot; field the menu &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-selling-price-empty" time="0.0279845">
-        </testcase>
-        <testcase name="Then I enter value &quot;AddProductError&quot; on field &quot;Name&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-selling-price-empty" time="0.8528424">
-        </testcase>
-        <testcase name="Then I enter value &quot;AddProductError&quot; on field &quot;Slug&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-selling-price-empty" time="0.9009092">
-        </testcase>
-        <testcase name="Then I enter value &quot;Add Short Description&quot; on textarea &quot;Short Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-selling-price-empty" time="1.145919">
-        </testcase>
-        <testcase name="Then I enter value &quot;Description for Category&quot; on textarea &quot;Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-selling-price-empty" time="1.3096655">
-        </testcase>
-        <testcase name="Then I enter value &quot;20&quot; on field &quot;Original Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-selling-price-empty" time="0.2471264">
-        </testcase>
-        <testcase name="Then I enter value &quot;&quot; on field &quot;Selling Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-selling-price-empty" time="0.1213337">
-        </testcase>
-        <testcase name="Then I enter value &quot;5&quot; on field &quot;Quantity&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-selling-price-empty" time="0.1667004">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Update&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-selling-price-empty" time="0.4524966">
-        </testcase>
-        <testcase name="Then I wait for a danger alertBox on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-selling-price-empty" time="0.1802543">
-        </testcase>
-    </testsuite>
-    <testsuite name="feature:-testing-the-full-functional-product-meun;edit-product---error---product-selling-price-is-zero" tests="16" failures="0" skipped="0">
-        <properties>
-            <property name="@test" value="true">
-            </property>
-            <property name="@feat" value="true">
-            </property>
-            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_SubAdnim/Product/Product.feature">
-            </property>
-        </properties>
-        <testcase name="Given I am online at &quot;http://127.0.0.1:5500/login.html&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-selling-price-is-zero" time="4.1937731">
-        </testcase>
-        <testcase name="Then I login in on the website with email value &quot;karabo&quot; and password value is &quot;karabo&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-selling-price-is-zero" time="0.8545948">
-        </testcase>
-        <testcase name="Then I wait for the page to load" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-selling-price-is-zero" time="7.145725">
-        </testcase>
-        <testcase name="Then I click side meun item with text &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-selling-price-is-zero" time="0.3763945">
-        </testcase>
-        <testcase name="Then I click button with Text &quot;Edit&quot; on row &quot;1&quot; on the table on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-selling-price-is-zero" time="1.3307857">
-        </testcase>
-        <testcase name="Then I wait for 5 seconds" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-selling-price-is-zero" time="5.0135237">
-        </testcase>
-        <testcase name="Then I select this value &quot;AddTestProduct&quot; on dropdown &quot;Select Category&quot; field the menu &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-selling-price-is-zero" time="0.0297394">
-        </testcase>
-        <testcase name="Then I enter value &quot;AddProductError&quot; on field &quot;Name&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-selling-price-is-zero" time="0.8945066">
-        </testcase>
-        <testcase name="Then I enter value &quot;AddProductError&quot; on field &quot;Slug&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-selling-price-is-zero" time="0.8835909">
-        </testcase>
-        <testcase name="Then I enter value &quot;Add Short Description&quot; on textarea &quot;Short Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-selling-price-is-zero" time="1.1792354">
-        </testcase>
-        <testcase name="Then I enter value &quot;Description for Category&quot; on textarea &quot;Description&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-selling-price-is-zero" time="1.3323353">
-        </testcase>
-        <testcase name="Then I enter value &quot;20&quot; on field &quot;Original Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-selling-price-is-zero" time="0.2172158">
-        </testcase>
-        <testcase name="Then I enter value &quot;0&quot; on field &quot;Selling Price&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-selling-price-is-zero" time="0.1680408">
-        </testcase>
-        <testcase name="Then I enter value &quot;5&quot; on field &quot;Quantity&quot; on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-selling-price-is-zero" time="0.1841796">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Update&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-selling-price-is-zero" time="0.432928">
-        </testcase>
-        <testcase name="Then I wait for a danger alertBox on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;edit-product---error---product-selling-price-is-zero" time="0.1086592">
-        </testcase>
-    </testsuite>
-    <testsuite name="feature:-testing-the-full-functional-product-meun;delect-product---success" tests="7" failures="0" skipped="0">
-        <properties>
-            <property name="@test" value="true">
-            </property>
-            <property name="@feat" value="true">
-            </property>
-            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_SubAdnim/Product/Product.feature">
-            </property>
-        </properties>
-        <testcase name="Given I am online at &quot;http://127.0.0.1:5500/login.html&quot;" classname="feature:-testing-the-full-functional-product-meun;delect-product---success" time="5.0438826">
-        </testcase>
-        <testcase name="Then I login in on the website with email value &quot;karabo&quot; and password value is &quot;karabo&quot;" classname="feature:-testing-the-full-functional-product-meun;delect-product---success" time="0.7761191">
-        </testcase>
-        <testcase name="Then I wait for the page to load" classname="feature:-testing-the-full-functional-product-meun;delect-product---success" time="5.7876983">
-        </testcase>
-        <testcase name="Then I click side meun item with text &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;delect-product---success" time="0.53533">
-        </testcase>
-        <testcase name="Then I click button with Text &quot;Delete&quot; on row &quot;1&quot; on the table on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;delect-product---success" time="1.1952347">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Accept&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;delect-product---success" time="0.4627202">
-        </testcase>
-        <testcase name="Then I wait for a successfully alertBox on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;delect-product---success" time="2.2269609">
-        </testcase>
-    </testsuite>
-    <testsuite name="feature:-testing-the-full-functional-product-meun;delect-product---success" tests="7" failures="0" skipped="0">
-        <properties>
-            <property name="@test" value="true">
-            </property>
-            <property name="@feat" value="true">
-            </property>
-            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_SubAdnim/Product/Product.feature">
-            </property>
-        </properties>
-        <testcase name="Given I am online at &quot;http://127.0.0.1:5500/login.html&quot;" classname="feature:-testing-the-full-functional-product-meun;delect-product---success" time="4.7329549">
-        </testcase>
-        <testcase name="Then I login in on the website with email value &quot;karabo&quot; and password value is &quot;karabo&quot;" classname="feature:-testing-the-full-functional-product-meun;delect-product---success" time="0.898085">
-        </testcase>
-        <testcase name="Then I wait for the page to load" classname="feature:-testing-the-full-functional-product-meun;delect-product---success" time="27.8781401">
-        </testcase>
-        <testcase name="Then I click side meun item with text &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;delect-product---success" time="0.5196729">
-        </testcase>
-        <testcase name="Then I click button with Text &quot;Delete&quot; on row &quot;1&quot; on the table on side meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;delect-product---success" time="1.1729737">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Accept&quot; on side meun text this &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;delect-product---success" time="0.3691386">
-        </testcase>
-        <testcase name="Then I wait for a successfully alertBox on meun &quot;Product&quot;" classname="feature:-testing-the-full-functional-product-meun;delect-product---success" time="1.6706871">
+        <testcase name="Then I wait for a success alertBox" classname="testing-the-full-functional-branches-meun;delete-branches---success" time="30.0051757">
+            <failure message="TimeoutError: waiting for selector `#toast-success` failed: timeout 30000ms exceeded">TimeoutError: waiting for selector `#toast-success` failed: timeout 30000ms exceeded
+    at new WaitTask (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:509:34)
+    at DOMWorld.waitForSelectorInPage (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:420:26)
+    at internalHandler.waitFor (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:31:77)
+    at DOMWorld.waitForSelector (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:313:29)
+    at Frame.waitForSelector (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:841:51)
+    at createWorld.&lt;anonymous&gt; (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\features\step-definitions\orca-scan-demo-steps.js:882:46)</failure>
         </testcase>
     </testsuite>
 </testsuites>

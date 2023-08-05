@@ -6,7 +6,7 @@ Feature: Feature: Testing The Full Functional Product Meun
         Then I login in on the website with email value "karabo" and password value is "karabo"
         Then I wait for the page to load
 
-    @test
+    #@test
     @feat
     Scenario: Add Category For Product - Success 
         Then I click side meun item with text "Category"
@@ -19,7 +19,7 @@ Feature: Feature: Testing The Full Functional Product Meun
         Then I click on button with text "Add" on side meun text this "Category"
         Then I wait for a successfully alertBox on meun "Category"
 
-    @test
+    #@test
     @feat
     Scenario: Add Product - Success
 
@@ -41,7 +41,7 @@ Feature: Feature: Testing The Full Functional Product Meun
         Then I click on button with text "Add" on side meun text this "Product"
         Then I wait for a successfully alertBox on meun "Product"
 
-    @test
+    #@test
     @feat
     Scenario: Add Product - Error - Exciting Product Name
 
@@ -64,7 +64,7 @@ Feature: Feature: Testing The Full Functional Product Meun
         Then I wait for a danger alertBox on meun "Product"
 
 
-    @test
+    #@test
     @feat
     Scenario: Add Product - Error - Product Name Empty
 
@@ -87,7 +87,7 @@ Feature: Feature: Testing The Full Functional Product Meun
         Then I click on button with text "Add" on side meun text this "Product"
         Then I wait for a danger alertBox on meun "Product"
         
-    @test
+    #@test
     @feat
     Scenario: Add Product - Error - Product Slug Empty
 
@@ -110,7 +110,7 @@ Feature: Feature: Testing The Full Functional Product Meun
         Then I click on button with text "Add" on side meun text this "Product"
         Then I wait for a danger alertBox on meun "Product"
 
-    @test
+    #@test
     @feat
     Scenario: Add Product - Error - Product No Sub-Category
 
@@ -133,7 +133,7 @@ Feature: Feature: Testing The Full Functional Product Meun
         Then I click on button with text "Add" on side meun text this "Product"
         Then I wait for a danger alertBox on meun "Product"
        
-    @test
+    #@test
     @feat
     Scenario: Add Product - Error - Product Short Description Empty
 
@@ -156,7 +156,7 @@ Feature: Feature: Testing The Full Functional Product Meun
         Then I click on button with text "Add" on side meun text this "Product"
         Then I wait for a danger alertBox on meun "Product"
 
-    @test
+    #@test
     @feat
     Scenario: Add Product - Error - Product Description Empty
 
@@ -179,7 +179,7 @@ Feature: Feature: Testing The Full Functional Product Meun
         Then I click on button with text "Add" on side meun text this "Product"
         Then I wait for a danger alertBox on meun "Product"
        
-    @test
+    #@test
     @feat
     Scenario: Add Product - Error - Product Original Price Empty
 
@@ -202,7 +202,7 @@ Feature: Feature: Testing The Full Functional Product Meun
         Then I click on button with text "Add" on side meun text this "Product"
         Then I wait for a danger alertBox on meun "Product"
        
-    @test
+    #@test
     @feat
     Scenario: Add Product - Error - Product Original Price Is Zero
 
@@ -225,7 +225,7 @@ Feature: Feature: Testing The Full Functional Product Meun
         Then I click on button with text "Add" on side meun text this "Product"
         Then I wait for a danger alertBox on meun "Product"
       
-    @test
+    #@test
     @feat
     Scenario: Add Product - Error - Product Selling Price Empty
 
@@ -248,7 +248,7 @@ Feature: Feature: Testing The Full Functional Product Meun
         Then I click on button with text "Add" on side meun text this "Product"
         Then I wait for a danger alertBox on meun "Product"
        
-    @test
+    #@test
     @feat
     Scenario: Add Product - Error - Product Selling Price Is Zero
 
@@ -271,7 +271,7 @@ Feature: Feature: Testing The Full Functional Product Meun
         Then I click on button with text "Add" on side meun text this "Product"
         Then I wait for a danger alertBox on meun "Product"
       
-    @test
+    #@test
     @feat
     Scenario: Add Product - Error - Product No images
 
@@ -291,7 +291,7 @@ Feature: Feature: Testing The Full Functional Product Meun
         Then I wait for a danger alertBox on meun "Product"
         
     
-    @test
+    #@test
     @feat
     Scenario: Add Product - Error - Product Less Then 3 images
 
@@ -313,7 +313,7 @@ Feature: Feature: Testing The Full Functional Product Meun
         Then I wait for a danger alertBox on meun "Product"
         
       
-    @test
+    #@test
     @feat
     Scenario: Edit Product - Success
 
@@ -332,7 +332,7 @@ Feature: Feature: Testing The Full Functional Product Meun
         Then I click on button with text "Update" on side meun text this "Product"
         Then I wait for a successfully alertBox on meun "Product"
       
-    @test
+    #@test
     @feat
     Scenario: Edit Product - Error - Exciting Product Name 
 
@@ -371,7 +371,7 @@ Feature: Feature: Testing The Full Functional Product Meun
         Then I click on button with text "Update" on side meun text this "Product"
         Then I wait for a danger alertBox on meun "Product"
 
-    @test
+    #@test
     @feat
     Scenario: Edit Product - Error - Product Name Empty
 
@@ -391,7 +391,7 @@ Feature: Feature: Testing The Full Functional Product Meun
         Then I click on button with text "Update" on side meun text this "Product"
         Then I wait for a danger alertBox on meun "Product"
         
-    @test
+    #@test
     @feat
     Scenario: Edit Product - Error - Product Slug Empty
 
@@ -411,7 +411,7 @@ Feature: Feature: Testing The Full Functional Product Meun
         Then I click on button with text "Update" on side meun text this "Product"
         Then I wait for a danger alertBox on meun "Product"
 
-    @test
+    #@test
     @feat
     Scenario: Edit Product - Error - Product No Sub-Category
 
@@ -429,7 +429,7 @@ Feature: Feature: Testing The Full Functional Product Meun
         Then I click on button with text "Update" on side meun text this "Product"
         Then I wait for a danger alertBox on meun "Product"
        
-    @test
+    #@test
     @feat
     Scenario: Edit Product - Error - Product Short Description Empty
 
@@ -449,7 +449,7 @@ Feature: Feature: Testing The Full Functional Product Meun
         Then I click on button with text "Update" on side meun text this "Product"
         Then I wait for a danger alertBox on meun "Product"
 
-    @test
+    #@test
     @feat
     Scenario: Edit Product - Error - Product Description Empty
 
@@ -469,7 +469,7 @@ Feature: Feature: Testing The Full Functional Product Meun
         Then I click on button with text "Update" on side meun text this "Product"
         Then I wait for a danger alertBox on meun "Product"
        
-    @test
+    #@test
     @feat
     Scenario: Edit Product - Error - Product Original Price Empty
 
@@ -489,7 +489,7 @@ Feature: Feature: Testing The Full Functional Product Meun
         Then I click on button with text "Update" on side meun text this "Product"
         Then I wait for a danger alertBox on meun "Product"
        
-    @test
+    #@test
     @feat
     Scenario: Edit Product - Error - Product Original Price Is Zero
 
@@ -509,7 +509,7 @@ Feature: Feature: Testing The Full Functional Product Meun
         Then I click on button with text "Update" on side meun text this "Product"
         Then I wait for a danger alertBox on meun "Product"
       
-    @test
+    #@test
     @feat
     Scenario: Edit Product - Error - Product Selling Price Empty
 
@@ -528,7 +528,7 @@ Feature: Feature: Testing The Full Functional Product Meun
         Then I click on button with text "Update" on side meun text this "Product"
         Then I wait for a danger alertBox on meun "Product"
        
-    @test
+    #@test
     @feat
     Scenario: Edit Product - Error - Product Selling Price Is Zero
 
@@ -547,7 +547,7 @@ Feature: Feature: Testing The Full Functional Product Meun
         Then I click on button with text "Update" on side meun text this "Product"
         Then I wait for a danger alertBox on meun "Product"
       
-    @test
+    #@test
     @feat
     Scenario: Delect Product - Success
 
@@ -556,7 +556,7 @@ Feature: Feature: Testing The Full Functional Product Meun
         Then I click on button with text "Accept" on side meun text this "Product"
         Then I wait for a successfully alertBox on meun "Product"
 
-    @test
+    #@test
     @feat
     Scenario: Delect Product - Success
 

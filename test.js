@@ -21,7 +21,7 @@ var config = {
     reports: './features/reports',
     browser: 'chrome',
     browserTeardownStrategy: 'always',
-    timeout: 50000,
+    timeout: 100000,
     headless: false,
     devTools: false,
     slowMo: 10

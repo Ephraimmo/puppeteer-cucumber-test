@@ -139,3 +139,10 @@ Feature: Feature: Testing The Full Functional Category Meun
         Then I click on button with text "Accept" on side meun text this "Category"
         Then I wait for a successfully alertBox on meun "Category"
 
+
+    #@test
+    Scenario: Scenario name
+
+    And I am on the website with url "<Header 1>"
+
+  

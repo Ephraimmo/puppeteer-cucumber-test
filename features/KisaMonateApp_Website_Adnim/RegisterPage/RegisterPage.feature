@@ -1,7 +1,7 @@
 Feature: Testing The Full Functional Registering And Email verification Process
 
   
-  @Regiter
+  @test
   Scenario: Register User Email verification Process - Success 
     Given I am online at "file:///C:/Users/karabomo/Desktop/KasiMonateAdnim/index.html"
     Then I go to register page
@@ -23,7 +23,7 @@ Feature: Testing The Full Functional Registering And Email verification Process
     Then I wait for 5 seconds
 
   
-  @Regiter
+  @test
   Scenario: Login User Before Email verification Process - Error 
     Given I am online at "file:///C:/Users/karabomo/Desktop/KasiMonateAdnim/index.html"
     Then I login in on the website with email value "kasimonateappwebadnim@gmail.com" and password value is "Ephraim@217377781"
@@ -31,7 +31,7 @@ Feature: Testing The Full Functional Registering And Email verification Process
     Then I wait for 5 seconds
   
   
-  @Regiter
+  @test
   Scenario: Confirm Email
     Given I am online at "https://accounts.google.com/AccountChooser?service=mail&continue=https://google.com&hl=en"
     Then I enter Google email "kasimonateappwebadnim@gmail.com"
@@ -43,6 +43,7 @@ Feature: Testing The Full Functional Registering And Email verification Process
     Then I click on link number "1"
     Then I wait for the page to load
     Then I click on the email confrimation link 
+    #Then I select the element with innerText "Verify your email for project-218236841715"
     Then I wait for the page to load
     Then I wait for 5 seconds
     Then I confrim link
@@ -51,7 +52,7 @@ Feature: Testing The Full Functional Registering And Email verification Process
     Then I wait for 5 seconds
   
   
-  @Regiter
+  #@test
   Scenario: Login User After Email verification Process - Success 
     Given I am online at "file:///C:/Users/karabomo/Desktop/KasiMonateAdnim/index.html"
     Then I login in on the website with email value "kasimonateappwebadnim@gmail.com" and password value is "Ephraim@217377781"

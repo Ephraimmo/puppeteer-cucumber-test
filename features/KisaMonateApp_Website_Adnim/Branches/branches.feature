@@ -4,6 +4,7 @@ Feature: Testing The Full Functional Branches Meun
     Given I am online at "file:///C:/Users/karabomo/Desktop/KasiMonateAdnim/index.html"
     Then I login in on the website with email value "kasimonateappwebadnim@gmail.com" and password value is "Ephraim@217377781"
     Then I wait for the page to load
+
   
   @feat 
   @branch
@@ -19,7 +20,8 @@ Feature: Testing The Full Functional Branches Meun
     Then I click on button with text "Close" on side meun text this "Branches"
     Then I click side meun item with text "Dashboard"
     Then I confirm value is "1" on card with text "Branches"
-
+  
+  
   @feat 
   @branch
   Scenario: Add Branches - Error - Exciting Branche Name
@@ -32,7 +34,10 @@ Feature: Testing The Full Functional Branches Meun
     Then I click on button with text "Add" on side meun text this "Branches"
     Then I wait for a danger alertBox
     Then I click on button with text "Close" on side meun text this "Branches"
+    Then I click side meun item with text "Dashboard"
+    Then I confirm value is "1" on card with text "Branches"
 
+  
   @feat 
   @branch
   Scenario: Add Branches - Error - Branche Name Empty
@@ -44,6 +49,9 @@ Feature: Testing The Full Functional Branches Meun
     Then I click on button with text "Select Image" and select on image with "C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png" path on meun "Branches"
     Then I click on button with text "Add" on side meun text this "Branches"
     Then I wait for a danger alertBox
+    Then I click on button with text "Close" on side meun text this "Branches"
+    Then I click side meun item with text "Dashboard"
+    Then I confirm value is "1" on card with text "Branches"
     
   
   @feat 
@@ -57,6 +65,9 @@ Feature: Testing The Full Functional Branches Meun
     Then I click on button with text "Select Image" and select on image with "C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png" path on meun "Branches"
     Then I click on button with text "Add" on side meun text this "Branches"
     Then I wait for a danger alertBox
+    Then I click on button with text "Close" on side meun text this "Branches"
+    Then I click side meun item with text "Dashboard"
+    Then I confirm value is "1" on card with text "Branches"
   
   @feat 
   @branch
@@ -68,7 +79,10 @@ Feature: Testing The Full Functional Branches Meun
     Then I enter value "Image Edit Error Address" on field "Branche " on side meun "Branches"
     Then I click on button with text "Add" on side meun text this "Branches"
     Then I wait for a danger alertBox
-
+    Then I click on button with text "Close" on side meun text this "Branches"
+    Then I click side meun item with text "Dashboard"
+    Then I confirm value is "1" on card with text "Branches"
+ 
   @feat 
   @branch
   Scenario: Edit Branches - Success
@@ -81,7 +95,9 @@ Feature: Testing The Full Functional Branches Meun
     Then I click on button with text "Select Image" and select on image with "C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png" path on meun "Branches"
     Then I click on button with text "Save" on side meun text this "Branches"
     Then I wait for a success alertBox
-
+    Then I click side meun item with text "Dashboard"
+    Then I confirm value is "1" on card with text "Branches"
+  
   @feat 
   @branch
   Scenario: Add Branches For Testing Edit Exciting Branche Name - Success
@@ -94,7 +110,9 @@ Feature: Testing The Full Functional Branches Meun
     Then I click on button with text "Add" on side meun text this "Branches"
     Then I wait for a success alertBox
     Then I click on button with text "Close" on side meun text this "Branches"
-
+    Then I click side meun item with text "Dashboard"
+    Then I confirm value is "2" on card with text "Branches"
+  
   @feat 
   @branch
   Scenario: Edit Branches - Error - Exciting Branche Name
@@ -107,7 +125,9 @@ Feature: Testing The Full Functional Branches Meun
     Then I click on button with text "Select Image" and select on image with "C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png" path on meun "Branches"
     Then I click on button with text "Save" on side meun text this "Branches"
     Then I wait for a danger alertBox
- 
+    Then I click side meun item with text "Dashboard"
+    Then I confirm value is "2" on card with text "Branches"
+  
   @feat 
   @branch
   Scenario: Edit Branches - Error - Branche Name Empty
@@ -120,7 +140,9 @@ Feature: Testing The Full Functional Branches Meun
     Then I click on button with text "Select Image" and select on image with "C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png" path on meun "Branches"
     Then I click on button with text "Save" on side meun text this "Branches"
     Then I wait for a danger alertBox
-
+    Then I click side meun item with text "Dashboard"
+    Then I confirm value is "2" on card with text "Branches"
+  
   @feat 
   @branch
   Scenario: Edit Branches - Error - Branche Name Empty
@@ -133,7 +155,9 @@ Feature: Testing The Full Functional Branches Meun
     Then I click on button with text "Select Image" and select on image with "C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png" path on meun "Branches"
     Then I click on button with text "Save" on side meun text this "Branches"
     Then I wait for a danger alertBox
-
+    Then I click side meun item with text "Dashboard"
+    Then I confirm value is "2" on card with text "Branches"
+  
   @feat 
   @branch
   Scenario: Delete Branches For Testing Edit Exciting Branche Name - Success
@@ -142,7 +166,9 @@ Feature: Testing The Full Functional Branches Meun
     Then I click button with Text "Delete" on row "1" on the table on side meun "Branches"
     Then I click on button with text "Accept" on side meun text this "Branches"
     Then I wait for a success alertBox
-
+    Then I click side meun item with text "Dashboard"
+    Then I confirm value is "1" on card with text "Branches"
+  
   @feat 
   @branch
   Scenario: Delete Branches - Success

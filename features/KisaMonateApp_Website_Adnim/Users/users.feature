@@ -5,7 +5,7 @@ Feature: Testing The Full Functional Users Meun
         Given I am online at "file:///C:/Users/karabomo/Desktop/KasiMonateAdnim/index.html"
         Then I login in on the website with email value "kasimonateappwebadnim@gmail.com" and password value is "Ephraim@217377781"
         Then I wait for the page to load
-
+    
     @feat 
     @user
     Scenario: Add Test Branche For User - Success
@@ -18,7 +18,6 @@ Feature: Testing The Full Functional Users Meun
         Then I click on button with text "Add" on side meun text this "Branches"
         Then I wait for a success alertBox
         Then I click on button with text "Close" on side meun text this "Branches"
-        
     
     @feat 
     @user
@@ -38,10 +37,10 @@ Feature: Testing The Full Functional Users Meun
         Then I click on button with text "Close" on side meun text this "Users"
         Then I click side meun item with text "Dashboard"
         Then I confirm value is "1" on card with text "User"
-
+    
     @feat 
     @user
-    Scenario: Add User - Exciting Username
+    Scenario: Add User - Error - Exciting Username
 
         Then I click side meun item with text "Users"
         Then I click on button with text "Add User" on side meun text this "Users"
@@ -54,9 +53,9 @@ Feature: Testing The Full Functional Users Meun
         Then I click on button with text "Select Image" and select on image with "C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png" path on meun "Users"
         Then I click on button with text "Add" on side meun text this "Users"
         Then I wait for a danger alertBox on meun "Users"
+        Then I click side meun item with text "Dashboard"
+        Then I confirm value is "1" on card with text "User"
 
-    
-  
     @feat 
     @user
     Scenario: Add User - Error - Empty dropdown Branche
@@ -72,7 +71,9 @@ Feature: Testing The Full Functional Users Meun
         Then I click on button with text "Select Image" and select on image with "C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png" path on meun "Users"
         Then I click on button with text "Add" on side meun text this "Users"
         Then I wait for a danger alertBox on meun "Users"
-
+        Then I click side meun item with text "Dashboard"
+        Then I confirm value is "1" on card with text "User"
+    
     @feat 
     @user
     Scenario: Add User - Error - Empty Username
@@ -88,7 +89,9 @@ Feature: Testing The Full Functional Users Meun
         Then I click on button with text "Select Image" and select on image with "C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png" path on meun "Users"
         Then I click on button with text "Add" on side meun text this "Users"
         Then I wait for a danger alertBox on meun "Users"
-
+        Then I click side meun item with text "Dashboard"
+        Then I confirm value is "1" on card with text "User"
+    
     @feat 
     @user
     Scenario: Add User - Error - Empty User Password
@@ -104,7 +107,9 @@ Feature: Testing The Full Functional Users Meun
         Then I click on button with text "Select Image" and select on image with "C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png" path on meun "Users"
         Then I click on button with text "Add" on side meun text this "Users"
         Then I wait for a danger alertBox on meun "Users"
-
+        Then I click side meun item with text "Dashboard"
+        Then I confirm value is "1" on card with text "User"
+   
     @feat 
     @user
     Scenario: Add User - Error - Empty Image
@@ -119,7 +124,9 @@ Feature: Testing The Full Functional Users Meun
         Then I click on the checkbox with text "delivery" on side meun text this "Users"
         Then I click on button with text "Add" on side meun text this "Users"
         Then I wait for a danger alertBox on meun "Users"
-
+        Then I click side meun item with text "Dashboard"
+        Then I confirm value is "1" on card with text "User"
+    
     @feat 
     @user
     Scenario: Edit User - Success
@@ -134,7 +141,9 @@ Feature: Testing The Full Functional Users Meun
         Then I click on button with text "Select Image" and select on image with "C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png" path on meun "Users"
         Then I click on button with text "Save" on side meun text this "Users"
         Then I wait for a successfully alertBox on meun "Users"
-
+        Then I click side meun item with text "Dashboard"
+        Then I confirm value is "1" on card with text "User"
+    
     @feat 
     @user
     Scenario: Add User - For Testing Exciting Username Edit
@@ -151,7 +160,9 @@ Feature: Testing The Full Functional Users Meun
         Then I click on button with text "Add" on side meun text this "Users"
         Then I wait for a successfully alertBox on meun "Users"
         Then I click on button with text "Close" on side meun text this "Users"
-
+        Then I click side meun item with text "Dashboard"
+        Then I confirm value is "2" on card with text "User"
+    
     @feat 
     @user
     Scenario: Edit User - Error - Exciting Username Edit
@@ -166,8 +177,10 @@ Feature: Testing The Full Functional Users Meun
         Then I click on button with text "Select Image" and select on image with "C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png" path on meun "Users"
         Then I click on button with text "Save" on side meun text this "Users"
         Then I wait for a danger alertBox on meun "Users"
+        Then I click side meun item with text "Dashboard"
+        Then I confirm value is "2" on card with text "User"
 
-
+    
     @feat 
     @user
     Scenario: Edit User - Error - Empty dropdown Branche
@@ -182,7 +195,9 @@ Feature: Testing The Full Functional Users Meun
         Then I click on button with text "Select Image" and select on image with "C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png" path on meun "Users"
         Then I click on button with text "Save" on side meun text this "Users"
         Then I wait for a danger alertBox on meun "Users"
-
+        Then I click side meun item with text "Dashboard"
+        Then I confirm value is "2" on card with text "User"
+    
     @feat 
     @user
     Scenario: Edit User - Error - Empty Username
@@ -197,7 +212,9 @@ Feature: Testing The Full Functional Users Meun
         Then I click on button with text "Select Image" and select on image with "C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png" path on meun "Users"
         Then I click on button with text "Save" on side meun text this "Users"
         Then I wait for a danger alertBox on meun "Users"
-
+        Then I click side meun item with text "Dashboard"
+        Then I confirm value is "2" on card with text "User"
+    
     @feat 
     @user
     Scenario: Edit User - Error - Empty Password
@@ -212,7 +229,9 @@ Feature: Testing The Full Functional Users Meun
         Then I click on button with text "Select Image" and select on image with "C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png" path on meun "Users"
         Then I click on button with text "Save" on side meun text this "Users"
         Then I wait for a danger alertBox on meun "Users"
-
+        Then I click side meun item with text "Dashboard"
+        Then I confirm value is "2" on card with text "User"
+    
     @feat 
     @user
     Scenario: Delete User - Success - Exciting Username Edit
@@ -220,7 +239,9 @@ Feature: Testing The Full Functional Users Meun
       Then I click button with Text "Delete" on row "1" on the table on side meun "Users"
       Then I click on button with text "Accept" on side meun text this "Users"
       Then I wait for a successfully alertBox on meun "Users"
-
+      Then I click side meun item with text "Dashboard"
+      Then I confirm value is "1" on card with text "User"
+    
     @feat 
     @user
     Scenario: Delete User - Success
@@ -228,7 +249,8 @@ Feature: Testing The Full Functional Users Meun
       Then I click button with Text "Delete" on row "1" on the table on side meun "Users"
       Then I click on button with text "Accept" on side meun text this "Users"
       Then I wait for a successfully alertBox on meun "Users"
-
+      
+    
     @feat 
     @user
     Scenario: Delete Branches - Success

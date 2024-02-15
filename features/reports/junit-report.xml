@@ -1,650 +1,414 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="feature:-testing-the-full-functional-category-meun;user-to-login---success" tests="32" failures="1" skipped="11">
+    <testsuite name="testing-the-full-functional-branches-meun;add-branches---success" tests="13" failures="0" skipped="0">
         <properties>
-            <property name="@test" value="true">
+            <property name="@feat" value="true">
             </property>
-            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_SubAdnim/Category/category.feature">
+            <property name="@branch" value="true">
+            </property>
+            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_Adnim/Branches/branches.feature">
             </property>
         </properties>
-        <testcase name="Given I am online at &quot;http://127.0.0.1:5500/login.html&quot;" classname="feature:-testing-the-full-functional-category-meun;user-to-login---success" time="4.8781723">
+        <testcase name="Given I am online at &quot;file:///C:/Users/karabomo/Desktop/KasiMonateAdnim/index.html&quot;" classname="testing-the-full-functional-branches-meun;add-branches---success" time="4.2080985">
         </testcase>
-        <testcase name="Then I login in on the website with email value &quot;karabo&quot; and password value is &quot;karabo&quot;" classname="feature:-testing-the-full-functional-category-meun;user-to-login---success" time="0.6301253">
+        <testcase name="Then I login in on the website with email value &quot;kasimonateappwebadnim@gmail.com&quot; and password value is &quot;Ephraim@217377781&quot;" classname="testing-the-full-functional-branches-meun;add-branches---success" time="2.4603625">
         </testcase>
-        <testcase name="Given I am online at &quot;file:///C:/Users/karabomo/Desktop/KasiMonateAdnim/index.html&quot;" classname="feature:-testing-the-full-functional-category-meun;user-to-login---success" time="3.0679522">
+        <testcase name="Then I wait for the page to load" classname="testing-the-full-functional-branches-meun;add-branches---success" time="6.5573375">
         </testcase>
-        <testcase name="Then I login in on the website with email value &quot;kasimonateappwebadnim@gmail.com&quot; and password value is &quot;Ephraim@217377781&quot;" classname="feature:-testing-the-full-functional-category-meun;user-to-login---success" time="1.6574362">
+        <testcase name="Then I click side meun item with text &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---success" time="0.3303656">
         </testcase>
-        <testcase name="Then I wait for the page to load" classname="feature:-testing-the-full-functional-category-meun;user-to-login---success" time="12.0303076">
+        <testcase name="Then I click on button with text &quot;Add Branche&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---success" time="0.6401908">
         </testcase>
-        <testcase name="Then I click side meun item with text &quot;Branches&quot;" classname="feature:-testing-the-full-functional-category-meun;user-to-login---success" time="0.2160284">
+        <testcase name="Then I enter value &quot;Branches1&quot; on field &quot;Branche Name&quot; on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---success" time="0.9898384">
         </testcase>
-        <testcase name="Then I click on button with text &quot;Add Branche&quot; on side meun text this &quot;Branches&quot;" classname="feature:-testing-the-full-functional-category-meun;user-to-login---success" time="0.2304568">
+        <testcase name="Then I enter value &quot;Address1&quot; on field &quot;Branche Address&quot; on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---success" time="0.5278249">
         </testcase>
-        <testcase name="Then I enter value &quot;FirstBranches&quot; on field &quot;Branche Name&quot; on side meun &quot;Branches&quot;" classname="feature:-testing-the-full-functional-category-meun;user-to-login---success" time="0.7274143">
+        <testcase name="Then I click on button with text &quot;Select Image&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---success" time="0.3332864">
         </testcase>
-        <testcase name="Then I enter value &quot;FirstBranches&quot; on field &quot;Branche Address&quot; on side meun &quot;Branches&quot;" classname="feature:-testing-the-full-functional-category-meun;user-to-login---success" time="0.7127323">
+        <testcase name="Then I click on button with text &quot;Add&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---success" time="0.2830919">
         </testcase>
-        <testcase name="Then I click on button with text &quot;Select Image&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Branches&quot;" classname="feature:-testing-the-full-functional-category-meun;user-to-login---success" time="0.2480574">
+        <testcase name="Then I wait for a success alertBox" classname="testing-the-full-functional-branches-meun;add-branches---success" time="4.593326">
         </testcase>
-        <testcase name="Then I click on button with text &quot;Add&quot; on side meun text this &quot;Branches&quot;" classname="feature:-testing-the-full-functional-category-meun;user-to-login---success" time="0.200486">
+        <testcase name="Then I click on button with text &quot;Close&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---success" time="0.2924058">
         </testcase>
-        <testcase name="Then I wait for a success alertBox" classname="feature:-testing-the-full-functional-category-meun;user-to-login---success" time="18.3131911">
+        <testcase name="Then I click side meun item with text &quot;Dashboard&quot;" classname="testing-the-full-functional-branches-meun;add-branches---success" time="0.2303542">
         </testcase>
-        <testcase name="Then I enter value &quot;2Branches&quot; on field &quot;Branche Name&quot; on side meun &quot;Branches&quot;" classname="feature:-testing-the-full-functional-category-meun;user-to-login---success" time="0.5374514">
-        </testcase>
-        <testcase name="Then I enter value &quot;2Branches&quot; on field &quot;Branche Address&quot; on side meun &quot;Branches&quot;" classname="feature:-testing-the-full-functional-category-meun;user-to-login---success" time="0.5287727">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Select Image&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\img.png&quot; path on meun &quot;Branches&quot;" classname="feature:-testing-the-full-functional-category-meun;user-to-login---success" time="0.3528018">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Add&quot; on side meun text this &quot;Branches&quot;" classname="feature:-testing-the-full-functional-category-meun;user-to-login---success" time="0.3402262">
-        </testcase>
-        <testcase name="Then I wait for 5 seconds" classname="feature:-testing-the-full-functional-category-meun;user-to-login---success" time="5.0118563">
-        </testcase>
-        <testcase name="Then I wait for 5 seconds" classname="feature:-testing-the-full-functional-category-meun;user-to-login---success" time="5.0140209">
-        </testcase>
-        <testcase name="Then I wait for 5 seconds" classname="feature:-testing-the-full-functional-category-meun;user-to-login---success" time="5.0019091">
-        </testcase>
-        <testcase name="Then I wait for 5 seconds" classname="feature:-testing-the-full-functional-category-meun;user-to-login---success" time="5.0085273">
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Close&quot; on side meun text this &quot;Branches&quot;" classname="feature:-testing-the-full-functional-category-meun;user-to-login---success" time="0.1710093">
-            <failure message="Error: Node is either not visible or not an HTMLElement">Error: Node is either not visible or not an HTMLElement
-    at ElementHandle._clickablePoint (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:329:19)
-    at async ElementHandle.click (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:390:26)
-    at async createWorld.&lt;anonymous&gt; (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\features\step-definitions\orca-scan-demo-steps.js:564:20)</failure>
-        </testcase>
-        <testcase name="Then I click side meun item with text &quot;Users&quot;" classname="feature:-testing-the-full-functional-category-meun;user-to-login---success">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Add User&quot; on side meun text this &quot;Users&quot;" classname="feature:-testing-the-full-functional-category-meun;user-to-login---success">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I wait for 5 seconds" classname="feature:-testing-the-full-functional-category-meun;user-to-login---success">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I select this value &quot;FirstBranches&quot; on dropdown &quot;Select Branche&quot; field the menu &quot;Users&quot;" classname="feature:-testing-the-full-functional-category-meun;user-to-login---success">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I enter value &quot;karabo&quot; on field &quot;Username&quot; on side meun &quot;Users&quot;" classname="feature:-testing-the-full-functional-category-meun;user-to-login---success">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I enter value &quot;karabo&quot; on field &quot;Password&quot; on side meun &quot;Users&quot;" classname="feature:-testing-the-full-functional-category-meun;user-to-login---success">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I click on the checkbox with text &quot;Adnim&quot; on side meun text this &quot;Users&quot;" classname="feature:-testing-the-full-functional-category-meun;user-to-login---success">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I click on the checkbox with text &quot;delivery&quot; on side meun text this &quot;Users&quot;" classname="feature:-testing-the-full-functional-category-meun;user-to-login---success">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Select Image&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Users&quot;" classname="feature:-testing-the-full-functional-category-meun;user-to-login---success">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Add&quot; on side meun text this &quot;Users&quot;" classname="feature:-testing-the-full-functional-category-meun;user-to-login---success">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I wait for a successfully alertBox on meun &quot;Users&quot;" classname="feature:-testing-the-full-functional-category-meun;user-to-login---success">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I confirm value is &quot;1&quot; on card with text &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---success" time="0.0575085">
         </testcase>
     </testsuite>
-    <testsuite name="feature:-testing-the-full-functional-category-meun;add-category---success" tests="12" failures="1" skipped="7">
+    <testsuite name="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" tests="13" failures="0" skipped="0">
         <properties>
-            <property name="@test" value="true">
+            <property name="@feat" value="true">
             </property>
-            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_SubAdnim/Category/category.feature">
+            <property name="@branch" value="true">
+            </property>
+            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_Adnim/Branches/branches.feature">
             </property>
         </properties>
-        <testcase name="Given I am online at &quot;http://127.0.0.1:5500/login.html&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---success" time="5.0615114">
+        <testcase name="Given I am online at &quot;file:///C:/Users/karabomo/Desktop/KasiMonateAdnim/index.html&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="4.473397">
         </testcase>
-        <testcase name="Then I login in on the website with email value &quot;karabo&quot; and password value is &quot;karabo&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---success" time="0.6173781">
+        <testcase name="Then I login in on the website with email value &quot;kasimonateappwebadnim@gmail.com&quot; and password value is &quot;Ephraim@217377781&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="2.1356839">
         </testcase>
-        <testcase name="Then I wait for the page to load" classname="feature:-testing-the-full-functional-category-meun;add-category---success" time="5.613211">
+        <testcase name="Then I wait for the page to load" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="6.4026748">
         </testcase>
-        <testcase name="Then I click side meun item with text &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---success" time="0.2779952">
+        <testcase name="Then I click side meun item with text &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="0.2625543">
         </testcase>
-        <testcase name="Then I click on button with text &quot;Add category&quot; on side meun text this &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---success" time="0.2035549">
-            <failure message="TypeError: Cannot read properties of undefined (reading &apos;click&apos;)">TypeError: Cannot read properties of undefined (reading &apos;click&apos;)
-    at createWorld.&lt;anonymous&gt; (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\features\step-definitions\orca-scan-demo-steps.js:564:33)</failure>
+        <testcase name="Then I click on button with text &quot;Add Branche&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="0.6232541">
         </testcase>
-        <testcase name="Then I enter value &quot;AddCategory&quot; on field &quot;Name&quot; on side meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---success">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I enter value &quot;Branches1&quot; on field &quot;Branche Name&quot; on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="0.7135639">
         </testcase>
-        <testcase name="Then I enter value &quot;AddCategory&quot; on field &quot;Slug&quot; on side meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---success">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I enter value &quot;Address1&quot; on field &quot;Branche Address&quot; on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="0.5276903">
         </testcase>
-        <testcase name="Then I enter value &quot;Test Add Description for Category&quot; on textarea &quot;Description&quot; on side meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---success">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click on button with text &quot;Select Image&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="0.3255896">
         </testcase>
-        <testcase name="Then I click on the checkbox with text &quot;Status&quot; on side meun text this &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---success">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click on button with text &quot;Add&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="0.2933678">
         </testcase>
-        <testcase name="Then I click on button with text &quot;Select Image&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---success">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I wait for a danger alertBox" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="0.1071479">
         </testcase>
-        <testcase name="Then I click on button with text &quot;Add&quot; on side meun text this &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---success">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click on button with text &quot;Close&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="0.2761606">
         </testcase>
-        <testcase name="Then I wait for a successfully alertBox on meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---success">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click side meun item with text &quot;Dashboard&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="0.2626918">
+        </testcase>
+        <testcase name="Then I confirm value is &quot;1&quot; on card with text &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="0.0575932">
         </testcase>
     </testsuite>
-    <testsuite name="feature:-testing-the-full-functional-category-meun;add-category---error---exciting-category-name" tests="12" failures="1" skipped="7">
+    <testsuite name="testing-the-full-functional-branches-meun;add-branches---error---branche-name-empty" tests="13" failures="0" skipped="0">
         <properties>
-            <property name="@test" value="true">
+            <property name="@feat" value="true">
             </property>
-            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_SubAdnim/Category/category.feature">
+            <property name="@branch" value="true">
+            </property>
+            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_Adnim/Branches/branches.feature">
             </property>
         </properties>
-        <testcase name="Given I am online at &quot;http://127.0.0.1:5500/login.html&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---exciting-category-name" time="8.0619">
+        <testcase name="Given I am online at &quot;file:///C:/Users/karabomo/Desktop/KasiMonateAdnim/index.html&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-name-empty" time="4.4961483">
         </testcase>
-        <testcase name="Then I login in on the website with email value &quot;karabo&quot; and password value is &quot;karabo&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---exciting-category-name" time="0.5880956">
+        <testcase name="Then I login in on the website with email value &quot;kasimonateappwebadnim@gmail.com&quot; and password value is &quot;Ephraim@217377781&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-name-empty" time="2.2723016">
         </testcase>
-        <testcase name="Then I wait for the page to load" classname="feature:-testing-the-full-functional-category-meun;add-category---error---exciting-category-name" time="4.1476932">
+        <testcase name="Then I wait for the page to load" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-name-empty" time="8.7472467">
         </testcase>
-        <testcase name="Then I click side meun item with text &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---exciting-category-name" time="0.3684995">
+        <testcase name="Then I click side meun item with text &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-name-empty" time="0.3205318">
         </testcase>
-        <testcase name="Then I click on button with text &quot;Add category&quot; on side meun text this &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---exciting-category-name" time="0.204464">
-            <failure message="TypeError: Cannot read properties of undefined (reading &apos;click&apos;)">TypeError: Cannot read properties of undefined (reading &apos;click&apos;)
-    at createWorld.&lt;anonymous&gt; (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\features\step-definitions\orca-scan-demo-steps.js:564:33)</failure>
+        <testcase name="Then I click on button with text &quot;Add Branche&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-name-empty" time="0.3730496">
         </testcase>
-        <testcase name="Then I enter value &quot;AddCategory&quot; on field &quot;Name&quot; on side meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---exciting-category-name">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I enter value &quot;&quot; on field &quot;Branche Name&quot; on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-name-empty" time="0.1231086">
         </testcase>
-        <testcase name="Then I enter value &quot;AddCategory&quot; on field &quot;Slug&quot; on side meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---exciting-category-name">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I enter value &quot;Error Edit&quot; on field &quot;Branche Address&quot; on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-name-empty" time="1.1186301">
         </testcase>
-        <testcase name="Then I enter value &quot;Test Add Description for Category&quot; on textarea &quot;Description&quot; on side meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---exciting-category-name">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click on button with text &quot;Select Image&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-name-empty" time="0.3366051">
         </testcase>
-        <testcase name="Then I click on the checkbox with text &quot;Status&quot; on side meun text this &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---exciting-category-name">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click on button with text &quot;Add&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-name-empty" time="0.3850986">
         </testcase>
-        <testcase name="Then I click on button with text &quot;Select Image&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---exciting-category-name">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I wait for a danger alertBox" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-name-empty" time="0.0977491">
         </testcase>
-        <testcase name="Then I click on button with text &quot;Add&quot; on side meun text this &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---exciting-category-name">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click on button with text &quot;Close&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-name-empty" time="0.291794">
         </testcase>
-        <testcase name="Then I wait for a danger alertBox on meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---exciting-category-name">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click side meun item with text &quot;Dashboard&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-name-empty" time="0.2757088">
+        </testcase>
+        <testcase name="Then I confirm value is &quot;1&quot; on card with text &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-name-empty" time="0.0574656">
         </testcase>
     </testsuite>
-    <testsuite name="feature:-testing-the-full-functional-category-meun;add-category---error---category-name-empty" tests="12" failures="1" skipped="7">
+    <testsuite name="testing-the-full-functional-branches-meun;add-branches---error---branche-address-empty" tests="13" failures="0" skipped="0">
         <properties>
-            <property name="@test" value="true">
+            <property name="@feat" value="true">
             </property>
-            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_SubAdnim/Category/category.feature">
+            <property name="@branch" value="true">
+            </property>
+            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_Adnim/Branches/branches.feature">
             </property>
         </properties>
-        <testcase name="Given I am online at &quot;http://127.0.0.1:5500/login.html&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---category-name-empty" time="15.0253424">
+        <testcase name="Given I am online at &quot;file:///C:/Users/karabomo/Desktop/KasiMonateAdnim/index.html&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-address-empty" time="4.9903767">
         </testcase>
-        <testcase name="Then I login in on the website with email value &quot;karabo&quot; and password value is &quot;karabo&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---category-name-empty" time="0.6375642">
+        <testcase name="Then I login in on the website with email value &quot;kasimonateappwebadnim@gmail.com&quot; and password value is &quot;Ephraim@217377781&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-address-empty" time="2.3048601">
         </testcase>
-        <testcase name="Then I wait for the page to load" classname="feature:-testing-the-full-functional-category-meun;add-category---error---category-name-empty" time="5.4081483">
+        <testcase name="Then I wait for the page to load" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-address-empty" time="6.3222108">
         </testcase>
-        <testcase name="Then I click side meun item with text &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---category-name-empty" time="0.2816664">
+        <testcase name="Then I click side meun item with text &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-address-empty" time="0.2931891">
         </testcase>
-        <testcase name="Then I click on button with text &quot;Add category&quot; on side meun text this &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---category-name-empty" time="0.2016043">
-            <failure message="TypeError: Cannot read properties of undefined (reading &apos;click&apos;)">TypeError: Cannot read properties of undefined (reading &apos;click&apos;)
-    at createWorld.&lt;anonymous&gt; (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\features\step-definitions\orca-scan-demo-steps.js:564:33)</failure>
+        <testcase name="Then I click on button with text &quot;Add Branche&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-address-empty" time="0.3461374">
         </testcase>
-        <testcase name="Then I enter value &quot;&quot; on field &quot;Name&quot; on side meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---category-name-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I enter value &quot;Error Edit&quot; on field &quot;Branche Name&quot; on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-address-empty" time="0.7294311">
         </testcase>
-        <testcase name="Then I enter value &quot;AddCategory&quot; on field &quot;Slug&quot; on side meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---category-name-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I enter value &quot;&quot; on field &quot;Branche &quot; on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-address-empty" time="0.030077">
         </testcase>
-        <testcase name="Then I enter value &quot;Test Add Description for Category&quot; on textarea &quot;Description&quot; on side meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---category-name-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click on button with text &quot;Select Image&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-address-empty" time="0.4333514">
         </testcase>
-        <testcase name="Then I click on the checkbox with text &quot;Status&quot; on side meun text this &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---category-name-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click on button with text &quot;Add&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-address-empty" time="0.2606555">
         </testcase>
-        <testcase name="Then I click on button with text &quot;Select Image&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---category-name-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I wait for a danger alertBox" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-address-empty" time="0.0923156">
         </testcase>
-        <testcase name="Then I click on button with text &quot;Add&quot; on side meun text this &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---category-name-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click on button with text &quot;Close&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-address-empty" time="0.276651">
         </testcase>
-        <testcase name="Then I wait for a danger alertBox on meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---category-name-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click side meun item with text &quot;Dashboard&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-address-empty" time="0.2320576">
+        </testcase>
+        <testcase name="Then I confirm value is &quot;1&quot; on card with text &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---branche-address-empty" time="0.1041226">
         </testcase>
     </testsuite>
-    <testsuite name="feature:-testing-the-full-functional-category-meun;add-category---error---slug-name-empty" tests="12" failures="1" skipped="7">
+    <testsuite name="testing-the-full-functional-branches-meun;add-branches---error---image-empty" tests="12" failures="0" skipped="0">
         <properties>
-            <property name="@test" value="true">
+            <property name="@feat" value="true">
             </property>
-            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_SubAdnim/Category/category.feature">
+            <property name="@branch" value="true">
+            </property>
+            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_Adnim/Branches/branches.feature">
             </property>
         </properties>
-        <testcase name="Given I am online at &quot;http://127.0.0.1:5500/login.html&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---slug-name-empty" time="6.4663745">
+        <testcase name="Given I am online at &quot;file:///C:/Users/karabomo/Desktop/KasiMonateAdnim/index.html&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---image-empty" time="4.9850471">
         </testcase>
-        <testcase name="Then I login in on the website with email value &quot;karabo&quot; and password value is &quot;karabo&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---slug-name-empty" time="0.6158474">
+        <testcase name="Then I login in on the website with email value &quot;kasimonateappwebadnim@gmail.com&quot; and password value is &quot;Ephraim@217377781&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---image-empty" time="2.0104858">
         </testcase>
-        <testcase name="Then I wait for the page to load" classname="feature:-testing-the-full-functional-category-meun;add-category---error---slug-name-empty" time="4.5857673">
+        <testcase name="Then I wait for the page to load" classname="testing-the-full-functional-branches-meun;add-branches---error---image-empty" time="6.1951462">
         </testcase>
-        <testcase name="Then I click side meun item with text &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---slug-name-empty" time="0.2831132">
+        <testcase name="Then I click side meun item with text &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---image-empty" time="0.2461315">
         </testcase>
-        <testcase name="Then I click on button with text &quot;Add category&quot; on side meun text this &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---slug-name-empty" time="0.1987018">
-            <failure message="TypeError: Cannot read properties of undefined (reading &apos;click&apos;)">TypeError: Cannot read properties of undefined (reading &apos;click&apos;)
-    at createWorld.&lt;anonymous&gt; (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\features\step-definitions\orca-scan-demo-steps.js:564:33)
-    at runNextTicks (node:internal/process/task_queues:60:5)
-    at listOnTimeout (node:internal/timers:538:9)
-    at process.processTimers (node:internal/timers:512:7)</failure>
+        <testcase name="Then I click on button with text &quot;Add Branche&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---image-empty" time="0.4489086">
         </testcase>
-        <testcase name="Then I enter value &quot;AddCategory&quot; on field &quot;Name&quot; on side meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---slug-name-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I enter value &quot;Image Edit Error&quot; on field &quot;Branche Name&quot; on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---image-empty" time="1.0727105">
         </testcase>
-        <testcase name="Then I enter value &quot;&quot; on field &quot;Slug&quot; on side meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---slug-name-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I enter value &quot;Image Edit Error Address&quot; on field &quot;Branche &quot; on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---image-empty" time="0.029024">
         </testcase>
-        <testcase name="Then I enter value &quot;Test Add Description for Category&quot; on textarea &quot;Description&quot; on side meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---slug-name-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click on button with text &quot;Add&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---image-empty" time="0.2770146">
         </testcase>
-        <testcase name="Then I click on the checkbox with text &quot;Status&quot; on side meun text this &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---slug-name-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I wait for a danger alertBox" classname="testing-the-full-functional-branches-meun;add-branches---error---image-empty" time="0.0917953">
         </testcase>
-        <testcase name="Then I click on button with text &quot;Select Image&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---slug-name-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click on button with text &quot;Close&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---image-empty" time="0.2757044">
         </testcase>
-        <testcase name="Then I click on button with text &quot;Add&quot; on side meun text this &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---slug-name-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click side meun item with text &quot;Dashboard&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---image-empty" time="0.2287495">
         </testcase>
-        <testcase name="Then I wait for a danger alertBox on meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---slug-name-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I confirm value is &quot;1&quot; on card with text &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---image-empty" time="0.0571923">
         </testcase>
     </testsuite>
-    <testsuite name="feature:-testing-the-full-functional-category-meun;add-category---error---description-name-empty" tests="12" failures="1" skipped="7">
+    <testsuite name="testing-the-full-functional-branches-meun;edit-branches---success" tests="13" failures="0" skipped="0">
         <properties>
-            <property name="@test" value="true">
+            <property name="@feat" value="true">
             </property>
-            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_SubAdnim/Category/category.feature">
+            <property name="@branch" value="true">
+            </property>
+            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_Adnim/Branches/branches.feature">
             </property>
         </properties>
-        <testcase name="Given I am online at &quot;http://127.0.0.1:5500/login.html&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---description-name-empty" time="12.9943456">
+        <testcase name="Given I am online at &quot;file:///C:/Users/karabomo/Desktop/KasiMonateAdnim/index.html&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---success" time="4.2024735">
         </testcase>
-        <testcase name="Then I login in on the website with email value &quot;karabo&quot; and password value is &quot;karabo&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---description-name-empty" time="0.5969679">
+        <testcase name="Then I login in on the website with email value &quot;kasimonateappwebadnim@gmail.com&quot; and password value is &quot;Ephraim@217377781&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---success" time="2.052932">
         </testcase>
-        <testcase name="Then I wait for the page to load" classname="feature:-testing-the-full-functional-category-meun;add-category---error---description-name-empty" time="27.533525">
+        <testcase name="Then I wait for the page to load" classname="testing-the-full-functional-branches-meun;edit-branches---success" time="8.524922">
         </testcase>
-        <testcase name="Then I click side meun item with text &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---description-name-empty" time="0.278878">
+        <testcase name="Then I click side meun item with text &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---success" time="0.3049381">
         </testcase>
-        <testcase name="Then I click on button with text &quot;Add category&quot; on side meun text this &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---description-name-empty" time="0.2021425">
-            <failure message="TypeError: Cannot read properties of undefined (reading &apos;click&apos;)">TypeError: Cannot read properties of undefined (reading &apos;click&apos;)
-    at createWorld.&lt;anonymous&gt; (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\features\step-definitions\orca-scan-demo-steps.js:564:33)</failure>
+        <testcase name="Then I click button with Text &quot;Edit&quot; on row &quot;1&quot; on the table on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---success" time="1.0586271">
         </testcase>
-        <testcase name="Then I enter value &quot;AddCategory&quot; on field &quot;Name&quot; on side meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---description-name-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I wait for 5 seconds" classname="testing-the-full-functional-branches-meun;edit-branches---success" time="5.0091092">
         </testcase>
-        <testcase name="Then I enter value &quot;AddCategory&quot; on field &quot;Slug&quot; on side meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---description-name-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I enter value &quot;EditBrancheSuccess&quot; on field &quot;Branche Name&quot; on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---success" time="0.995474">
         </testcase>
-        <testcase name="Then I enter value &quot;&quot; on textarea &quot;Description&quot; on side meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---description-name-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I enter value &quot;EditAddressSuccess&quot; on field &quot;Branche Address&quot; on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---success" time="0.9976886">
         </testcase>
-        <testcase name="Then I click on the checkbox with text &quot;Status&quot; on side meun text this &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---description-name-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click on button with text &quot;Select Image&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---success" time="0.3065247">
         </testcase>
-        <testcase name="Then I click on button with text &quot;Select Image&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---description-name-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click on button with text &quot;Save&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---success" time="0.290202">
         </testcase>
-        <testcase name="Then I click on button with text &quot;Add&quot; on side meun text this &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---description-name-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I wait for a success alertBox" classname="testing-the-full-functional-branches-meun;edit-branches---success" time="5.038813">
         </testcase>
-        <testcase name="Then I wait for a danger alertBox on meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---description-name-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click side meun item with text &quot;Dashboard&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---success" time="0.3848844">
+        </testcase>
+        <testcase name="Then I confirm value is &quot;1&quot; on card with text &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---success" time="0.1175319">
         </testcase>
     </testsuite>
-    <testsuite name="feature:-testing-the-full-functional-category-meun;add-category---error---no-image" tests="11" failures="1" skipped="6">
+    <testsuite name="testing-the-full-functional-branches-meun;add-branches-for-testing-edit-exciting-branche-name---success" tests="13" failures="0" skipped="0">
         <properties>
-            <property name="@test" value="true">
+            <property name="@feat" value="true">
             </property>
-            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_SubAdnim/Category/category.feature">
+            <property name="@branch" value="true">
+            </property>
+            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_Adnim/Branches/branches.feature">
             </property>
         </properties>
-        <testcase name="Given I am online at &quot;http://127.0.0.1:5500/login.html&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---no-image" time="31.0759584">
+        <testcase name="Given I am online at &quot;file:///C:/Users/karabomo/Desktop/KasiMonateAdnim/index.html&quot;" classname="testing-the-full-functional-branches-meun;add-branches-for-testing-edit-exciting-branche-name---success" time="4.4464381">
         </testcase>
-        <testcase name="Then I login in on the website with email value &quot;karabo&quot; and password value is &quot;karabo&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---no-image" time="0.6105533">
+        <testcase name="Then I login in on the website with email value &quot;kasimonateappwebadnim@gmail.com&quot; and password value is &quot;Ephraim@217377781&quot;" classname="testing-the-full-functional-branches-meun;add-branches-for-testing-edit-exciting-branche-name---success" time="1.9803553">
         </testcase>
-        <testcase name="Then I wait for the page to load" classname="feature:-testing-the-full-functional-category-meun;add-category---error---no-image" time="8.5258254">
+        <testcase name="Then I wait for the page to load" classname="testing-the-full-functional-branches-meun;add-branches-for-testing-edit-exciting-branche-name---success" time="8.500577">
         </testcase>
-        <testcase name="Then I click side meun item with text &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---no-image" time="0.3813101">
+        <testcase name="Then I click side meun item with text &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches-for-testing-edit-exciting-branche-name---success" time="0.3073377">
         </testcase>
-        <testcase name="Then I click on button with text &quot;Add category&quot; on side meun text this &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---no-image" time="0.1956454">
-            <failure message="TypeError: Cannot read properties of undefined (reading &apos;click&apos;)">TypeError: Cannot read properties of undefined (reading &apos;click&apos;)
-    at createWorld.&lt;anonymous&gt; (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\features\step-definitions\orca-scan-demo-steps.js:564:33)
-    at runNextTicks (node:internal/process/task_queues:60:5)
-    at listOnTimeout (node:internal/timers:538:9)
-    at process.processTimers (node:internal/timers:512:7)</failure>
+        <testcase name="Then I click on button with text &quot;Add Branche&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches-for-testing-edit-exciting-branche-name---success" time="0.6876196">
         </testcase>
-        <testcase name="Then I enter value &quot;AddCategory&quot; on field &quot;Name&quot; on side meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---no-image">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I enter value &quot;Branches2&quot; on field &quot;Branche Name&quot; on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches-for-testing-edit-exciting-branche-name---success" time="0.6457592">
         </testcase>
-        <testcase name="Then I enter value &quot;AddCategory&quot; on field &quot;Slug&quot; on side meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---no-image">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I enter value &quot;Address2&quot; on field &quot;Branche Address&quot; on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches-for-testing-edit-exciting-branche-name---success" time="0.5127862">
         </testcase>
-        <testcase name="Then I enter value &quot;Test Add Description for Category&quot; on textarea &quot;Description&quot; on side meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---no-image">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click on button with text &quot;Select Image&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches-for-testing-edit-exciting-branche-name---success" time="0.3683822">
         </testcase>
-        <testcase name="Then I click on the checkbox with text &quot;Status&quot; on side meun text this &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---no-image">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click on button with text &quot;Add&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches-for-testing-edit-exciting-branche-name---success" time="0.2725025">
         </testcase>
-        <testcase name="Then I click on button with text &quot;Add&quot; on side meun text this &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---no-image">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I wait for a success alertBox" classname="testing-the-full-functional-branches-meun;add-branches-for-testing-edit-exciting-branche-name---success" time="4.7907747">
         </testcase>
-        <testcase name="Then I wait for a danger alertBox on meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;add-category---error---no-image">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click on button with text &quot;Close&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches-for-testing-edit-exciting-branche-name---success" time="0.3709517">
+        </testcase>
+        <testcase name="Then I click side meun item with text &quot;Dashboard&quot;" classname="testing-the-full-functional-branches-meun;add-branches-for-testing-edit-exciting-branche-name---success" time="0.3360944">
+        </testcase>
+        <testcase name="Then I confirm value is &quot;2&quot; on card with text &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches-for-testing-edit-exciting-branche-name---success" time="0.0445337">
         </testcase>
     </testsuite>
-    <testsuite name="feature:-testing-the-full-functional-category-meun;edit-category---success" tests="12" failures="1" skipped="7">
+    <testsuite name="testing-the-full-functional-branches-meun;edit-branches---error---exciting-branche-name" tests="13" failures="0" skipped="0">
         <properties>
-            <property name="@test" value="true">
+            <property name="@feat" value="true">
             </property>
-            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_SubAdnim/Category/category.feature">
+            <property name="@branch" value="true">
+            </property>
+            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_Adnim/Branches/branches.feature">
             </property>
         </properties>
-        <testcase name="Given I am online at &quot;http://127.0.0.1:5500/login.html&quot;" classname="feature:-testing-the-full-functional-category-meun;edit-category---success" time="12.5581034">
+        <testcase name="Given I am online at &quot;file:///C:/Users/karabomo/Desktop/KasiMonateAdnim/index.html&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---exciting-branche-name" time="4.531652">
         </testcase>
-        <testcase name="Then I login in on the website with email value &quot;karabo&quot; and password value is &quot;karabo&quot;" classname="feature:-testing-the-full-functional-category-meun;edit-category---success" time="0.6213877">
+        <testcase name="Then I login in on the website with email value &quot;kasimonateappwebadnim@gmail.com&quot; and password value is &quot;Ephraim@217377781&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---exciting-branche-name" time="2.080797">
         </testcase>
-        <testcase name="Then I wait for the page to load" classname="feature:-testing-the-full-functional-category-meun;edit-category---success" time="6.2744739">
+        <testcase name="Then I wait for the page to load" classname="testing-the-full-functional-branches-meun;edit-branches---error---exciting-branche-name" time="8.4111544">
         </testcase>
-        <testcase name="Then I click side meun item with text &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;edit-category---success" time="0.3459244">
+        <testcase name="Then I click side meun item with text &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---exciting-branche-name" time="0.3695279">
         </testcase>
-        <testcase name="Then I click button with Text &quot;Edit&quot; on row &quot;1&quot; on the table on side meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;edit-category---success" time="3.0151624">
-            <failure message="TimeoutError: waiting for selector `#example_length` failed: timeout 3000ms exceeded">TimeoutError: waiting for selector `#example_length` failed: timeout 3000ms exceeded
-    at new WaitTask (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:509:34)
-    at DOMWorld.waitForSelectorInPage (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:420:26)
-    at internalHandler.waitFor (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:31:77)
-    at DOMWorld.waitForSelector (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:313:29)
-    at Frame.waitForSelector (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:841:51)
-    at createWorld.&lt;anonymous&gt; (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\features\step-definitions\orca-scan-demo-steps.js:614:29)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</failure>
+        <testcase name="Then I click button with Text &quot;Edit&quot; on row &quot;1&quot; on the table on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---exciting-branche-name" time="1.6754918">
         </testcase>
-        <testcase name="Then I wait for 5 seconds" classname="feature:-testing-the-full-functional-category-meun;edit-category---success">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I wait for 5 seconds" classname="testing-the-full-functional-branches-meun;edit-branches---error---exciting-branche-name" time="5.0131199">
         </testcase>
-        <testcase name="Then I enter value &quot;EditCategorySuccess&quot; on field &quot;Name&quot; on side meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;edit-category---success">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I enter value &quot;Branches2&quot; on field &quot;Branche Name&quot; on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---exciting-branche-name" time="0.5744801">
         </testcase>
-        <testcase name="Then I enter value &quot;EditCategorySuccess&quot; on field &quot;Slug&quot; on side meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;edit-category---success">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I enter value &quot;Address2&quot; on field &quot;Branche Address&quot; on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---exciting-branche-name" time="0.5145697">
         </testcase>
-        <testcase name="Then I enter value &quot;Test Add Description for Category&quot; on textarea &quot;Description&quot; on side meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;edit-category---success">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click on button with text &quot;Select Image&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---exciting-branche-name" time="0.3512523">
         </testcase>
-        <testcase name="Then I click on button with text &quot;Select Image&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;edit-category---success">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click on button with text &quot;Save&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---exciting-branche-name" time="0.2648591">
         </testcase>
-        <testcase name="Then I click on button with text &quot;Save&quot; on side meun text this &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;edit-category---success">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I wait for a danger alertBox" classname="testing-the-full-functional-branches-meun;edit-branches---error---exciting-branche-name" time="0.0898603">
         </testcase>
-        <testcase name="Then I wait for a successfully alertBox on meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;edit-category---success">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click side meun item with text &quot;Dashboard&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---exciting-branche-name" time="0.2748301">
+        </testcase>
+        <testcase name="Then I confirm value is &quot;2&quot; on card with text &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---exciting-branche-name" time="0.0739453">
         </testcase>
     </testsuite>
-    <testsuite name="feature:-testing-the-full-functional-category-meun;edit-category---error---category-name-empty" tests="12" failures="1" skipped="7">
+    <testsuite name="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" tests="13" failures="0" skipped="0">
         <properties>
-            <property name="@test" value="true">
+            <property name="@feat" value="true">
             </property>
-            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_SubAdnim/Category/category.feature">
+            <property name="@branch" value="true">
+            </property>
+            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_Adnim/Branches/branches.feature">
             </property>
         </properties>
-        <testcase name="Given I am online at &quot;http://127.0.0.1:5500/login.html&quot;" classname="feature:-testing-the-full-functional-category-meun;edit-category---error---category-name-empty" time="5.0349517">
+        <testcase name="Given I am online at &quot;file:///C:/Users/karabomo/Desktop/KasiMonateAdnim/index.html&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="4.5016261">
         </testcase>
-        <testcase name="Then I login in on the website with email value &quot;karabo&quot; and password value is &quot;karabo&quot;" classname="feature:-testing-the-full-functional-category-meun;edit-category---error---category-name-empty" time="0.6211907">
+        <testcase name="Then I login in on the website with email value &quot;kasimonateappwebadnim@gmail.com&quot; and password value is &quot;Ephraim@217377781&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="2.0138659">
         </testcase>
-        <testcase name="Then I wait for the page to load" classname="feature:-testing-the-full-functional-category-meun;edit-category---error---category-name-empty" time="5.9933399">
+        <testcase name="Then I wait for the page to load" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="8.0079832">
         </testcase>
-        <testcase name="Then I click side meun item with text &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;edit-category---error---category-name-empty" time="0.2758241">
+        <testcase name="Then I click side meun item with text &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="0.3867682">
         </testcase>
-        <testcase name="Then I click button with Text &quot;Edit&quot; on row &quot;1&quot; on the table on side meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;edit-category---error---category-name-empty" time="3.0031312">
-            <failure message="TimeoutError: waiting for selector `#example_length` failed: timeout 3000ms exceeded">TimeoutError: waiting for selector `#example_length` failed: timeout 3000ms exceeded
-    at new WaitTask (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:509:34)
-    at DOMWorld.waitForSelectorInPage (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:420:26)
-    at internalHandler.waitFor (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:31:77)
-    at DOMWorld.waitForSelector (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:313:29)
-    at Frame.waitForSelector (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:841:51)
-    at createWorld.&lt;anonymous&gt; (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\features\step-definitions\orca-scan-demo-steps.js:614:29)
-    at processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at runNextTicks (node:internal/process/task_queues:64:3)
-    at listOnTimeout (node:internal/timers:538:9)
-    at process.processTimers (node:internal/timers:512:7)</failure>
+        <testcase name="Then I click button with Text &quot;Edit&quot; on row &quot;1&quot; on the table on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="1.5636861">
         </testcase>
-        <testcase name="Then I wait for 5 seconds" classname="feature:-testing-the-full-functional-category-meun;edit-category---error---category-name-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I wait for 5 seconds" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="5.0073894">
         </testcase>
-        <testcase name="Then I enter value &quot;&quot; on field &quot;Name&quot; on side meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;edit-category---error---category-name-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I enter value &quot;&quot; on field &quot;Branche Name&quot; on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="0.1375694">
         </testcase>
-        <testcase name="Then I enter value &quot;EditCategoryError&quot; on field &quot;Slug&quot; on side meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;edit-category---error---category-name-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I enter value &quot;Edit Error&quot; on field &quot;Branche Address&quot; on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="0.6069173">
         </testcase>
-        <testcase name="Then I enter value &quot;Test Add Description for Category Error&quot; on textarea &quot;Description&quot; on side meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;edit-category---error---category-name-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click on button with text &quot;Select Image&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="0.3705096">
         </testcase>
-        <testcase name="Then I click on button with text &quot;Select Image&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;edit-category---error---category-name-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click on button with text &quot;Save&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="0.3149399">
         </testcase>
-        <testcase name="Then I click on button with text &quot;Save&quot; on side meun text this &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;edit-category---error---category-name-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I wait for a danger alertBox" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="0.1007851">
         </testcase>
-        <testcase name="Then I wait for a danger alertBox on meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;edit-category---error---category-name-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click side meun item with text &quot;Dashboard&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="0.2931869">
+        </testcase>
+        <testcase name="Then I confirm value is &quot;2&quot; on card with text &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="0.151198">
         </testcase>
     </testsuite>
-    <testsuite name="feature:-testing-the-full-functional-category-meun;edit-category---error---category-slug-empty" tests="12" failures="1" skipped="7">
+    <testsuite name="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" tests="13" failures="0" skipped="0">
         <properties>
-            <property name="@test" value="true">
+            <property name="@feat" value="true">
             </property>
-            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_SubAdnim/Category/category.feature">
+            <property name="@branch" value="true">
+            </property>
+            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_Adnim/Branches/branches.feature">
             </property>
         </properties>
-        <testcase name="Given I am online at &quot;http://127.0.0.1:5500/login.html&quot;" classname="feature:-testing-the-full-functional-category-meun;edit-category---error---category-slug-empty" time="6.6375116">
+        <testcase name="Given I am online at &quot;file:///C:/Users/karabomo/Desktop/KasiMonateAdnim/index.html&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="4.5441304">
         </testcase>
-        <testcase name="Then I login in on the website with email value &quot;karabo&quot; and password value is &quot;karabo&quot;" classname="feature:-testing-the-full-functional-category-meun;edit-category---error---category-slug-empty" time="0.5904667">
+        <testcase name="Then I login in on the website with email value &quot;kasimonateappwebadnim@gmail.com&quot; and password value is &quot;Ephraim@217377781&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="2.1406831">
         </testcase>
-        <testcase name="Then I wait for the page to load" classname="feature:-testing-the-full-functional-category-meun;edit-category---error---category-slug-empty" time="5.8411124">
+        <testcase name="Then I wait for the page to load" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="6.5217524">
         </testcase>
-        <testcase name="Then I click side meun item with text &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;edit-category---error---category-slug-empty" time="0.2962634">
+        <testcase name="Then I click side meun item with text &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="0.260739">
         </testcase>
-        <testcase name="Then I click button with Text &quot;Edit&quot; on row &quot;1&quot; on the table on side meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;edit-category---error---category-slug-empty" time="3.0157437">
-            <failure message="TimeoutError: waiting for selector `#example_length` failed: timeout 3000ms exceeded">TimeoutError: waiting for selector `#example_length` failed: timeout 3000ms exceeded
-    at new WaitTask (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:509:34)
-    at DOMWorld.waitForSelectorInPage (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:420:26)
-    at internalHandler.waitFor (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:31:77)
-    at DOMWorld.waitForSelector (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:313:29)
-    at Frame.waitForSelector (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:841:51)
-    at createWorld.&lt;anonymous&gt; (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\features\step-definitions\orca-scan-demo-steps.js:614:29)
-    at processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at runNextTicks (node:internal/process/task_queues:64:3)
-    at listOnTimeout (node:internal/timers:538:9)
-    at process.processTimers (node:internal/timers:512:7)</failure>
+        <testcase name="Then I click button with Text &quot;Edit&quot; on row &quot;1&quot; on the table on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="1.1996346">
         </testcase>
-        <testcase name="Then I wait for 5 seconds" classname="feature:-testing-the-full-functional-category-meun;edit-category---error---category-slug-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I wait for 5 seconds" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="5.0038524">
         </testcase>
-        <testcase name="Then I enter value &quot;EditCategoryError&quot; on field &quot;Name&quot; on side meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;edit-category---error---category-slug-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I enter value &quot;Edit Error&quot; on field &quot;Branche Name&quot; on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="0.6993251">
         </testcase>
-        <testcase name="Then I enter value &quot;&quot; on field &quot;Slug&quot; on side meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;edit-category---error---category-slug-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I enter value &quot;&quot; on field &quot;Branche Address&quot; on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="0.1390385">
         </testcase>
-        <testcase name="Then I enter value &quot;Test Add Description for Category Error&quot; on textarea &quot;Description&quot; on side meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;edit-category---error---category-slug-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click on button with text &quot;Select Image&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="0.3548164">
         </testcase>
-        <testcase name="Then I click on button with text &quot;Select Image&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;edit-category---error---category-slug-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click on button with text &quot;Save&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="0.29387">
         </testcase>
-        <testcase name="Then I click on button with text &quot;Save&quot; on side meun text this &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;edit-category---error---category-slug-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I wait for a danger alertBox" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="0.0911654">
         </testcase>
-        <testcase name="Then I wait for a danger alertBox on meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;edit-category---error---category-slug-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click side meun item with text &quot;Dashboard&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="0.2494198">
+        </testcase>
+        <testcase name="Then I confirm value is &quot;2&quot; on card with text &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;edit-branches---error---branche-name-empty" time="0.0587593">
         </testcase>
     </testsuite>
-    <testsuite name="feature:-testing-the-full-functional-category-meun;edit-category---error---category-slug-empty" tests="12" failures="1" skipped="7">
+    <testsuite name="testing-the-full-functional-branches-meun;delete-branches-for-testing-edit-exciting-branche-name---success" tests="9" failures="1" skipped="0">
         <properties>
-            <property name="@test" value="true">
+            <property name="@feat" value="true">
             </property>
-            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_SubAdnim/Category/category.feature">
+            <property name="@branch" value="true">
+            </property>
+            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_Adnim/Branches/branches.feature">
             </property>
         </properties>
-        <testcase name="Given I am online at &quot;http://127.0.0.1:5500/login.html&quot;" classname="feature:-testing-the-full-functional-category-meun;edit-category---error---category-slug-empty" time="5.5945684">
+        <testcase name="Given I am online at &quot;file:///C:/Users/karabomo/Desktop/KasiMonateAdnim/index.html&quot;" classname="testing-the-full-functional-branches-meun;delete-branches-for-testing-edit-exciting-branche-name---success" time="4.6179639">
         </testcase>
-        <testcase name="Then I login in on the website with email value &quot;karabo&quot; and password value is &quot;karabo&quot;" classname="feature:-testing-the-full-functional-category-meun;edit-category---error---category-slug-empty" time="0.6186764">
+        <testcase name="Then I login in on the website with email value &quot;kasimonateappwebadnim@gmail.com&quot; and password value is &quot;Ephraim@217377781&quot;" classname="testing-the-full-functional-branches-meun;delete-branches-for-testing-edit-exciting-branche-name---success" time="2.0547904">
         </testcase>
-        <testcase name="Then I wait for the page to load" classname="feature:-testing-the-full-functional-category-meun;edit-category---error---category-slug-empty" time="6.9830367">
+        <testcase name="Then I wait for the page to load" classname="testing-the-full-functional-branches-meun;delete-branches-for-testing-edit-exciting-branche-name---success" time="6.8628966">
         </testcase>
-        <testcase name="Then I click side meun item with text &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;edit-category---error---category-slug-empty" time="0.2805792">
+        <testcase name="Then I click side meun item with text &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;delete-branches-for-testing-edit-exciting-branche-name---success" time="0.2474154">
         </testcase>
-        <testcase name="Then I click button with Text &quot;Edit&quot; on row &quot;1&quot; on the table on side meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;edit-category---error---category-slug-empty" time="3.0003655">
-            <failure message="TimeoutError: waiting for selector `#example_length` failed: timeout 3000ms exceeded">TimeoutError: waiting for selector `#example_length` failed: timeout 3000ms exceeded
-    at new WaitTask (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:509:34)
-    at DOMWorld.waitForSelectorInPage (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:420:26)
-    at internalHandler.waitFor (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:31:77)
-    at DOMWorld.waitForSelector (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:313:29)
-    at Frame.waitForSelector (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:841:51)
-    at createWorld.&lt;anonymous&gt; (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\features\step-definitions\orca-scan-demo-steps.js:614:29)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</failure>
+        <testcase name="Then I click button with Text &quot;Delete&quot; on row &quot;1&quot; on the table on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;delete-branches-for-testing-edit-exciting-branche-name---success" time="1.1642486">
         </testcase>
-        <testcase name="Then I wait for 5 seconds" classname="feature:-testing-the-full-functional-category-meun;edit-category---error---category-slug-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click on button with text &quot;Accept&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;delete-branches-for-testing-edit-exciting-branche-name---success" time="0.5082576">
         </testcase>
-        <testcase name="Then I enter value &quot;EditCategoryError&quot; on field &quot;Name&quot; on side meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;edit-category---error---category-slug-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I wait for a success alertBox" classname="testing-the-full-functional-branches-meun;delete-branches-for-testing-edit-exciting-branche-name---success" time="1.7201459">
         </testcase>
-        <testcase name="Then I enter value &quot;EditCategoryError&quot; on field &quot;Slug&quot; on side meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;edit-category---error---category-slug-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click side meun item with text &quot;Dashboard&quot;" classname="testing-the-full-functional-branches-meun;delete-branches-for-testing-edit-exciting-branche-name---success" time="0.2322823">
         </testcase>
-        <testcase name="Then I enter value &quot;&quot; on textarea &quot;Description&quot; on side meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;edit-category---error---category-slug-empty">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Select Image&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;edit-category---error---category-slug-empty">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I click on button with text &quot;Save&quot; on side meun text this &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;edit-category---error---category-slug-empty">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I wait for a danger alertBox on meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;edit-category---error---category-slug-empty">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I confirm value is &quot;1&quot; on card with text &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;delete-branches-for-testing-edit-exciting-branche-name---success" time="0.2437044">
+            <failure message="value 1 was not found on card">value 1 was not found on card</failure>
         </testcase>
     </testsuite>
-    <testsuite name="feature:-testing-the-full-functional-category-meun;delect-category---success" tests="7" failures="1" skipped="2">
+    <testsuite name="testing-the-full-functional-branches-meun;delete-branches---success" tests="7" failures="0" skipped="0">
         <properties>
-            <property name="@test" value="true">
+            <property name="@feat" value="true">
             </property>
-            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_SubAdnim/Category/category.feature">
+            <property name="@branch" value="true">
+            </property>
+            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_Adnim/Branches/branches.feature">
             </property>
         </properties>
-        <testcase name="Given I am online at &quot;http://127.0.0.1:5500/login.html&quot;" classname="feature:-testing-the-full-functional-category-meun;delect-category---success" time="5.6298412">
+        <testcase name="Given I am online at &quot;file:///C:/Users/karabomo/Desktop/KasiMonateAdnim/index.html&quot;" classname="testing-the-full-functional-branches-meun;delete-branches---success" time="4.5344722">
         </testcase>
-        <testcase name="Then I login in on the website with email value &quot;karabo&quot; and password value is &quot;karabo&quot;" classname="feature:-testing-the-full-functional-category-meun;delect-category---success" time="0.6248512">
+        <testcase name="Then I login in on the website with email value &quot;kasimonateappwebadnim@gmail.com&quot; and password value is &quot;Ephraim@217377781&quot;" classname="testing-the-full-functional-branches-meun;delete-branches---success" time="2.0479704">
         </testcase>
-        <testcase name="Then I wait for the page to load" classname="feature:-testing-the-full-functional-category-meun;delect-category---success" time="3.7047029">
+        <testcase name="Then I wait for the page to load" classname="testing-the-full-functional-branches-meun;delete-branches---success" time="6.7789982">
         </testcase>
-        <testcase name="Then I click side meun item with text &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;delect-category---success" time="0.273862">
+        <testcase name="Then I click side meun item with text &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;delete-branches---success" time="0.2479804">
         </testcase>
-        <testcase name="Then I click button with Text &quot;Delete&quot; on row &quot;1&quot; on the table on side meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;delect-category---success" time="3.002702">
-            <failure message="TimeoutError: waiting for selector `#example_length` failed: timeout 3000ms exceeded">TimeoutError: waiting for selector `#example_length` failed: timeout 3000ms exceeded
-    at new WaitTask (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:509:34)
-    at DOMWorld.waitForSelectorInPage (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:420:26)
-    at internalHandler.waitFor (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:31:77)
-    at DOMWorld.waitForSelector (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:313:29)
-    at Frame.waitForSelector (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:841:51)
-    at createWorld.&lt;anonymous&gt; (C:\Users\karabomo\Downloads\puppeteer-cucumber-js-main\puppeteer-cucumber-test\features\step-definitions\orca-scan-demo-steps.js:614:29)
-    at processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at runNextTicks (node:internal/process/task_queues:64:3)
-    at listOnTimeout (node:internal/timers:538:9)
-    at process.processTimers (node:internal/timers:512:7)</failure>
+        <testcase name="Then I click button with Text &quot;Delete&quot; on row &quot;1&quot; on the table on side meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;delete-branches---success" time="1.1037469">
         </testcase>
-        <testcase name="Then I click on button with text &quot;Accept&quot; on side meun text this &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;delect-category---success">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I click on button with text &quot;Accept&quot; on side meun text this &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;delete-branches---success" time="0.4645963">
         </testcase>
-        <testcase name="Then I wait for a successfully alertBox on meun &quot;Category&quot;" classname="feature:-testing-the-full-functional-category-meun;delect-category---success">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I wait for a success alertBox" classname="testing-the-full-functional-branches-meun;delete-branches---success" time="1.7298658">
         </testcase>
     </testsuite>
 </testsuites>

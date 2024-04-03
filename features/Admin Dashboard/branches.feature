@@ -5,7 +5,7 @@ Feature: Testing The Full Functional Branches Meun
     Then I login in on the website with email value "projectemail089@gmail.com" and password value is "Ephraim@217377781"
     Then I wait for the page to load
 
-  @branch12 @featTest
+  @branch12
   Scenario: Add Branches - Success
     
     Then I click on drop down menu "Branche" 

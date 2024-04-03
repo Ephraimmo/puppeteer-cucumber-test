@@ -8,7 +8,7 @@ Feature: Testing The Full Functional Branches Meun
   
   @feat 
   @branch
-  Scenario: Add Branches - Success
+  Scenario Outline: Add Branches - Success
     
     Then I click side meun item with text "Branches"
     Then I click on button with text "Add Branche" on side meun text this "Branches"
@@ -20,22 +20,29 @@ Feature: Testing The Full Functional Branches Meun
     Then I click on button with text "Close" on side meun text this "Branches"
     Then I click side meun item with text "Dashboard"
     Then I confirm value is "1" on card with text "Branches"
+
   
   
   @feat 
   @branch
-  Scenario: Add Branches - Error - Exciting Branche Name
+  Scenario Outline: Add Branches - Error - <Header>
     
     Then I click side meun item with text "Branches"
     Then I click on button with text "Add Branche" on side meun text this "Branches"
-    Then I enter value "Branches1" on field "Branche Name" on side meun "Branches"
-    Then I enter value "Address1" on field "Branche Address" on side meun "Branches"
-    Then I click on button with text "Select Image" and select on image with "C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png" path on meun "Branches"
+    Then I enter value "<BrancheName>" on field "Branche Name" on side meun "Branches"
+    Then I enter value "<BrancheAddress>" on field "Branche Address" on side meun "Branches"
+    Then I click on button with text "Select Image" and select on image with "<SelectImage>" path on meun "Branches"
     Then I click on button with text "Add" on side meun text this "Branches"
     Then I wait for a danger alertBox
     Then I click on button with text "Close" on side meun text this "Branches"
     Then I click side meun item with text "Dashboard"
-    Then I confirm value is "1" on card with text "Branches"
+
+  Examples:
+      | BrancheName | BrancheAddress | SelectImage                                                      | Header                |
+      | Branches1   | Address1       | C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png | Exciting Branche Name |
+      |             | Address1       | C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png | Empty Branche Name    |
+      | Branches1   |                | C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png | Empty Branche Address |
+      | Branches1   | Address1       |                                                                  | Empty Image           |
 
   
   @feat 

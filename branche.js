@@ -13,7 +13,7 @@ var textFilesLoader = require('text-files-loader');
 var networkSpeeds = require('./runtime/network-speed.js');
 
 var config = {
-    tag: "@branch",
+    tag: "@branch12",
     featureFiles: './features',
     steps: './features/step-definitions',
     pageObjects: './features/page-objects',

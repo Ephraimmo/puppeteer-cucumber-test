@@ -11,7 +11,7 @@
     "test": "node index.js --headless --featureFiles ./features/orca-scan-demo.feature",
     "_postinstall": "PUPPETEER_PRODUCT=firefox node ./node_modules/puppeteer/install.js",
     "start": "node index.js",
-    "dev": "node index.js --tags @search"
+    "dev": "node index.js --tags @branch12"
   },
   "engines": {
     "node": ">=11.15.0"

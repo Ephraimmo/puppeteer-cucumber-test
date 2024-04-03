@@ -1,34 +1,173 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="testing-the-full-functional-branches-meun;add-branches---success" tests="9" failures="1" skipped="2">
+    <testsuite name="testing-the-full-functional-branches-meun;add-branches---success" tests="14" failures="0" skipped="0">
         <properties>
-            <property name="@branch12" value="true">
+            <property name="@test" value="true">
             </property>
-            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/KisaMonateApp_Website_Adnim/branches.feature">
+            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/Admin Dashboard/Kasi_monate_app_main_admin/branches.feature">
             </property>
         </properties>
-        <testcase name="Given I am online at &quot;file:///C:/Users/karabomo/Desktop/Adimin%20Dashboard/index.html&quot;" classname="testing-the-full-functional-branches-meun;add-branches---success" time="6.5362124">
+        <testcase name="Given I am online at &quot;file:///C:/Users/karabomo/Desktop/Adimin%20Dashboard/index.html&quot;" classname="testing-the-full-functional-branches-meun;add-branches---success" time="4.9806213">
         </testcase>
-        <testcase name="Then I login in on the website with email value &quot;projectemail089@gmail.com&quot; and password value is &quot;Ephraim@217377781&quot;" classname="testing-the-full-functional-branches-meun;add-branches---success" time="1.5410679">
+        <testcase name="Then I login in on the website with email value &quot;projectemail089@gmail.com&quot; and password value is &quot;Ephraim@217377781&quot;" classname="testing-the-full-functional-branches-meun;add-branches---success" time="1.5608936">
         </testcase>
-        <testcase name="Then I wait for the page to load" classname="testing-the-full-functional-branches-meun;add-branches---success" time="3.6547393">
+        <testcase name="Then I wait for the page to load" classname="testing-the-full-functional-branches-meun;add-branches---success" time="3.8323583">
         </testcase>
-        <testcase name="Then I click on drop down menu &quot;Branche&quot;" classname="testing-the-full-functional-branches-meun;add-branches---success" time="0.0317084">
+        <testcase name="Then I click on drop down menu &quot;Branche&quot;" classname="testing-the-full-functional-branches-meun;add-branches---success" time="0.0314665">
         </testcase>
-        <testcase name="And I click on menu &quot;Veiw Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---success" time="0.091796">
+        <testcase name="And I click on menu &quot;Veiw Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---success" time="0.1098329">
         </testcase>
-        <testcase name="And I wait for 5 seconds" classname="testing-the-full-functional-branches-meun;add-branches---success" time="5.0135003">
+        <testcase name="And I wait for 5 seconds" classname="testing-the-full-functional-branches-meun;add-branches---success" time="5.0134837">
         </testcase>
-        <testcase name="And I check if value &quot;Branche 2kljhjkhjk&quot; is on screen" classname="testing-the-full-functional-branches-meun;add-branches---success" time="5.137304">
-            <failure message="&quot;Branche 2kljhjkhjk&quot; is not available on the screen within the timeout.">&quot;Branche 2kljhjkhjk&quot; is not available on the screen within the timeout.</failure>
+        <testcase name="And I click on button &quot;Add Branche&quot;" classname="testing-the-full-functional-branches-meun;add-branches---success" time="0.2142222">
         </testcase>
-        <testcase name="And I wait for 5 seconds" classname="testing-the-full-functional-branches-meun;add-branches---success">
-            <skipped message="">
-            </skipped>
+        <testcase name="And I wait for 5 seconds" classname="testing-the-full-functional-branches-meun;add-branches---success" time="5.0090099">
         </testcase>
-        <testcase name="And I wait for 5 seconds" classname="testing-the-full-functional-branches-meun;add-branches---success">
-            <skipped message="">
-            </skipped>
+        <testcase name="And I enter value &quot;Branche 2&quot; on field &quot;Branche Name&quot;" classname="testing-the-full-functional-branches-meun;add-branches---success" time="0.4508623">
+        </testcase>
+        <testcase name="And I enter value &quot;3304 block nokedi stinkwater&quot; on field &quot;Branche Address&quot;" classname="testing-the-full-functional-branches-meun;add-branches---success" time="1.1108814">
+        </testcase>
+        <testcase name="And I click on button with text &quot;Select Image&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---success" time="0.3068486">
+        </testcase>
+        <testcase name="And I click on button &quot;Add&quot;" classname="testing-the-full-functional-branches-meun;add-branches---success" time="0.1839507">
+        </testcase>
+        <testcase name="Then I wait for a success alertBox appear" classname="testing-the-full-functional-branches-meun;add-branches---success" time="4.1679445">
+        </testcase>
+        <testcase name="And I check if value &quot;Branche 2&quot; is on screen" classname="testing-the-full-functional-branches-meun;add-branches---success" time="0.1405091">
+        </testcase>
+    </testsuite>
+    <testsuite name="testing-the-full-functional-branches-meun;add-branches---error---empty-branche-name" tests="13" failures="0" skipped="0">
+        <properties>
+            <property name="@test" value="true">
+            </property>
+            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/Admin Dashboard/Kasi_monate_app_main_admin/branches.feature">
+            </property>
+        </properties>
+        <testcase name="Given I am online at &quot;file:///C:/Users/karabomo/Desktop/Adimin%20Dashboard/index.html&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---empty-branche-name" time="5.4016067">
+        </testcase>
+        <testcase name="Then I login in on the website with email value &quot;projectemail089@gmail.com&quot; and password value is &quot;Ephraim@217377781&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---empty-branche-name" time="1.515558">
+        </testcase>
+        <testcase name="Then I wait for the page to load" classname="testing-the-full-functional-branches-meun;add-branches---error---empty-branche-name" time="4.2765178">
+        </testcase>
+        <testcase name="Then I click on drop down menu &quot;Branche&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---empty-branche-name" time="0.0313233">
+        </testcase>
+        <testcase name="And I click on menu &quot;Veiw Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---empty-branche-name" time="0.1227647">
+        </testcase>
+        <testcase name="And I wait for 5 seconds" classname="testing-the-full-functional-branches-meun;add-branches---error---empty-branche-name" time="5.0044557">
+        </testcase>
+        <testcase name="And I click on button &quot;Add Branche&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---empty-branche-name" time="0.2004624">
+        </testcase>
+        <testcase name="And I wait for 5 seconds" classname="testing-the-full-functional-branches-meun;add-branches---error---empty-branche-name" time="5.0007036">
+        </testcase>
+        <testcase name="And I enter value &quot;&quot; on field &quot;Branche Name&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---empty-branche-name" time="0.1427901">
+        </testcase>
+        <testcase name="And I enter value &quot;3304 block nokedi stinkwater&quot; on field &quot;Branche Address&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---empty-branche-name" time="1.0475919">
+        </testcase>
+        <testcase name="And I click on button with text &quot;Select Image&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---empty-branche-name" time="0.3534391">
+        </testcase>
+        <testcase name="And I click on button &quot;Add&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---empty-branche-name" time="0.2019013">
+        </testcase>
+        <testcase name="Then I wait for a danger alertBox appear" classname="testing-the-full-functional-branches-meun;add-branches---error---empty-branche-name" time="0.1864514">
+        </testcase>
+    </testsuite>
+    <testsuite name="testing-the-full-functional-branches-meun;add-branches---error---empty-branche-address" tests="13" failures="0" skipped="0">
+        <properties>
+            <property name="@test" value="true">
+            </property>
+            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/Admin Dashboard/Kasi_monate_app_main_admin/branches.feature">
+            </property>
+        </properties>
+        <testcase name="Given I am online at &quot;file:///C:/Users/karabomo/Desktop/Adimin%20Dashboard/index.html&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---empty-branche-address" time="5.1520568">
+        </testcase>
+        <testcase name="Then I login in on the website with email value &quot;projectemail089@gmail.com&quot; and password value is &quot;Ephraim@217377781&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---empty-branche-address" time="1.6005684">
+        </testcase>
+        <testcase name="Then I wait for the page to load" classname="testing-the-full-functional-branches-meun;add-branches---error---empty-branche-address" time="5.1208753">
+        </testcase>
+        <testcase name="Then I click on drop down menu &quot;Branche&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---empty-branche-address" time="0.0302686">
+        </testcase>
+        <testcase name="And I click on menu &quot;Veiw Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---empty-branche-address" time="0.0935396">
+        </testcase>
+        <testcase name="And I wait for 5 seconds" classname="testing-the-full-functional-branches-meun;add-branches---error---empty-branche-address" time="5.0053776">
+        </testcase>
+        <testcase name="And I click on button &quot;Add Branche&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---empty-branche-address" time="0.2150484">
+        </testcase>
+        <testcase name="And I wait for 5 seconds" classname="testing-the-full-functional-branches-meun;add-branches---error---empty-branche-address" time="5.0083966">
+        </testcase>
+        <testcase name="And I enter value &quot;Branche Name&quot; on field &quot;Branche Name&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---empty-branche-address" time="0.5254049">
+        </testcase>
+        <testcase name="And I enter value &quot;&quot; on field &quot;Branche Address&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---empty-branche-address" time="0.139852">
+        </testcase>
+        <testcase name="And I click on button with text &quot;Select Image&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---empty-branche-address" time="0.3414999">
+        </testcase>
+        <testcase name="And I click on button &quot;Add&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---empty-branche-address" time="0.1712268">
+        </testcase>
+        <testcase name="Then I wait for a danger alertBox appear" classname="testing-the-full-functional-branches-meun;add-branches---error---empty-branche-address" time="0.185812">
+        </testcase>
+    </testsuite>
+    <testsuite name="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" tests="13" failures="0" skipped="0">
+        <properties>
+            <property name="@test" value="true">
+            </property>
+            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/Admin Dashboard/Kasi_monate_app_main_admin/branches.feature">
+            </property>
+        </properties>
+        <testcase name="Given I am online at &quot;file:///C:/Users/karabomo/Desktop/Adimin%20Dashboard/index.html&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="4.8554937">
+        </testcase>
+        <testcase name="Then I login in on the website with email value &quot;projectemail089@gmail.com&quot; and password value is &quot;Ephraim@217377781&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="1.5672635">
+        </testcase>
+        <testcase name="Then I wait for the page to load" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="3.8778109">
+        </testcase>
+        <testcase name="Then I click on drop down menu &quot;Branche&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="0.0309351">
+        </testcase>
+        <testcase name="And I click on menu &quot;Veiw Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="0.0930275">
+        </testcase>
+        <testcase name="And I wait for 5 seconds" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="5.0106757">
+        </testcase>
+        <testcase name="And I click on button &quot;Add Branche&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="0.2149371">
+        </testcase>
+        <testcase name="And I wait for 5 seconds" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="5.0091368">
+        </testcase>
+        <testcase name="And I enter value &quot;Branche 1&quot; on field &quot;Branche Name&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="0.4477731">
+        </testcase>
+        <testcase name="And I enter value &quot;3304 block nokedi stinkwater&quot; on field &quot;Branche Address&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="1.0101436">
+        </testcase>
+        <testcase name="And I click on button with text &quot;Select Image&quot; and select on image with &quot;C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png&quot; path on meun &quot;Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="0.3409558">
+        </testcase>
+        <testcase name="And I click on button &quot;Add&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="0.200062">
+        </testcase>
+        <testcase name="Then I wait for a danger alertBox appear" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="0.1860713">
+        </testcase>
+    </testsuite>
+    <testsuite name="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" tests="12" failures="0" skipped="0">
+        <properties>
+            <property name="@test" value="true">
+            </property>
+            <property name="URI" value="C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/Admin Dashboard/Kasi_monate_app_main_admin/branches.feature">
+            </property>
+        </properties>
+        <testcase name="Given I am online at &quot;file:///C:/Users/karabomo/Desktop/Adimin%20Dashboard/index.html&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="5.1629644">
+        </testcase>
+        <testcase name="Then I login in on the website with email value &quot;projectemail089@gmail.com&quot; and password value is &quot;Ephraim@217377781&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="1.5414523">
+        </testcase>
+        <testcase name="Then I wait for the page to load" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="3.8452782">
+        </testcase>
+        <testcase name="Then I click on drop down menu &quot;Branche&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="0.0297588">
+        </testcase>
+        <testcase name="And I click on menu &quot;Veiw Branches&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="0.0934589">
+        </testcase>
+        <testcase name="And I wait for 5 seconds" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="5.0061906">
+        </testcase>
+        <testcase name="And I click on button &quot;Add Branche&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="0.2014192">
+        </testcase>
+        <testcase name="And I wait for 5 seconds" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="5.0037424">
+        </testcase>
+        <testcase name="And I enter value &quot;Branche Name&quot; on field &quot;Branche Name&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="0.5154444">
+        </testcase>
+        <testcase name="And I enter value &quot;3304 block nokedi stinkwater&quot; on field &quot;Branche Address&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="1.0123134">
+        </testcase>
+        <testcase name="And I click on button &quot;Add&quot;" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="0.1841329">
+        </testcase>
+        <testcase name="Then I wait for a danger alertBox appear" classname="testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name" time="0.1864773">
         </testcase>
     </testsuite>
 </testsuites>

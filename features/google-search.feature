@@ -1,4 +1,6 @@
 Feature: Searching for a barcode scanner app
+
+  @featTest 
   Scenario: Google search for Orca Scan
     Given I am online at "https://www.google.co.uk/"
     When I search Google for "Orca Scan"

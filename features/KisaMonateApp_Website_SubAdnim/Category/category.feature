@@ -5,7 +5,7 @@ Feature: Feature: Testing The Full Functional Category Meun
         Given I am online at "http://127.0.0.1:5500/login.html"
         Then I login in on the website with email value "karabo" and password value is "karabo"
     
-    @test
+    
     Scenario: User To login - Success
 
         #enter my username and passing
@@ -45,7 +45,7 @@ Feature: Feature: Testing The Full Functional Category Meun
         Then I click on button with text "Add" on side meun text this "Users"
         Then I wait for a successfully alertBox on meun "Users"
 
-    @test
+    
     Scenario: Add Category - Success
 
         Then I wait for the page to load
@@ -60,7 +60,7 @@ Feature: Feature: Testing The Full Functional Category Meun
         Then I wait for a successfully alertBox on meun "Category"
         
     
-    @test
+    
     Scenario: Add Category - Error - Exciting Category Name
         Then I wait for the page to load
         Then I click side meun item with text "Category"
@@ -73,7 +73,7 @@ Feature: Feature: Testing The Full Functional Category Meun
         Then I click on button with text "Add" on side meun text this "Category"
         Then I wait for a danger alertBox on meun "Category"
 
-    @test
+    
     Scenario: Add Category - Error - Category Name Empty
         Then I wait for the page to load
         Then I click side meun item with text "Category"
@@ -86,7 +86,7 @@ Feature: Feature: Testing The Full Functional Category Meun
         Then I click on button with text "Add" on side meun text this "Category"
         Then I wait for a danger alertBox on meun "Category"
 
-    @test
+    
     Scenario: Add Category - Error - Slug Name Empty
         Then I wait for the page to load
         Then I click side meun item with text "Category"
@@ -99,7 +99,7 @@ Feature: Feature: Testing The Full Functional Category Meun
         Then I click on button with text "Add" on side meun text this "Category"
         Then I wait for a danger alertBox on meun "Category"
 
-    @test
+    
     Scenario: Add Category - Error - Description Name Empty
         Then I wait for the page to load
         Then I click side meun item with text "Category"
@@ -112,7 +112,7 @@ Feature: Feature: Testing The Full Functional Category Meun
         Then I click on button with text "Add" on side meun text this "Category"
         Then I wait for a danger alertBox on meun "Category"
 
-    @test
+    
     Scenario: Add Category - Error - No Image
         Then I wait for the page to load
         Then I click side meun item with text "Category"
@@ -125,7 +125,7 @@ Feature: Feature: Testing The Full Functional Category Meun
         Then I wait for a danger alertBox on meun "Category"
 
     
-    @test
+    
     Scenario: Edit Category - Success
         
         Then I wait for the page to load
@@ -139,7 +139,7 @@ Feature: Feature: Testing The Full Functional Category Meun
         Then I click on button with text "Save" on side meun text this "Category"
         Then I wait for a successfully alertBox on meun "Category"
 
-    @test
+    
     Scenario: Edit Category - Error - Category Name Empty
 
         Then I wait for the page to load
@@ -153,7 +153,7 @@ Feature: Feature: Testing The Full Functional Category Meun
         Then I click on button with text "Save" on side meun text this "Category"
         Then I wait for a danger alertBox on meun "Category"
 
-    @test
+    
     Scenario: Edit Category - Error - Category Slug Empty
         
         Then I wait for the page to load
@@ -167,7 +167,7 @@ Feature: Feature: Testing The Full Functional Category Meun
         Then I click on button with text "Save" on side meun text this "Category"
         Then I wait for a danger alertBox on meun "Category"
 
-    @test
+    
     Scenario: Edit Category - Error - Category Slug Empty
         
         Then I wait for the page to load
@@ -181,7 +181,7 @@ Feature: Feature: Testing The Full Functional Category Meun
         Then I click on button with text "Save" on side meun text this "Category"
         Then I wait for a danger alertBox on meun "Category"
 
-    @test
+    
     Scenario: Delect Category - Success
 
         Then I wait for the page to load

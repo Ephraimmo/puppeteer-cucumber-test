@@ -8,10 +8,11 @@
   },
   "scripts": {
     "_test": "node index.js --headless --tags @ci --userAgent \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36\"",
-    "test": "node index.js --headless --featureFiles ./features/orca-scan-demo.feature",
+    "test": "node index.js --headless --featureFiles ./features/google-search.feature",
     "_postinstall": "PUPPETEER_PRODUCT=firefox node ./node_modules/puppeteer/install.js",
     "start": "node index.js",
-    "dev": "node index.js --tags @branch12"
+    "dev": "node index.js --tags @branch12",
+    "test:dev:KasiMainAdmin": "node C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/testingDev.js"
   },
   "engines": {
     "node": ">=11.15.0"

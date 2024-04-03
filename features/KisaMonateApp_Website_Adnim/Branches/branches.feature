@@ -24,7 +24,7 @@ Feature: Testing The Full Functional Branches Meun
   
   
   @feat 
-  @branch
+  @branch 
   Scenario Outline: Add Branches - Error - <Header>
     
     Then I click side meun item with text "Branches"

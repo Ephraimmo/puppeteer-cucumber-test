@@ -99,4 +99,38 @@ module.exports = function () {
         
     });
 
+    this.Then(/^I wait for a success alertBox appear$/, async function () {
+        
+        // Wait for the iframe to load
+        await page.waitForSelector('iframe');
+        // Get the iframe element
+        const iframeElement = await page.$('iframe');
+        // Get the content frame of the iframe
+        const iframeContentFrame = await iframeElement.contentFrame();
+
+        try {
+            return iframeContentFrame.waitForSelector('#toast-success',{visible: true});
+        } catch (error) {
+            throw "alertBox is not present";
+        }
+        
+    });
+
+    this.Then(/^I wait for a danger alertBox appear$/, async function () {
+        
+        // Wait for the iframe to load
+        await page.waitForSelector('iframe');
+        // Get the iframe element
+        const iframeElement = await page.$('iframe');
+        // Get the content frame of the iframe
+        const iframeContentFrame = await iframeElement.contentFrame();
+
+        try {
+            return iframeContentFrame.waitForSelector('#toast-danger',{visible: true});
+        } catch (error) {
+            throw "alertBox is not present";
+        }
+        
+    });
+
 };

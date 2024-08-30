@@ -13,8 +13,8 @@ var textFilesLoader = require('text-files-loader');
 var networkSpeeds = require('./runtime/network-speed.js');
 
 var config = {
-    tag: "@branch12",
-    featureFiles: './features',
+    tag: "@branch",
+    featureFiles: './features/Admin Dashboard/Kasi_monate_app_main_admin',
     steps: './features/step-definitions',
     pageObjects: './features/page-objects',
     sharedObjects: './features/shared-objects',

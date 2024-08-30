@@ -14,7 +14,7 @@ var networkSpeeds = require('./runtime/network-speed.js');
 
 var config = {
     tag: "@test",
-    featureFiles: './features',
+    featureFiles: './features/Admin Dashboard/Kasi_monate_app_main_admin',
     steps: './features/step-definitions',
     pageObjects: './features/page-objects',
     sharedObjects: './features/shared-objects',

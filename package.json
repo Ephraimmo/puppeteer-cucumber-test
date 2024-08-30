@@ -12,7 +12,8 @@
     "_postinstall": "PUPPETEER_PRODUCT=firefox node ./node_modules/puppeteer/install.js",
     "start": "node index.js",
     "dev": "node index.js --tags @branch12",
-    "test:dev:KasiMainAdmin": "node C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/testingDev.js"
+    "dev:KasiMainAdmin": "node C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/branche.js",
+    "dev:KasiMainAdminTest": "node C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/testingDev.js"
   },
   "engines": {
     "node": ">=11.15.0"

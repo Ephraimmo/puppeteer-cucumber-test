@@ -430,48 +430,52 @@ module.exports = function () {
 
     //I select image with path
     this.Then(/^I click on button with text "([^"]*)" and select on image with "([^"]*)" path on meun "([^"]*)"$/, async function (text,value,meun) { 
-
-        const restaurantSelector = 'button'
-        var i;
-
-        if ("Branches" == meun || "Order" == meun)
-        {
-            i = 0;
-        }else if ("Users" == meun || "Completed" == meun)
-        {
-            i = 1;
-        }else if ("Report" == meun || "Category" == meun)
-        {
-            i = 2;
-        }else if ("Product" == meun){
-            i = 3;
-        }
         
-        let frames = await page.mainFrame().childFrames();
-        var button;
-    
-        let elements = await frames[i].$$(restaurantSelector);
-        
-        // loop trough items
-        for (let i = 0; i < elements.length; i++) {
-            let  button_text = await elements[i].evaluate(el => el.innerText);
-            console.log(button_text);
-            if ( button_text == text)
+            const restaurantSelector = 'button'
+            var i;
+
+            if ("Branches" == meun || "Order" == meun)
             {
-              console.log(button_text);
-              button = elements[i];
+                i = 0;
+            }else if ("Users" == meun || "Completed" == meun)
+            {
+                i = 1;
+            }else if ("Report" == meun || "Category" == meun)
+            {
+                i = 2;
+            }else if ("Product" == meun){
+                i = 3;
             }
-        }
 
-      const [fileChooser] = await Promise.all([
-          page.waitForFileChooser(),
-          button.click()
-        ]);
+            let frames = await page.mainFrame().childFrames();
+            var button;
+        
+            let elements = await frames[i].$$(restaurantSelector);
+
+            // loop trough items
+            for (let i = 0; i < elements.length; i++) {
+                let  button_text = await elements[i].evaluate(el => el.innerText);
+                
+                if ( button_text == text)
+                {
+                  
+                  button = elements[i];
+                }
+            }
             
-        return await fileChooser.accept([value]);;
+        if (value != "Empty" && value != "empty"){
+            const [fileChooser] = await Promise.all([
+                page.waitForFileChooser(),
+                button.click()
+              ]);
+
+              return await fileChooser.accept([value]);;
+        }else
+            return true;
 
     });
-
+    
+    
     //I click on add
     this.Then(/^I click on Add button$/,function () { 
         return page.mainFrame().childFrames()[0].click('#CloseButton');
@@ -636,7 +640,7 @@ module.exports = function () {
     })
 
     this.Then(/^I wait for 5 seconds$/,async function () { 
-        return await page.waitFor(5000);
+        return await page.waitForTimeout(5000);
     });
 
     this.Then(/^I select this value "([^"]*)" on dropdown "([^"]*)" field the menu "([^"]*)"$/,async function (value,dropdown,meun) { 

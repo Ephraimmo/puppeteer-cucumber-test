@@ -40,9 +40,9 @@ Feature: Testing The Full Functional Branches Meun
   Examples:
       | BrancheName | BrancheAddress | SelectImage                                                      | Header                |
       | Branches1   | Address1       | C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png | Exciting Branche Name |
-      |             | Address1       | C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png | Empty Branche Name    |
-      | Branches1   |                | C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png | Empty Branche Address |
-      | Branches1   | Address1       |                                                                  | Empty Image           |
+      | Empty       | Address1       | C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png | Empty Branche Name    |
+      | Branches1   | Empty          | C:\Users\karabomo\Desktop\KasiMonateAdnim\assets\images\logo.png | Empty Branche Address |
+      | Branches1   | Address1       |                                                                 | Empty Image           |
 
   
   @feat 

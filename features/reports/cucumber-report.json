@@ -2,10 +2,10 @@
   {
     "elements": [
       {
-        "id": "testing-the-full-functional-branches-meun;add-branches---success",
+        "id": "admin-dashboard---kasi_monate_app_main_admin---category-meun;add-category---success",
         "keyword": "Scenario",
         "line": 9,
-        "name": "Add Branches - Success",
+        "name": "Add Category - Success",
         "steps": [
           {
             "arguments": [],
@@ -13,7 +13,7 @@
             "name": "I am online at \"file:///C:/Users/karabomo/Desktop/Adimin%20Dashboard/index.html\"",
             "result": {
               "status": "passed",
-              "duration": 4980621300
+              "duration": 32277423300
             },
             "line": 4,
             "match": {
@@ -26,7 +26,7 @@
             "name": "I login in on the website with email value \"projectemail089@gmail.com\" and password value is \"Ephraim@217377781\"",
             "result": {
               "status": "passed",
-              "duration": 1560893600
+              "duration": 1498592200
             },
             "line": 5,
             "match": {
@@ -38,8 +38,9 @@
             "keyword": "Then ",
             "name": "I wait for the page to load",
             "result": {
-              "status": "passed",
-              "duration": 3832358300
+              "status": "failed",
+              "duration": 30015772300,
+              "error_message": "TimeoutError: Navigation timeout of 30000 ms exceeded\n    at C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\node_modules\\puppeteer\\lib\\cjs\\puppeteer\\common\\LifecycleWatcher.js:106:111\n    at async FrameManager.waitForFrameNavigation (C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\node_modules\\puppeteer\\lib\\cjs\\puppeteer\\common\\FrameManager.js:127:23)\n    at async Frame.waitForNavigation (C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\node_modules\\puppeteer\\lib\\cjs\\puppeteer\\common\\FrameManager.js:440:16)\n    at async Page.waitForNavigation (C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\node_modules\\puppeteer\\lib\\cjs\\puppeteer\\common\\Page.js:799:16)"
             },
             "line": 6,
             "match": {
@@ -49,10 +50,9 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "I click on drop down menu \"Branche\"",
+            "name": "I click on drop down menu \"Products\"",
             "result": {
-              "status": "passed",
-              "duration": 31466500
+              "status": "skipped"
             },
             "line": 11,
             "match": {
@@ -62,10 +62,9 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "I click on menu \"Veiw Branches\"",
+            "name": "I click on menu \"View Category\"",
             "result": {
-              "status": "passed",
-              "duration": 109832900
+              "status": "skipped"
             },
             "line": 12,
             "match": {
@@ -75,23 +74,21 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "I wait for 5 seconds",
+            "name": "I wait for \"3\" seconds",
             "result": {
-              "status": "passed",
-              "duration": 5013483700
+              "status": "skipped"
             },
             "line": 13,
             "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\orca-scan-demo-steps.js:638"
+              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:237"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "I click on button \"Add Branche\"",
+            "name": "I click on button \"Add Category\"",
             "result": {
-              "status": "passed",
-              "duration": 214222200
+              "status": "skipped"
             },
             "line": 14,
             "match": {
@@ -101,92 +98,133 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "I wait for 5 seconds",
+            "name": "I wait for \"1\" seconds",
             "result": {
-              "status": "passed",
-              "duration": 5009009900
+              "status": "skipped"
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\orca-scan-demo-steps.js:638"
+              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:237"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "I enter value \"Branche 2\" on field \"Branche Name\"",
+            "name": "I enter value \"Category Success\" on field \"Category Labels\"",
             "result": {
-              "status": "passed",
-              "duration": 450862300
+              "status": "skipped"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:47"
+              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:48"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "I enter value \"3304 block nokedi stinkwater\" on field \"Branche Address\"",
+            "name": "I click on the checkbox with text \"Active\"",
             "result": {
-              "status": "passed",
-              "duration": 1110881400
+              "status": "skipped"
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:47"
+              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:242"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "I click on button with text \"Select Image\" and select on image with \"C:\\Users\\karabomo\\Desktop\\KasiMonateAdnim\\assets\\images\\logo.png\" path on meun \"Branches\"",
+            "name": "I click on the checkbox with text \"Size\"",
             "result": {
-              "status": "passed",
-              "duration": 306848600
+              "status": "skipped"
             },
             "line": 18,
             "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\orca-scan-demo-steps.js:432"
+              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:242"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "I click on button \"Add\"",
+            "name": "I click on button with text \"Select\" and select on image with \"C:\\Users\\karabomo\\Desktop\\KasiMonateAdnim\\assets\\images\\logo.png\"",
             "result": {
-              "status": "passed",
-              "duration": 183950700
+              "status": "skipped"
             },
             "line": 19,
             "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:27"
+              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:292"
             }
           },
           {
             "arguments": [],
-            "keyword": "Then ",
-            "name": "I wait for a success alertBox appear",
+            "keyword": "And ",
+            "name": "I wait for \"5\" seconds",
             "result": {
-              "status": "passed",
-              "duration": 4167944500
+              "status": "skipped"
             },
             "line": 20,
             "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:102"
+              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:237"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "I check if value \"Branche 2\" is on screen",
+            "name": "I click on button \"Select1\"",
             "result": {
-              "status": "passed",
-              "duration": 140509100
+              "status": "skipped"
             },
             "line": 21,
             "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:67"
+              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I wait for \"20\" seconds",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "match": {
+              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:237"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on button \"Add\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "match": {
+              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I wait for a success alertBox appear",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "match": {
+              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:145"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I check if value \"Category Success\" is on screen",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "match": {
+              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:74"
             }
           },
           {
@@ -194,9 +232,15 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 219132900
+              "duration": 589896900
             },
             "hidden": true,
+            "embeddings": [
+              {
+                "data": "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EqwCAAAAABQSrAIAAAAAFBKsAgAAAAAUEqwCAAAAABQSrAIAAAAAFBKsAgAAAAAUEqwCAAAAABQSrAIAAAAAFBKsAgAAAAAUEqwCAAAAABQSrAIAAAAAFBKsAgAAAAAUEqwCAAAAABQSrAIAAAAAFBKsAgAAAAAUEqwCAAAAABQSrAIAAAAAFBKsAgAAAAAUEqwCAAAAABQSrAIAAAAAFBKsAgAAAAAUEqwCAAAAABQSrAIAAAAAFBKsAgAAAAAUEqwCAAAAABQSrAIAAAAAFBKsAgAAAAAUEqwCAAAAABQSrAIAAAAAFBKsAgAAAAAUEqwCAAAAABQSrAIAAAAAFBKsAgAAAAAUEqwCAAAAABQSrAIAAAAAFBKsAgAAAAAUEqwCAAAAABQSrAIAAAAAFBKsAgAAAAAUEqwCAAAAABQSrAIAAAAAFBKsAgAAAAAUEqwCAAAAABQSrAIAAAAAFBKsAgAAAAAUEqwCAAAAABQSrAIAAAAAFBKsAgAAAAAUEqwCAAAAABQSrAIAAAAAFBKsAgAAAAAUEqwCAAAAABQSrAIAAAAAFBKsAgAAAAAUEqwCAAAAABQSrAIAAAAAFBKsAgAAAAAUEqwCAAAAABQSrAIAAAAAFBKsAgAAAAAUEqwCAAAAABQSrAIAAAAAFBKsAgAAAAAUEqwCAAAAABQSrAIAAAAAFBKsAgAAAAAUEqwCAAAAABQSrAIAAAAAFBKsAgAAAAAUEqwCAAAAABQSrAIAAAAAFBKsAgAAAAAUEqwCAAAAABQSrAIAAAAAFBKsAgAAAAAUEqwCAAAAABQSrAIAAAAAFBKsAgAAAAAUEqwCAAAAABQSrAIAAAAAFBKsAgAAAAAUEqwCAAAAABQSrAIAAAAAFBKsAgAAAAAUEqwCAAAAABQSrAIAAAAAFBKsAgAAAAAUEqwCAAAAABQSrAIAAAAAFBKsAgAAAAAUEqwCAAAAABQSrAIAAAAAFBKsAgAAAAAUEqwCAAAAABQSrAIAAAAAFBKsAgAAAAAUEqwCAAAAABQSrAIAAAAAFBKsAgAAAAAUEqwCAAAAABQSrAIAAAAAFBKsAgAAAAAUEqwCAAAAABQSrAIAAAAAFBKsAgAAAAAUEqwCAAAAABQSrAIAAAAAFBKsAgAAAAAUEqwCAAAAABQSrAIAAAAAFBKsAgAAAAAUEqwCAAAAABQSrAIAAAAAFBKsAgAAAAAUEqwCAAAAABQSrAIAAAAAFBKsAgAAAAAUEqwCAAAAABQSrAIAAAAAFBKsAgAAAAAUEqwCAAAAwP/fjh0LAAAAAAzytx7D/sIIJrEKAAAAADCJVQAAAACASawCAAAAAExiFQAAAABgEqsAAAAAAJNYBQAAAACYxCoAAAAAwCRWAQAAAAAmsQoAAAAAMIlVAAAAAIBJrAIAAAAATGIVAAAAAGASqwAAAAAAk1gFAAAAAJjEKgAAAADAJFYBAAAAACaxCgAAAAAwiVUAAAAAgEmsAgAAAABMYhUAAAAAYBKrAAAAAACTWAUAAAAAmMQqAAAAAMAkVgEAAAAAJrEKAAAAADCJVQAAAACASawCAAAAAExiFQAAAABgEqsAAAAAAJNYBQAAAACYxCoAAAAAwCRWAQAAAAAmsQoAAAAAMIlVAAAAAIBJrAIAAAAATGIVAAAAAGASqwAAAAAAk1gFAAAAAJjEKgAAAADAJFYBAAAAACaxCgAAAAAwiVUAAAAAgEmsAgAAAABMYhUAAAAAYBKrAAAAAACTWAUAAAAAmMQqAAAAAMAkVgEAAAAAJrEKAAAAADCJVQAAAACASawCAAAAAExiFQAAAABgEqsAAAAAAJNYBQAAAACYxCoAAAAAwCRWAQAAAAAmsQoAAAAAMIlVAAAAAIBJrAIAAAAATGIVAAAAAGASqwAAAAAAk1gFAAAAAJjEKgAAAADAJFYBAAAAACaxCgAAAAAwiVUAAAAAgEmsAgAAAABMYhUAAAAAYBKrAAAAAACTWAUAAAAAmMQqAAAAAMAkVgEAAAAAJrEKAAAAADCJVQAAAACASawCAAAAAExiFQAAAABgEqsAAAAAAJNYBQAAAACYxCoAAAAAwCRWAQAAAAAmsQoAAAAAMIlVAAAAAIBJrAIAAAAATGIVAAAAAGASqwAAAAAAk1gFAAAAAJjEKgAAAADAJFYBAAAAACaxCgAAAAAwiVUAAAAAgEmsAgAAAABMYhUAAAAAYBKrAAAAAACTWAUAAAAAmMQqAAAAAMAkVgEAAAAAJrEKAAAAADCJVQAAAACASawCAAAAAExiFQAAAABgEqsAAAAAAJNYBQAAAACYxCoAAAAAwCRWAQAAAAAmsQoAAAAAMIlVAAAAAIBJrAIAAAAATGIVAAAAAGASqwAAAAAAk1gFAAAAAJjEKgAAAADAJFYBAAAAACaxCgAAAAAwiVUAAAAAgEmsAgAAAABMYhUAAAAAYBKrAAAAAACTWAUAAAAAmMQqAAAAAMAkVgEAAAAAJrEKAAAAADCJVQAAAACASawCAAAAAExiFQAAAABgEqsAAAAAAJNYBQAAAACYxCoAAAAAwCRWAQAAAAAmsQoAAAAAMIlVAAAAAIBJrAIAAAAATGIVAAAAAGASqwAAAAAAk1gFAAAAAJjEKgAAAADAJFYBAAAAACaxCgAAAAAwiVUAAAAAgEmsAgAAAABMYhUAAAAAYBKrAAAAAACTWAUAAAAAmMQqAAAAAMAkVgEAAAAAJrEKAAAAADCJVQAAAACASawCAAAAAExiFQAAAABgEqsAAAAAAJNYBQAAAACYAtZpRLLVT8YrAAAAAElFTkSuQmCC",
+                "mime_type": "image/png"
+              }
+            ],
             "match": {
               "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\runtime\\world.js:185"
             }
@@ -205,788 +249,21 @@
         "tags": [
           {
             "name": "@test",
+            "line": 7
+          },
+          {
+            "name": "@branch",
             "line": 8
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "id": "testing-the-full-functional-branches-meun;add-branches---error---empty-branche-name",
-        "keyword": "Scenario",
-        "line": 39,
-        "name": "Add Branches - Error - Empty Branche Name",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "I am online at \"file:///C:/Users/karabomo/Desktop/Adimin%20Dashboard/index.html\"",
-            "result": {
-              "status": "passed",
-              "duration": 5401606700
-            },
-            "line": 4,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\google-search-steps.js:3"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "I login in on the website with email value \"projectemail089@gmail.com\" and password value is \"Ephraim@217377781\"",
-            "result": {
-              "status": "passed",
-              "duration": 1515558000
-            },
-            "line": 5,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\orca-scan-demo-steps.js:232"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "I wait for the page to load",
-            "result": {
-              "status": "passed",
-              "duration": 4276517800
-            },
-            "line": 6,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\orca-scan-demo-steps.js:256"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "I click on drop down menu \"Branche\"",
-            "result": {
-              "status": "passed",
-              "duration": 31323300
-            },
-            "line": 26,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:7"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I click on menu \"Veiw Branches\"",
-            "result": {
-              "status": "passed",
-              "duration": 122764700
-            },
-            "line": 27,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:17"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I wait for 5 seconds",
-            "result": {
-              "status": "passed",
-              "duration": 5004455700
-            },
-            "line": 28,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\orca-scan-demo-steps.js:638"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I click on button \"Add Branche\"",
-            "result": {
-              "status": "passed",
-              "duration": 200462400
-            },
-            "line": 29,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:27"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I wait for 5 seconds",
-            "result": {
-              "status": "passed",
-              "duration": 5000703600
-            },
-            "line": 30,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\orca-scan-demo-steps.js:638"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I enter value \"\" on field \"Branche Name\"",
-            "result": {
-              "status": "passed",
-              "duration": 142790100
-            },
-            "line": 31,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:47"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I enter value \"3304 block nokedi stinkwater\" on field \"Branche Address\"",
-            "result": {
-              "status": "passed",
-              "duration": 1047591900
-            },
-            "line": 32,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:47"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I click on button with text \"Select Image\" and select on image with \"C:\\Users\\karabomo\\Desktop\\KasiMonateAdnim\\assets\\images\\logo.png\" path on meun \"Branches\"",
-            "result": {
-              "status": "passed",
-              "duration": 353439100
-            },
-            "line": 33,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\orca-scan-demo-steps.js:432"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I click on button \"Add\"",
-            "result": {
-              "status": "passed",
-              "duration": 201901300
-            },
-            "line": 34,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:27"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "I wait for a danger alertBox appear",
-            "result": {
-              "status": "passed",
-              "duration": 186451400
-            },
-            "line": 35,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:119"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 301839700
-            },
-            "hidden": true,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\runtime\\world.js:185"
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@test",
-            "line": 23
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "id": "testing-the-full-functional-branches-meun;add-branches---error---empty-branche-address",
-        "keyword": "Scenario",
-        "line": 40,
-        "name": "Add Branches - Error - Empty Branche Address",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "I am online at \"file:///C:/Users/karabomo/Desktop/Adimin%20Dashboard/index.html\"",
-            "result": {
-              "status": "passed",
-              "duration": 5152056800
-            },
-            "line": 4,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\google-search-steps.js:3"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "I login in on the website with email value \"projectemail089@gmail.com\" and password value is \"Ephraim@217377781\"",
-            "result": {
-              "status": "passed",
-              "duration": 1600568400
-            },
-            "line": 5,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\orca-scan-demo-steps.js:232"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "I wait for the page to load",
-            "result": {
-              "status": "passed",
-              "duration": 5120875300
-            },
-            "line": 6,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\orca-scan-demo-steps.js:256"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "I click on drop down menu \"Branche\"",
-            "result": {
-              "status": "passed",
-              "duration": 30268600
-            },
-            "line": 26,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:7"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I click on menu \"Veiw Branches\"",
-            "result": {
-              "status": "passed",
-              "duration": 93539600
-            },
-            "line": 27,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:17"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I wait for 5 seconds",
-            "result": {
-              "status": "passed",
-              "duration": 5005377600
-            },
-            "line": 28,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\orca-scan-demo-steps.js:638"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I click on button \"Add Branche\"",
-            "result": {
-              "status": "passed",
-              "duration": 215048400
-            },
-            "line": 29,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:27"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I wait for 5 seconds",
-            "result": {
-              "status": "passed",
-              "duration": 5008396600
-            },
-            "line": 30,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\orca-scan-demo-steps.js:638"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I enter value \"Branche Name\" on field \"Branche Name\"",
-            "result": {
-              "status": "passed",
-              "duration": 525404900
-            },
-            "line": 31,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:47"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I enter value \"\" on field \"Branche Address\"",
-            "result": {
-              "status": "passed",
-              "duration": 139852000
-            },
-            "line": 32,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:47"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I click on button with text \"Select Image\" and select on image with \"C:\\Users\\karabomo\\Desktop\\KasiMonateAdnim\\assets\\images\\logo.png\" path on meun \"Branches\"",
-            "result": {
-              "status": "passed",
-              "duration": 341499900
-            },
-            "line": 33,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\orca-scan-demo-steps.js:432"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I click on button \"Add\"",
-            "result": {
-              "status": "passed",
-              "duration": 171226800
-            },
-            "line": 34,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:27"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "I wait for a danger alertBox appear",
-            "result": {
-              "status": "passed",
-              "duration": 185812000
-            },
-            "line": 35,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:119"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 211170500
-            },
-            "hidden": true,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\runtime\\world.js:185"
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@test",
-            "line": 23
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "id": "testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name",
-        "keyword": "Scenario",
-        "line": 41,
-        "name": "Add Branches - Error - Exciting Branche Name",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "I am online at \"file:///C:/Users/karabomo/Desktop/Adimin%20Dashboard/index.html\"",
-            "result": {
-              "status": "passed",
-              "duration": 4855493700
-            },
-            "line": 4,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\google-search-steps.js:3"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "I login in on the website with email value \"projectemail089@gmail.com\" and password value is \"Ephraim@217377781\"",
-            "result": {
-              "status": "passed",
-              "duration": 1567263500
-            },
-            "line": 5,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\orca-scan-demo-steps.js:232"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "I wait for the page to load",
-            "result": {
-              "status": "passed",
-              "duration": 3877810900
-            },
-            "line": 6,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\orca-scan-demo-steps.js:256"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "I click on drop down menu \"Branche\"",
-            "result": {
-              "status": "passed",
-              "duration": 30935100
-            },
-            "line": 26,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:7"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I click on menu \"Veiw Branches\"",
-            "result": {
-              "status": "passed",
-              "duration": 93027500
-            },
-            "line": 27,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:17"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I wait for 5 seconds",
-            "result": {
-              "status": "passed",
-              "duration": 5010675700
-            },
-            "line": 28,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\orca-scan-demo-steps.js:638"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I click on button \"Add Branche\"",
-            "result": {
-              "status": "passed",
-              "duration": 214937100
-            },
-            "line": 29,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:27"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I wait for 5 seconds",
-            "result": {
-              "status": "passed",
-              "duration": 5009136800
-            },
-            "line": 30,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\orca-scan-demo-steps.js:638"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I enter value \"Branche 1\" on field \"Branche Name\"",
-            "result": {
-              "status": "passed",
-              "duration": 447773100
-            },
-            "line": 31,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:47"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I enter value \"3304 block nokedi stinkwater\" on field \"Branche Address\"",
-            "result": {
-              "status": "passed",
-              "duration": 1010143600
-            },
-            "line": 32,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:47"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I click on button with text \"Select Image\" and select on image with \"C:\\Users\\karabomo\\Desktop\\KasiMonateAdnim\\assets\\images\\logo.png\" path on meun \"Branches\"",
-            "result": {
-              "status": "passed",
-              "duration": 340955800
-            },
-            "line": 33,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\orca-scan-demo-steps.js:432"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I click on button \"Add\"",
-            "result": {
-              "status": "passed",
-              "duration": 200062000
-            },
-            "line": 34,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:27"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "I wait for a danger alertBox appear",
-            "result": {
-              "status": "passed",
-              "duration": 186071300
-            },
-            "line": 35,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:119"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 172468600
-            },
-            "hidden": true,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\runtime\\world.js:185"
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@test",
-            "line": 23
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "id": "testing-the-full-functional-branches-meun;add-branches---error---exciting-branche-name",
-        "keyword": "Scenario",
-        "line": 44,
-        "name": "Add Branches - Error - Exciting Branche Name",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "I am online at \"file:///C:/Users/karabomo/Desktop/Adimin%20Dashboard/index.html\"",
-            "result": {
-              "status": "passed",
-              "duration": 5162964400
-            },
-            "line": 4,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\google-search-steps.js:3"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "I login in on the website with email value \"projectemail089@gmail.com\" and password value is \"Ephraim@217377781\"",
-            "result": {
-              "status": "passed",
-              "duration": 1541452300
-            },
-            "line": 5,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\orca-scan-demo-steps.js:232"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "I wait for the page to load",
-            "result": {
-              "status": "passed",
-              "duration": 3845278200
-            },
-            "line": 6,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\orca-scan-demo-steps.js:256"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "I click on drop down menu \"Branche\"",
-            "result": {
-              "status": "passed",
-              "duration": 29758800
-            },
-            "line": 46,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:7"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I click on menu \"Veiw Branches\"",
-            "result": {
-              "status": "passed",
-              "duration": 93458900
-            },
-            "line": 47,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:17"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I wait for 5 seconds",
-            "result": {
-              "status": "passed",
-              "duration": 5006190600
-            },
-            "line": 48,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\orca-scan-demo-steps.js:638"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I click on button \"Add Branche\"",
-            "result": {
-              "status": "passed",
-              "duration": 201419200
-            },
-            "line": 49,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:27"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I wait for 5 seconds",
-            "result": {
-              "status": "passed",
-              "duration": 5003742400
-            },
-            "line": 50,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\orca-scan-demo-steps.js:638"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I enter value \"Branche Name\" on field \"Branche Name\"",
-            "result": {
-              "status": "passed",
-              "duration": 515444400
-            },
-            "line": 51,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:47"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I enter value \"3304 block nokedi stinkwater\" on field \"Branche Address\"",
-            "result": {
-              "status": "passed",
-              "duration": 1012313400
-            },
-            "line": 52,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:47"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I click on button \"Add\"",
-            "result": {
-              "status": "passed",
-              "duration": 184132900
-            },
-            "line": 53,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:27"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "I wait for a danger alertBox appear",
-            "result": {
-              "status": "passed",
-              "duration": 186477300
-            },
-            "line": 54,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\features\\step-definitions\\spreadsheets.js:119"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 203592000
-            },
-            "hidden": true,
-            "match": {
-              "location": "C:\\Users\\karabomo\\Downloads\\puppeteer-cucumber-js-main\\puppeteer-cucumber-test\\runtime\\world.js:185"
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@test",
-            "line": 43
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "testing-the-full-functional-branches-meun",
+    "id": "admin-dashboard---kasi_monate_app_main_admin---category-meun",
     "keyword": "Feature",
     "line": 1,
-    "name": "Testing The Full Functional Branches Meun",
+    "name": "Admin Dashboard - Kasi_monate_app_main_admin - Category Meun",
     "tags": [],
-    "uri": "C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/Admin Dashboard/Kasi_monate_app_main_admin/branches.feature"
+    "uri": "C:/Users/karabomo/Downloads/puppeteer-cucumber-js-main/puppeteer-cucumber-test/features/Admin Dashboard/Kasi_monate_app_main_admin/product/view_category/view_category.feature"
   }
 ]
